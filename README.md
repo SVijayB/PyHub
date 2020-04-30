@@ -7,4 +7,5 @@ A Repository that encompasses all my works on Python
 • Loops.py                      | <a href="https://www.hackerrank.com/challenges/python-loops/problem">For Loop</a>.
 • Function.py                   | <a href="https://www.hackerrank.com/challenges/write-a-function/problem">Writing a Function to check if Leap Year</a>.
 • PrintFn.py                    | <a href="https://www.hackerrank.com/challenges/python-print/problem">Printing in a single line</a>.
+• Athlete_Sort.py               | <a href="https://www.hackerrank.com/challenges/python-sort-sort/problem">Problem Statement</a>.
 </pre>
