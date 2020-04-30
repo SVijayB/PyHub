@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    n = int(raw_input().strip())
+    n = int(input().strip())
     if(n%2!=0):
         print("Weird")
     else:
