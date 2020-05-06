@@ -28,3 +28,6 @@ To contribute to the programs, fork the repository, create a new branch and send
 
 Also, thanks for contributing to Open-source!
 
+## License
+
+This repository is licensed under MIT. Read the [LICENSE](https://github.com/1StranGe/PyHub/blob/master/LICENSE) file for more information.
