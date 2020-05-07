@@ -12,6 +12,7 @@ sysdiff = x^y 		#Symetric difference -> uncommon elements in both x and y
 print("Uncommon elements in both X and Y : " , sysdiff)
 z = x.issubset(y) 	#checks if x is a subset of y or not. Returns true or false.
 print("Is X a subset of Y ?" , z)
+
 #You can also add or remove an element from the set by using add and remove function, eg : 
 x.add(5) 			# adds 5 to set x
 print("After adding 5 to set X : " , x)
