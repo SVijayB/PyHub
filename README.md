@@ -5,10 +5,22 @@
     <br>A Repository that encompasses all my works on Python
 </p>
 
-## Basic
-
+## Basics
+Python Basics for Beginners
 <pre>
-• 
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/BoolVar.py">BoolVar.py</a>                    | Understanding Boolean Variables. 
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/CondStatements.py">CondStatements.py</a>             | Conditional Statements.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Dictionary.py">Dictionary.py</a>                 | Implementing Dictionary.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Functions.py">Functions.py</a>                  | Creating and Using Functions.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Hello%20World.py">Hello World.py</a>                | A simple Hello World program.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Lists.py">Lists.py</a>                      | Implementing Lists.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Loops.py">Loops.py</a>                      | For And While Loops.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Numbers.py">Numbers.py</a>                    | Int, Float and Complex Numbers.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Operators.py">Operators.py</a>                  | Covered all python Operators.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Sets.py">Sets.py</a>                       | Implementing Sets.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Statements.py">Statements.py</a>                 | Break and Continue Statements
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Strings.py">Strings.py</a>                    | Strings and String Functions.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Variables.py">Variables.py</a>                  | Variables in python.
 
 </pre>
 
