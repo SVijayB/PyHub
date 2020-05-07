@@ -8,8 +8,8 @@ print()
 # For Loops : 
 
 #Looping through lists:
-tools = ["Hello","World","!!!"]      
-for x in tools:             #Loops through elements of the list.
+greetings = ["Hello","World","!!!"]      
+for x in greetings:             #Loops through elements of the list.
 	print(x)
 print()
 
