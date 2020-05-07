@@ -5,6 +5,12 @@
     <br>A Repository that encompasses all my works on Python
 </p>
 
+## Basic
+
+<pre>
+• 
+
+</pre>
 
 ## HackerRank
 
