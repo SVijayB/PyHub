@@ -3,6 +3,7 @@ print("Dictionary in Python is an unordered collection of data values, "+
 "only single value as an element, Dictionary holds key:value pair. Key value is provided in "
 "the dictionary to make it more optimized.")
 print()
+print("For dictionaries in python, we use curly brackets")
 a = {1 : 'Hey', 2 : 'How', 3 : 'What'} 
 print("A : " , a)
 b= dict({1 : 'Hello', 2 : 'World', 3 : '!'}) 	#Dictionary Function
