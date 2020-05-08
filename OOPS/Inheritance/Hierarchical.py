@@ -1,8 +1,5 @@
 print("\nIn Hierarchial Inheritance, the parent class can be accessed by several Child classes.")
 class parent:
-    def __init__(self):
-        print("Calling Parent Constructor")
-    
     def parentmethod(self):
         print("Calling Parent Method")
 
@@ -10,9 +7,6 @@ class parent:
         print("Calling the second parent method")
 
 class child(parent):
-    def __init__(self):
-        print("Calling Child Constructor")
-
     def childmethod(self):
         print("Calling the Child Method")
 
@@ -20,9 +14,6 @@ class child(parent):
         print("Modified parent method 2")
 
 class child2(parent):       #The parent class can be accessed by several other child class
-    def __init__(self):
-        print("Calling Second Child")
-    
     def child2method(self):
         print("Calling the second child's method")
 
