@@ -6,7 +6,7 @@
 </p>
 
 ## Basics
-Python Basics for Beginners
+Python <a href="https://github.com/1StranGe/PyHub/tree/master/Basics">Basics</a> for Beginners
 <pre>
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Arrays.py">Arrays.py</a>                     | Implementing 1D and 2D Arrays.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/BoolVar.py">BoolVar.py</a>                    | Understanding Boolean Variables. 
