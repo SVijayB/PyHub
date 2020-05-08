@@ -38,8 +38,14 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/MainFunc.py">MainFunc.py</a>                   | Understanding the use of Main Function.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/MethodOverloading.py">MethodOverloading.py</a>          | Method Overloading in Python.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Objects.py">Objects.py</a>                    | Understanding Objects in OOPS.
-• <a href="hhttps://github.com/1StranGe/PyHub/blob/master/OOPS/OperatorOverloading.py">OperatorOverloading.py</a>        | Operator Overloading in Python.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/OperatorOverloading.py">OperatorOverloading.py</a>        | Operator Overloading in Python.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Polymorphism.py">Polymorphism.py</a>               | Implementing Polymorphism in Python.
+
+• <a href="https://github.com/1StranGe/PyHub/tree/master/OOPS/Inheritance">Inheritance</a>
+    ‣ <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Inherit.py">Inherit.py</a>                | Basic Understanding of Inheritance in Python.
+    ‣ <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Hierarchical.py">Hierarchical.py</a>           | Hierarchical Inheritance
+    ‣ <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Hybrid.py">Hybrid.py</a>                 | Hybrid Inheritance.
+    ‣ <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Multi-Level.py">Multi-Level.py</a>            | Multi-Level Inheritance
 </pre>
 
 ## HackerRank
