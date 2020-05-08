@@ -28,4 +28,5 @@ g.ChildMethod()                     # Calling the Child method using the Grandch
 g.GrandchildMethod()                # Calling the GrandchildMethod using the Grandchild Object
 
 print("\nIn this example, the child class inherited the parent class and the grandchild class inherited",
-"\nthe child class. Therefore the grandchild class inherited both parent and child class. ")
+"\nthe child class. Therefore the grandchild class inherited both parent and child class.")
+print("\nView code and read comments for better understanding.")
