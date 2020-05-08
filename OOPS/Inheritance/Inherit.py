@@ -1,5 +1,5 @@
 class parent:
-    def _init_(self):
+    def __init__(self):
         print("Calling Parent Constructor")
     
     def parentmethod(self):
@@ -9,7 +9,7 @@ class parent:
         print("Calling the second parent method")
 
 class child(parent):
-    def _init_(self):
+    def __init__(self):
         print("Calling Child Constructor")
 
     def childmethod(self):
