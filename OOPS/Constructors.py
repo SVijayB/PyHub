@@ -12,6 +12,16 @@ class temp:
         print(object)
 
 a = temp("Object has been successfully created!")
+print()
+
+class temp:
+    def __init__(self):
+        self.i = 0
+    def number(self,i):
+        self.i = i
+        print("Number :", i)
+a = temp()
+a.number(5)
 
 def constructors():
     """
