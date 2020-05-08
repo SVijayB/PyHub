@@ -8,8 +8,10 @@
 ## Basics
 Python Basics for Beginners
 <pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Arrays.py">Arrays.py</a>                     | Implementing 1D and 2D Arrays.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/BoolVar.py">BoolVar.py</a>                    | Understanding Boolean Variables. 
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/CondStatements.py">CondStatements.py</a>             | Conditional Statements.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Copy.py">Copy.py</a>                       | Understanding Normal, Shallow and Deep Copy.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Dictionary.py">Dictionary.py</a>                 | Implementing Dictionary.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Functions.py">Functions.py</a>                  | Creating and Using Functions.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Basics/Hello%20World.py">Hello World.py</a>                | A simple Hello World program.
