@@ -34,3 +34,13 @@ y.pack()
 coordinates = 10,50,240,210
 arc = y.create_arc(coordinates, start=0, extent=150, fill="white")
 mainloop()
+
+root = Tk()
+root.title("Triangle")
+root.geometry("500x500")
+root.iconbitmap("assets/Graphics/favicon.ico")
+x = Canvas(root, width=500,height=500,bg="red")
+x.pack()
+coordinates = [0,0,200,100,0,200]
+poly = x.create_polygon(coordinates, outline="green", fill="yellow", width = 3)
+mainloop()
