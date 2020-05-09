@@ -54,3 +54,13 @@ z.pack()
 photo = PhotoImage(file="assets/Graphics/Random.PNG")
 a = z.create_image(250,250,image=photo)
 mainloop()
+
+root = Tk()
+root.title("Star")
+root.geometry("500x500")
+root.iconbitmap("assets/Graphics/favicon.ico")
+z = Canvas(root, width=500,height=500, bg="black")
+z.pack()
+coordinates = [100,140,110,110,140,100,110,90,100,60,90,90,60,100,90,110]
+z.create_polygon(coordinates, outline="gold",fill="white",width=3)
+mainloop()
