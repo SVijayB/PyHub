@@ -44,3 +44,13 @@ x.pack()
 coordinates = [0,0,200,100,0,200]
 poly = x.create_polygon(coordinates, outline="green", fill="yellow", width = 3)
 mainloop()
+
+root = Tk()
+root.title("Images")
+root.geometry("500x500")
+root.iconbitmap("assets/Graphics/favicon.ico")
+z = Canvas(root, width=500,height=500)
+z.pack()
+photo = PhotoImage(file="assets/Graphics/Random.PNG")
+a = z.create_image(250,250,image=photo)
+mainloop()
