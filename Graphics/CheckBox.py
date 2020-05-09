@@ -11,6 +11,6 @@ check_box1.grid(column=0,row=0)
 check_box2 = Checkbutton(window,text="Tkinter is good?",variable = a)    #Both are assigned the same value
 check_box2.grid(column=1,row=0)
 b = IntVar()
-check_box3 = Checkbutton(window,text="This is a good tutorial series?",variable = b)   
+check_box3 = Checkbutton(window,text="This makes sense?",variable = b)   
 check_box3.grid(column=2,row=0)
 window.mainloop()
