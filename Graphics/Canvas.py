@@ -24,3 +24,13 @@ Some Standards :
     • Polygon
     """
 print(doc.__doc__)
+
+root = Tk()
+root.title("Arc")
+root.geometry("500x500")
+root.iconbitmap("assets/Graphics/favicon.ico")
+y = Canvas(root, width=500,height=500,bg="black")
+y.pack()
+coordinates = 10,50,240,210
+arc = y.create_arc(coordinates, start=0, extent=150, fill="white")
+mainloop()
