@@ -1,0 +1,16 @@
+from tkinter import *
+
+root = Tk()
+root.title("Frames")
+root.iconbitmap("assets/Graphics/favicon.ico")
+root.geometry("300x300")
+root.configure(bg="black")  
+frame1 = Frame(root, height=100,width=100,bg="red")
+frame1.pack(side=TOP)
+frame2 = Frame(root, height=100,width=100,bg="blue")
+frame2.pack(side=BOTTOM)
+frame3 = Frame(root, height=100,width=100,bg="green")
+frame3.pack(side=LEFT)
+frame4 = Frame(root, height=100,width=100,bg="yellow")
+frame4.pack(side=RIGHT)
+root.mainloop()
