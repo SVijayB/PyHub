@@ -25,3 +25,17 @@ Width               : Width of the widget in characters. Default = 20.
 Wraplenth           : Used to wrap the line.
     """
 print(doc.__doc__)
+
+root = Tk()
+root.title("Menus")
+root.geometry("300x300")
+root.iconbitmap("assets/Graphics/favicon.ico")
+
+menu_button = Menubutton(root,text="Colours",relief=RAISED)     # Apears raised
+menu_button.grid()
+menu_button.menu = Menu(menu_button,tearoff=0)                  # If no buttons are added, nothing empty shows up
+menu_button["menu"] = menu_button.menu
+menu_button.pack()
+menu_button.menu.add_checkbutton(label="Blue",variable=IntVar())
+menu_button.menu.add_checkbutton(label="Green",variable=IntVar())
+root.mainloop()
