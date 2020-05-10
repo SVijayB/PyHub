@@ -25,3 +25,23 @@ warning_button = Button(root,text="Warning Box",command=warning_box)
 warning_button.grid(column=2,row=0) 
 
 root.mainloop()
+
+# There are other types of message boxes as well.
+
+root = Tk()
+root.title("Buttons")
+root.geometry("300x300")
+root.iconbitmap("assets/Graphics/favicon.ico")
+answer = messagebox.askyesno("Yes or No Box","Do you like Blue?")
+if(answer):
+    print("\nYou like blue!!")
+else:
+    print("\nOh, guess not everyone likes blue.")
+
+temp = messagebox.askokcancel("Okay,Cancel Box","This is another message box!")
+temp = messagebox.askretrycancel("Retry, Cancel Box","What do you want to do?")
+temp = messagebox.askyesnocancel("Yes,No,Cancel Box","Do you like PYTHON!????")
+if(temp):
+    print("\nNice")
+else:
+    print("\nOh, guess not everyone likes Python xD")
