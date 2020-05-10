@@ -60,7 +60,11 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 
 ## Graphics
 
-Utilising Python's Tkinter module to build Graphical User Interface(GUI)
+<p align="center">
+    <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Simple%20Calculator.py"><img src="https://i.ibb.co/f2pnH4k/SS.png" alt="SS" border="0"></a>
+    <br>Utilising Python's Tkinter module to build Graphical User Interface(GUI)
+</p>
+
 <pre>
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Buttons.py">Buttons.py</a>                    | Creating and Modifying Buttons.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Canvas.py">Canvas.py</a>                     | Using the canvas to create Arcs and Polygons
