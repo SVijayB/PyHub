@@ -34,6 +34,7 @@ if __name__ == "__main__":
     equation = StringVar()
     expression_field = Entry(window,textvariable=equation,font=("Aerial",20),fg="red")
     expression_field.grid(columnspan=10,ipady=10,ipadx=70)
+    expression_field.focus()
 
     width=50
     height=50
@@ -92,6 +93,10 @@ if __name__ == "__main__":
     button8 = Button(window, image=nineImage,bg="white",command = lambda:press(9),height=height,width=width)
     button8.grid(row=4,column=2)
 
-
+    img0 = Image.open("assets/Graphics/Calculator/zero.PNG")
+    img0 = img0.resize((width,height))  
+    zeroImage = ImageTk.PhotoImage(img0)
+    button8 = Button(window, image=zeroImage,bg="white",command = lambda:press(0),height=height,width=width)
+    button8.grid(row=5,column=1)
 
     window.mainloop()
