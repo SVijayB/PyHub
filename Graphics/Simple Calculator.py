@@ -26,9 +26,9 @@ def clear():
 
 if __name__ == "__main__":
     window = Tk()
-    window.configure(background="red")
+    window.configure(background="black")
     window.title("Simple Calculator")
-    window.iconbitmap("assets/Graphics/favicon.ico")
+    window.iconbitmap("assets\Graphics\Calculator\Logo.ico")
     window.geometry("280x300")
     
     equation = StringVar()
@@ -38,9 +38,9 @@ if __name__ == "__main__":
     width=50
     height=50
 
-    img1 = Image.open("assets\Graphics\Random.PNG")
+    img1 = Image.open("assets\Graphics\Calculator\one.PNG")
     img1 = img1.resize((width,height))  
     oneImage = ImageTk.PhotoImage(img1)
-    button1 = Button(window, image=oneImage,bg="red",command = lambda:press(1),height=height,width=width)
+    button1 = Button(window, image=oneImage,bg="white",command = lambda:press(1),height=height,width=width)
     button1.grid(row=2,column=0)
     window.mainloop()
