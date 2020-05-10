@@ -29,12 +29,11 @@ if __name__ == "__main__":
     window.configure(background="black")
     window.title("Simple Calculator")
     window.iconbitmap("assets\Graphics\Calculator\Logo.ico")
-    window.geometry("310x300")
+    window.geometry("340x300")
     
     equation = StringVar()
-    expression_field = Entry(window,textvariable=equation,font=("Aerial",20),fg="red")
-    expression_field.grid(columnspan=10,ipady=10,ipadx=70)
-    expression_field.focus()
+    expression_field = Entry(relief=RIDGE,textvariable=equation,bd=10,font=("Aerial",20),bg="powder blue")
+    expression_field.grid(columnspan=4,ipady=10,ipadx=10)
 
     width=50
     height=50
