@@ -90,13 +90,32 @@ if __name__ == "__main__":
     img9 = Image.open("assets/Graphics/Calculator/nine.PNG")
     img9 = img9.resize((width,height))  
     nineImage = ImageTk.PhotoImage(img9)
-    button8 = Button(window, image=nineImage,bg="white",command = lambda:press(9),height=height,width=width)
-    button8.grid(row=4,column=2)
+    button9 = Button(window, image=nineImage,bg="white",command = lambda:press(9),height=height,width=width)
+    button9.grid(row=4,column=2)
 
     img0 = Image.open("assets/Graphics/Calculator/zero.PNG")
     img0 = img0.resize((width,height))  
     zeroImage = ImageTk.PhotoImage(img0)
-    button8 = Button(window, image=zeroImage,bg="white",command = lambda:press(0),height=height,width=width)
-    button8.grid(row=5,column=1)
+    button0 = Button(window, image=zeroImage,bg="white",command = lambda:press(0),height=height,width=width)
+    button0.grid(row=5,column=1)
+
+    imgx = Image.open("assets/Graphics/Calculator/multiply.PNG")
+    imgx = imgx.resize((width,height))  
+    multiplyImage = ImageTk.PhotoImage(imgx)
+    buttonx = Button(window, image=multiplyImage,bg="white",command = lambda:press("*"),height=height,width=width)
+    buttonx.grid(row=2,column=3)
+
+    imgadd = Image.open("assets/Graphics/Calculator/add.PNG")
+    imgadd = imgadd.resize((width,height))  
+    addImage = ImageTk.PhotoImage(imgadd)
+    buttonadd = Button(window, image=addImage,bg="white",command = lambda:press("+"),height=height,width=width)
+    buttonadd.grid(row=3,column=3)
+
+    imgdiv = Image.open("assets/Graphics/Calculator/divide.PNG")
+    imgdiv = imgdiv.resize((width,height))  
+    divImage = ImageTk.PhotoImage(imgdiv)
+    buttondiv = Button(window, image=divImage,bg="white",command = lambda:press("/"),height=height,width=width)
+    buttondiv.grid(row=4,column=3)
+
 
     window.mainloop()
