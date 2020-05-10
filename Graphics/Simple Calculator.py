@@ -27,7 +27,7 @@ def clear():
 if __name__ == "__main__":
     window = Tk()
     window.configure(background="black")
-    window.title("Simple Calculator")
+    window.title("Calculator")
     window.iconbitmap("assets\Graphics\Calculator\Logo.ico")
     window.geometry("345x420")
     
