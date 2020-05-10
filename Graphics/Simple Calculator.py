@@ -29,7 +29,7 @@ if __name__ == "__main__":
     window.configure(background="black")
     window.title("Simple Calculator")
     window.iconbitmap("assets\Graphics\Calculator\Logo.ico")
-    window.geometry("280x300")
+    window.geometry("310x300")
     
     equation = StringVar()
     expression_field = Entry(window,textvariable=equation,font=("Aerial",20),fg="red")
@@ -115,6 +115,24 @@ if __name__ == "__main__":
     imgdiv = imgdiv.resize((width,height))  
     divImage = ImageTk.PhotoImage(imgdiv)
     buttondiv = Button(window, image=divImage,bg="white",command = lambda:press("/"),height=height,width=width)
-    buttondiv.grid(row=4,column=3)
+    buttondiv.grid(row=5,column=3)
+
+    imgsub = Image.open("assets/Graphics/Calculator/subtract.PNG")
+    imgsub = imgsub.resize((width,height))  
+    subImage = ImageTk.PhotoImage(imgsub)
+    buttonsub = Button(window, image=subImage,bg="white",command = lambda:press("-"),height=height,width=width)
+    buttonsub.grid(row=4,column=3)
+
+    imgeq = Image.open("assets/Graphics/Calculator/equal.PNG")
+    imgeq = imgeq.resize((width,height))  
+    eqImage = ImageTk.PhotoImage(imgeq)
+    buttoneq = Button(window, image=eqImage,bg="white",command = equal,height=height,width=width)
+    buttoneq.grid(row=5,column=2)
+
+    imgclear = Image.open("assets/Graphics/Calculator/clear.PNG")
+    imgclear = imgclear.resize((width,height))  
+    clearImage = ImageTk.PhotoImage(imgclear)
+    buttonclear = Button(window, image=clearImage,bg="white",command = clear,height=height,width=width)
+    buttonclear.grid(row=5,column=0)
 
     window.mainloop()
