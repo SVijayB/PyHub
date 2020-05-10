@@ -2,26 +2,31 @@ from tkinter import *
 from PIL import Image       # pip install Pillow
 from PIL import ImageTk
 
-expression = ""
+txt = ""
+res = False
+ans = 0
 
 def press(num):
-    global expression
-    expression = expression + str(num)
-    equation.set(expression)
+    global txt, ans, res
+    if (res==True):
+        txt = ans
+        res = False
+    txt = txt + str(num)
+    equation.set(txt)
 
 def equal():
     try:
-        global expression
-        result = str(eval(expression))
-        equation.set(result)
-        expression = ""
+        global txt, ans, res
+        ans = str(eval(txt))
+        equation.set(ans)
+        res = True
     except:
         equation.set("ERROR : Invalid Equation")
-        expression=""
+        txt=""
 
 def clear():
-    global expression
-    expression = ""
+    global txt
+    txt = ""
     equation.set("")
 
 if __name__ == "__main__":
@@ -33,8 +38,8 @@ if __name__ == "__main__":
     window.resizable(0,0)
     
     equation = StringVar()
-    expression_field = Entry(relief=RIDGE,textvariable=equation,bd=10,font=("Aerial",20),bg="powder blue")
-    expression_field.grid(columnspan=4,ipady=10,ipadx=10,sticky="nsew")
+    txt_field = Entry(relief=RIDGE,textvariable=equation,bd=10,font=("Aerial",20),bg="powder blue")
+    txt_field.grid(columnspan=4,ipady=10,ipadx=10,sticky="nsew")
 
     width=80
     height=80
