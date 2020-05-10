@@ -25,9 +25,11 @@ def equal():
         txt=""
 
 def clear():
-    global txt
+    global txt, ans, res
     txt = ""
     equation.set("")
+    res = False
+
 
 if __name__ == "__main__":
     window = Tk()
