@@ -82,6 +82,17 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Simple%20Calculator.py">Simple Calculator.py</a>          | Creating a GUI based Calculator(Images avilable in <a href="https://github.com/1StranGe/PyHub/tree/master/assets/Graphics/Calculator">assets</a>)
 </pre>
 
+## Errors And Exceptions
+
+Learning about various Python Errors and different ways to <a href="https://github.com/1StranGe/PyHub/tree/master/Errors%20and%20Exceptions">handle</a> them.
+
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Try%20Except%20Block.py">Try and Except.py</a>             | Understanding the Try and Except Blocks.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Else%20Block.py">Else Block.py</a>                 | Using the Else block for Error Handling.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Finally%20Clause.py">Finally Clause.py</a>             | Implementing and Understanding the Finally Clause
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/OwnExceptions.py">Own Exceptions.py</a>             | Creating our very own Error Exceptions.
+</pre>
+
 ## HackerRank
 
 <p align="center">
