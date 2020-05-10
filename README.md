@@ -58,6 +58,26 @@ Implementation of Object-oriented programming System(<a href="https://github.com
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Methods/Class.py">Class.py</a>                  | Understanding Class Methods
 </pre>
 
+## Graphics
+
+Utilising Python's Tkinter module to build Graphical User Interface(GUI)
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Buttons.py">Buttons.py</a>                    | Creating and Modifying Buttons.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Canvas.py">Canvas.py</a>                     | Using the canvas to create Arcs and Polygons
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/CheckBox.py">Check Boxes.py</a>                | Implementing Check Boxes.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Dialogbox.py">Dialog Box.py</a>                 | Understanding and Creating Dialog Boxes.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Events.py">Events.py</a>                     | Building Event Triggers.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Frame.py">Frames.py</a>                     | Setting up Frames.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Images.py">Images.py</a>                     | Importing Images onto the window through Labels.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Menus.py">Menus.py</a>                      | Understanding Menu parameters and Implementing Menu.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/MessageBox.py">Message Box.py</a>                | Creating different types of Message Boxes.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/RadioButtons.py">Radio Buttons.py</a>              | Implementing Radio Buttons.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/TextField.py">Text Field.py</a>                 | Creating a text field for the user to enter data into.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Widgets.py">Widgets.py</a>                    | Understanding and using various Widgets.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Window.py">Window.py</a>                     | Creating a GUI Window using Tkinter Module.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Simple%20Calculator.py">Simple Calculator.py</a>          | Creating a GUI based Calculator(Images avilable in <a href="https://github.com/1StranGe/PyHub/tree/master/assets/Graphics/Calculator">assets</a>)
+</pre>
+
 ## HackerRank
 
 <p align="center">
