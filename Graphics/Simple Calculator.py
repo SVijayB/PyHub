@@ -117,5 +117,4 @@ if __name__ == "__main__":
     buttondiv = Button(window, image=divImage,bg="white",command = lambda:press("/"),height=height,width=width)
     buttondiv.grid(row=4,column=3)
 
-
     window.mainloop()
