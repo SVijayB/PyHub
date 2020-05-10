@@ -30,6 +30,7 @@ if __name__ == "__main__":
     window.title("Calculator")
     window.iconbitmap("assets\Graphics\Calculator\Logo.ico")
     window.geometry("343x417")
+    window.resizable(0,0)
     
     equation = StringVar()
     expression_field = Entry(relief=RIDGE,textvariable=equation,bd=10,font=("Aerial",20),bg="powder blue")
