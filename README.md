@@ -61,7 +61,7 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 ## Graphics
 
 <p align="center">
-    <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Simple%20Calculator.py"><img src="https://i.ibb.co/G5KDM7k/SS.png" alt="SS" border="0"></a>
+    <a href="https://github.com/1StranGe/PyHub/tree/master/Graphics"><img src="https://i.ibb.co/G5KDM7k/SS.png" alt="SS" border="0"></a>
     <br>Utilising Python's Tkinter module to build Graphical User Interface(GUI)
 </p>
 
