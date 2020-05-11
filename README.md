@@ -90,11 +90,11 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 </p>
 
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Clock.py">Clock.py</a>                       | Building and analog clock
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                    | Moving a 2D object in an arcade window
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                      | Creating a Smiley using the Arcade Module
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                        | Creating a Snow effect 
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>               | Creating Still 2D images
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Clock.py">Clock.py</a>                       | Building a simple analog clock.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                    | Moving a 2D object in an arcade window.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                      | Creating a Smiley using the Arcade Module.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                        | Creating Snow particle effect.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>               | Creating a Still 2D image.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                       | A countdown timer that notifies when countdown reaches zero.
 </pre>
 
