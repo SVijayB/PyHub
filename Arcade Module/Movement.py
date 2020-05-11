@@ -35,3 +35,20 @@ class Rectangle:
             self.y = rec_height//2
         if(self.y > win_height - (rec_height // 2)):
             self.y = win_height - (rec_height // 2)
+
+class movement(arcade.Window):
+    def __init__(self,width,height):
+        super().__init__(width,height,title="MOVEMENT")
+
+    def start(self):
+        x = win_width//2
+        y = win_height//2
+        self.player = Rectangle(x,y,rec_width,rec_width,angle=0,colour=arcade.color.RED)
+
+    def update(self, dt):
+        self.player.move()
+
+    def on_draw(self):
+        arcade.start_render()
+        self.player.draw()
+
