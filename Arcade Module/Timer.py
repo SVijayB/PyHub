@@ -1,4 +1,6 @@
 import arcade
+from tkinter import Tk, messagebox
+import sys
  
 class Timer(arcade.Window):
     def __init__(self,width=300,height=150):
@@ -15,12 +17,21 @@ class Timer(arcade.Window):
         sec = int(self.time)%60
         result = f"Time : {min}:{sec}"
         arcade.draw_text(result,60,60,arcade.color.RED,35)
+        if(min<0):
+            root = Tk()
+            root.withdraw()
+            messagebox.showinfo("Info Box","Countdown Has Reached Zero")
+            sys.exit(0)
 
     def on_update(self,new_time):
         self.time = self.time - new_time
 
 if __name__=="__main__":
-    time = int(input("Enter how many seconds do you want to count : "))
-    timer = Timer()
-    timer.Window(time)
-    arcade.run()
+    try:
+        time = int(input("Enter how many seconds you want to count : "))
+    except:
+        print("ERROR : ENTER ONLY INTEGER VALUES")
+    else:
+        timer = Timer()
+        timer.Window(time)
+        arcade.run()
