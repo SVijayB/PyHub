@@ -15,20 +15,21 @@ class snow():
         self.y = random.randrange(win_height,win_height+100)
 
 class game(arcade.Window):
-    def __init__(self,width,height):
-        super().__init__(width,height)
+    def __init__(self,screen_width,screen_height):
+        super().__init__(screen_width,screen_height)
         self.stream = None
 
     def start(self):
         self.stream = []
-        snowflake = snow()
-        snowflake.x = random.randrange(win_width)
-        snow.y = random.randrange(win_height+400)
+        for i in range(100):
+            snowflake = snow()
+            snowflake.x = random.randrange(win_width)
+            snowflake.y = random.randrange(win_height+400)
         
-        snowflake.size = random.randrange(2)
-        snowflake.speed = random.randrange(20,100)
-        snowflake.angle = random.uniform(math.pi, math.pi*2) 
-        self.stream.append(snowflake)
+            snowflake.size = random.randrange(2)
+            snowflake.speed = random.randrange(20,100)
+            snowflake.angle = random.uniform(math.pi, math.pi*2) 
+            self.stream.append(snowflake)
 
         arcade.set_background_color(arcade.color.BLACK)
 
@@ -39,12 +40,12 @@ class game(arcade.Window):
 
     def update(self,new_time):
         for snowflake in self.stream:
-            snowflake.y = snowflake.y - (snowflake.speed * new_time) 
+            snowflake.y -= (snowflake.speed * new_time) 
             if(snowflake.y<0):
                 snowflake.reset_pos()
 
-            snowflake.x = snowflake.x + (snowflake.speed * math.cos(snowflake.angle) * new_time)
-            snowflake.angle = snowflake.angle + new_time
+            snowflake.x += (snowflake.speed * math.cos(snowflake.angle) * new_time)
+            snowflake.angle += 1* new_time
 
 if __name__=="__main__":
     game = game(win_width,win_height)
