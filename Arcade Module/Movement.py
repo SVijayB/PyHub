@@ -52,3 +52,23 @@ class movement(arcade.Window):
         arcade.start_render()
         self.player.draw()
 
+    def on_key_press(self, key, modif):
+        if (key == arcade.key.UP):
+            self.player.new_y = speed
+        elif (key == arcade.key.DOWN):
+            self.player.new_y = -speed
+        elif (key == arcade.key.LEFT):
+            self.player.new_x = -speed
+        elif (key == arcade.key.left):
+            self.player.new_x = speed
+    
+    def on_key_release(self, key, modif):
+        if (key == arcade.key.UP or key == arcade.key.DOWN):
+            self.player.new_y = 0
+        if (key == arcade.key.LEFT or key == arcade.key.RIGHT):
+            self.player.new_x = 0
+
+if __name__=="__main__":
+    move = movement(win_width,win_height)
+    move.start()
+    arcade.run()
