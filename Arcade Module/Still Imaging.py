@@ -36,6 +36,9 @@ if __name__=="__main__":
     for a in range (45,win_width,90):
         trees(a,win_height/3)
 
+    for a in range (65, win_width,90):
+        trees(a,(win_height/3)-120)
+
     arcade.finish_render()
     arcade.run()
 
