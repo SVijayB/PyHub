@@ -15,5 +15,14 @@ Different modes :
 6) t : text mode.
 7) +r : Open a file for updating. Reading or Updating.
 8) w+ : Used to create a text file or any other types.
+
+Modes for other files(CSV,JSON):
+The exact same procedure for other files. Just change .txt to .Json or .csv
     """                     
 print(doc.__doc__)
+
+# Reading from a file.
+path = "assets/File Handling/Random.txt"
+print("Reading file at assets/File Handling with the name Random.txt")
+file = open(path,"r")
+# file.write("wow!") will show error, since the file is opened in read only mode.
