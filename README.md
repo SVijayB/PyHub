@@ -82,6 +82,22 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Graphics/Simple%20Calculator.py">Simple Calculator.py</a>          | Creating a GUI based Calculator(Images avilable in <a href="https://github.com/1StranGe/PyHub/tree/master/assets/Graphics/Calculator">assets</a>)
 </pre>
 
+## Arcade Module
+
+<p align="center">
+    <a href="https://github.com/1StranGe/PyHub/tree/master/Arcade%20Module"><img src="https://i.ibb.co/w6nHrHw/Arcade-Module.png" alt="SS" border="0" style="width:600px;height:400px;"></a>
+    <br>Creating Still Images and Animations, Moving Objects and more using Python's Arcade Module
+</p>
+
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Clock.py">Clock.py</a>                       | Building and analog clock
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                    | Moving a 2D object in an arcade window
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                      | Creating a Smiley using the Arcade Module
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                        | Creating a Snow effect 
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>               | Creating Still 2D images
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                       | A countdown timer that notifies when countdown reaches zero.
+</pre>
+
 ## Errors And Exceptions
 
 Learning about various Python Errors and different ways to <a href="https://github.com/1StranGe/PyHub/tree/master/Errors%20and%20Exceptions">handle</a> them.
