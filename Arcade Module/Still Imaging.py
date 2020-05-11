@@ -23,10 +23,14 @@ def trees(a,b):
     list = ((a-40,line),(a,line+100),(a+40,line))
     arcade.draw_polygon_filled(list,arcade.color.DARK_GREEN)
 
+def sun():
+    arcade.draw_circle_filled(600,500,50,arcade.color.SUNGLOW)
+
 if __name__=="__main__":
     arcade.open_window(win_width,win_height,"Still Imaging")
     arcade.start_render()
     screen()
+    sun()
 
     for i in range (10):
         x = random.randrange(0,win_width)
