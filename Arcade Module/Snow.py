@@ -31,12 +31,12 @@ class MyGame(arcade.Window):
             self.stream.append(snow)
         arcade.set_background_color(arcade.color.BLACK)
 
-    def on_draw(self):
+    def on_draw(self):                  # This is a default function.
         arcade.start_render()
         for snow in self.stream:
             arcade.draw_circle_filled(snow.x, snow.y,snow.size, arcade.color.WHITE)
 
-    def on_update(self, delta_time):
+    def on_update(self, delta_time):    # This is a default function.
         for snow in self.stream:
             snow.y = snow.y - snow.speed * delta_time
             if snow.y < 0:
