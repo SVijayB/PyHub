@@ -5,9 +5,9 @@ class Timer(arcade.Window):
         super().__init__(width,height)
         self.time = 0.0
 
-    def Window(self):
+    def Window(self,time):
         arcade.set_background_color(arcade.color.BLACK)
-        self.time = 0.0
+        self.time = time
 
     def on_draw(self):
         arcade.start_render()
@@ -17,9 +17,10 @@ class Timer(arcade.Window):
         arcade.draw_text(result,60,60,arcade.color.RED,35)
 
     def on_update(self,new_time):
-        self.time = self.time + new_time
+        self.time = self.time - new_time
 
 if __name__=="__main__":
+    time = int(input("Enter how many seconds do you want to count : "))
     timer = Timer()
-    timer.Window()
+    timer.Window(time)
     arcade.run()
