@@ -1,1 +1,3 @@
 Hey! This is 1StranGe! I am working on file handling in python.
+Hey! This is the second message and it repalced the previous one!
+Now, data won't be lost! That's because the file is opened in append mode.
