@@ -1,0 +1,1 @@
+Hey! This is 1StranGe! I am working on file handling in python.
