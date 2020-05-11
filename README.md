@@ -93,6 +93,21 @@ Learning about various Python Errors and different ways to <a href="https://gith
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/OwnExceptions.py">Own Exceptions.py</a>             | Creating our very own Error Exceptions.
 </pre>
 
+## File Handling
+
+Reading and Writing Files in Python.
+
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Append.py">Append.py</a>                     | Using Append mode to write into files.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Copying.py">Copying.py</a>                    | Copying data from one file to another.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Creating.py">Creating.py</a>                   | Creating a new file and understanding different modes of opening files.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Reading.py">Reading.py</a>                    | Reading from a file.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Renaming.py">Renaming.py</a>                   | Renaming a file using the OS module.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/With%20Statement.py">With Statement.py</a>             | Understanding and using the with statement
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Writing%20Dictionary.py">Writing Dictionary.py</a>         | Writing a Dictionary into a JSON or Pickle File.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Writing.py">Writing.py</a>                    | Understanding the Write only mode.
+</pre>
+
 ## HackerRank
 
 <p align="center">
