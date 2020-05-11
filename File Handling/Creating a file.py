@@ -1,7 +1,8 @@
 # Creating a new text file.
 path = "assets/File Handling/Random.txt"        # Remember to enter the file name you want to create.
 print("Creating a file at assets/File Handling with the name Random.txt")
-file = open(path, "w+")    
+file = open(path, "w+")   
+ 
 def doc():
     """
 Modes by which you can open files in python : 
@@ -20,9 +21,3 @@ Modes for other files(CSV,JSON):
 The exact same procedure for other files. Just change .txt to .Json or .csv
     """                     
 print(doc.__doc__)
-
-# Reading from a file.
-path = "assets/File Handling/Random.txt"
-print("Reading file at assets/File Handling with the name Random.txt")
-file = open(path,"r")
-# file.write("wow!") will show error, since the file is opened in read only mode.
