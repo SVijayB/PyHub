@@ -20,7 +20,7 @@ class Rectangle:
         self.rec_height = rec_height
         self.colour = colour
 
-    def on_draw(self):
+    def draw(self):
         arcade.draw_rectangle_filled(self.x,self.y,self.rec_width,self.rec_height,self.colour,self.angle)
 
     def move(self):
@@ -45,7 +45,7 @@ class movement(arcade.Window):
         y = win_height//2
         self.player = Rectangle(x,y,rec_width,rec_width,angle=0,colour=arcade.color.RED)
 
-    def update(self, dt):
+    def on_update(self, dt):
         self.player.move()
 
     def on_draw(self):
@@ -59,7 +59,7 @@ class movement(arcade.Window):
             self.player.new_y = -speed
         elif (key == arcade.key.LEFT):
             self.player.new_x = -speed
-        elif (key == arcade.key.left):
+        elif (key == arcade.key.RIGHT):
             self.player.new_x = speed
     
     def on_key_release(self, key, modif):
