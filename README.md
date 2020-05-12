@@ -90,22 +90,22 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 </p>
 
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Clock.py">Clock.py</a>                       | Building a simple analog clock.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                    | Moving a 2D object in an arcade window.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                      | Creating a Smiley using the Arcade Module.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                        | Creating Snow particle effect.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>               | Creating a Still 2D image.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                       | A countdown timer that notifies when countdown reaches zero.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Clock.py">Clock.py</a>                      | Building a simple analog clock.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                   | Moving a 2D object in an arcade window.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                     | Creating a Smiley using the Arcade Module.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                       | Creating Snow particle effect.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>              | Creating a Still 2D image.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                      | A countdown timer that notifies when countdown reaches zero.
 </pre>
 
 ## Random Module
 
 Using the Random module in python to generate numbers or pick elements in Lists.
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Lists.py">Lists.py</a>                       | Picking an element from a list in random.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/RandomFn.py">RandomFn.py</a>                    | Understanding the random function.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Range.py">Range.py</a>                       | Using randint and randrange.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/SeedFn.py">SeedFn.py</a>                      | Using and understanding the seed function.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Lists.py">Lists.py</a>                      | Picking an element from a list in random.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/RandomFn.py">RandomFn.py</a>                   | Understanding the random function.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Range.py">Range.py</a>                      | Using randint and randrange.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/SeedFn.py">SeedFn.py</a>                     | Using and understanding the seed function.
 </pre>
 
 ## Errors And Exceptions
