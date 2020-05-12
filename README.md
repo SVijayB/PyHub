@@ -98,6 +98,16 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                       | A countdown timer that notifies when countdown reaches zero.
 </pre>
 
+## Random Module
+
+Using the Random module in python to generate numbers or pick elements in Lists.
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Lists.py">Lists.py</a>                       | Picking an element from a list in random.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/RandomFn.py">RandomFn.py</a>                    | Understanding the random function.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Range.py">Range.py</a>                       | Using randint and randrange.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/SeedFn.py">SeedFn.py</a>                      | Using and understanding the seed function.
+</pre>
+
 ## Errors And Exceptions
 
 Learning about various Python Errors and different ways to <a href="https://github.com/1StranGe/PyHub/tree/master/Errors%20and%20Exceptions">handle</a> them.
@@ -116,7 +126,7 @@ Reading and Writing Files in Python.
 <pre>
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Append.py">Append.py</a>                     | Using Append mode to write into files.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Copying.py">Copying.py</a>                    | Copying data from one file to another.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Creating.py">Creating.py</a>                   | Creating a new file and understanding different modes of opening files.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Creating.py">Creating.py</a>                   | Creating a new file and understanding modes in open fn.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Reading.py">Reading.py</a>                    | Reading from a file.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Renaming.py">Renaming.py</a>                   | Renaming a file using the OS module.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/With%20Statement.py">With Statement.py</a>             | Understanding and using the with statement
