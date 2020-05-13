@@ -5,7 +5,7 @@ host = "smtp.gmail.com"     # For Gmail.
 port = 587                  # Don't change the port.
 
 username = str(input("Enter Gmail Username : "))                    # Enter your Gmail Username
-password = str(input ("Enter Gmail Password: "))                    # Enter your Gmail Password
+password = str(input ("Enter Gmail Password : "))                    # Enter your Gmail Password
 message = input("Enter the message you want to send : ")            # Enter message to be sent
 _to = [username]                                                     # Enter the to Email address here.
 # To mail more than one ID, add a comma to the above _to variable and add the new Gmail ID enclosed in double quotes.
