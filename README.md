@@ -5,6 +5,21 @@
     <br>A Repository that encompasses all my works on Python
 </p>
 
+## Table of Contents
+
+- [Basics](#Basics)
+- [OOPS](#OOPS)
+- [Graphics](#Graphics)
+- [Arcade Module](#Arcade-Module)
+- [Random Module](#Random-Module)
+- [SMTP Module](#SMTP-Module)
+- [Errors And Exceptions](#Errors-And-Exceptions)
+- [File Handling](#File-Handling)
+- [HackerRank](#HackerRank)
+- [Contributing](#Contributing)
+- [License](#License)
+
+
 ## Basics
 
 Python <a href="https://github.com/1StranGe/PyHub/tree/master/Basics">Basics</a> for Beginners.
