@@ -34,13 +34,13 @@ try:
     msg = MIMEText(html_message,"html")
     message.attach(msg)
 
-    filename = "assets/Mail Attachments/name.txt"
-    openfile = open(filename,'rb')
-    mimref = MIMEBase("applicaiton","octect_stream")
-    mimref.set_payload(openfile.read())
-    encoders.encode_base64(mimref)
-    mimref.add_header("Content-Disposition","openfile;filename=name.txt")
-    message.attach(mimref)
+    filename = "assets/Mail Attachments/name.txt"       # File path.
+    openfile = open(filename,'rb')                      # Opening the file.
+    mimref = MIMEBase("applicaiton","octect_stream")    # Telling the browser the way to open the file.
+    mimref.set_payload(openfile.read())                 # Setting the file as payload to be sent.
+    encoders.encode_base64(mimref)                      # Mail has to be encoded.
+    mimref.add_header("Content-Disposition","openfile;filename=name.txt")   # Setting attachmenet name and type.
+    message.attach(mimref)                              # Attaching the file.
 
     connection.sendmail(_from,_to,message.as_string())      
     print("Message has been sent Successfully")
