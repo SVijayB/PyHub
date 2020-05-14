@@ -19,6 +19,18 @@ class LinkedList:
         new_head.next = self.head
         self.head = new_head
 
+# Insertion at End
+    def end(self,data5):
+        end = Node(data5)
+        if (self.head == None):
+            self.head = end
+            return
+        temp = self.head
+        while(temp.next!=None):
+            temp = temp.next        # Iterates until the last node
+        temp.next = end
+        
+print()
 sll = LinkedList()
 sll.head = Node("Blue")
 data2 = Node("Red")
@@ -28,6 +40,7 @@ sll.head.next = data2
 data2.next = data3
 
 sll.append("Yellow")
+sll.end("Purple")
 sll.printing()
 
 
