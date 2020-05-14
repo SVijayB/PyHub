@@ -16,7 +16,7 @@ class LinkedList:
 # Appending -> Making the added element the head.
     def append(self,data4):
         new_head = Node(data4)
-        new_head.next = self.head
+        new_head.next = self.head.next
         self.head = new_head
 
 # Insertion at End
