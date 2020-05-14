@@ -29,7 +29,13 @@ class LinkedList:
         while(temp.next!=None):
             temp = temp.next        # Iterates until the last node
         temp.next = end
-        
+
+# Insertion in the middle
+    def mid(self,node,data6):
+        mid = Node(data6)
+        mid.next = node.next
+        node.next = mid
+
 print()
 sll = LinkedList()
 sll.head = Node("Blue")
@@ -41,6 +47,8 @@ data2.next = data3
 
 sll.append("Yellow")
 sll.end("Purple")
+sll.mid(sll.head.next,"Orange")
+sll.mid(sll.head.next.next,"Pink")
 sll.printing()
 
 
