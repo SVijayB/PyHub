@@ -22,7 +22,6 @@ data3 = Node("Blue")
 x.head.next = data2             # Head now points to data2
 data2.next = data3              # data2 now points to data3
 
+# Traversal 
 print()
 x.printing()
-
-
