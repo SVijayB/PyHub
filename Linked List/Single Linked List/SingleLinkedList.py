@@ -10,7 +10,7 @@ class LinkedList:
         self.head = None
     
     def printing(self):
-        print()
+        print("\nElements in Linked List are : ")
         temp = self.head
         while(temp!=None):
             print(temp.data)
@@ -19,9 +19,10 @@ class LinkedList:
     def append(self,data):
         if(self.head==None):
             self.head = Node(data)
-        new_head = Node(data)
-        new_head.next = self.head.next
-        self.head = new_head
+        else:
+            new_head = Node(data)
+            new_head.next = self.head.next
+            self.head = new_head
 
     def end(self,data):
         end = Node(data)
@@ -57,50 +58,53 @@ class LinkedList:
         prev.next = temp.next
         temp = None                
 
-print()
-
 sll = LinkedList()
 
-try:
-    print("What would you like to do?")
-    print("1. Add an Element")
-    print("2. Delete an Element")
-    print("3. Print Linked List")
-    print("4. Close the Progream")
-    choice = int(input("Choose between 1,2 or 3"))
-    if(choice!=1 and choice!=2 and choice!=3):
-        raise ValueError
-except ValueError:
-    print("ERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
-else:
-    if(choice==1):
-        try:
-            print("Where would you like to insert new Element?")
-            print("1. First Position")
-            print("2. Last Poisition")
-            print("3. Between two Nodes")
-            ans = int(input("Choose between 1,2 or 3"))
-            if(ans!=1 and ans!=2 and ans!=3):
-                raise ValueError
-        except ValueError:
-            print("ERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
-        else:
-            if(ans==1):
-                print("Enter Data to be stored in the first position : ")
-            if(ans==2):
-                print("Enter Data to be stored in the last position : ")
-            if(ans==3):
-                print("Enter Data to be stored in between two nodes : ")
-            
-    if(choice==2):
-        sll.printing()
-        print("Which Element do you want to delete? : ")
+while(True):
+    try:
+        print("\nWhat would you like to do?")
+        print("1. Add an Element")
+        print("2. Delete an Element")
+        print("3. Print Linked List")
+        print("4. Close the Progream")
+        choice = int(input("Choose between 1,2 or 3 : "))
+        if(choice!=1 and choice!=2 and choice!=3):
+            raise ValueError
+    except ValueError:
+        print("ERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
+    else:
+        if(choice==1):
+            try:
+                print("\nWhere would you like to insert new Element?")
+                print("1. First Position")
+                print("2. Last Poisition")
+                print("3. Between two Nodes")
+                ans = int(input("Choose between 1,2 or 3 : "))
+                if(ans!=1 and ans!=2 and ans!=3):
+                    raise ValueError
+            except ValueError:
+                print("ERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
+            else:
+                if(ans==1):
+                    data = str(input("Enter Data to be stored in the first position : "))
+                    sll.append(data)
+                if(ans==2):
+                    data = str(input("Enter Data to be stored in the last position : "))
+                    sll.end(data)
+                if(ans==3):
+                    data = str(input("Enter Data to be stored in between two nodes : "))
+                    nodeinfo = str(input("Enter after which node you want to inser : "))
+                    sll.mid(nodeinfo,data)           
+        if(choice==2):
+            sll.printing()
+            data = str(input("\nWhich Element do you want to delete? : "))
+            sll.delete(data)
 
-    if(choice==3):
-        sll.printing()
+        if(choice==3):
+            sll.printing()
 
-    if(choice==4):
-        sys.exist(0)
+        if(choice==4):
+            sys.exist(0)
 
 
 
