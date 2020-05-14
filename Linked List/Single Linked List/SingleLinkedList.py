@@ -13,13 +13,15 @@ class LinkedList:
             print(temp.data)
             temp = temp.next
 
-    def append(self,data4):
-        new_head = Node(data4)
+    def append(self,data):
+        if(self.head==None):
+            self.head = Node(data)
+        new_head = Node(data)
         new_head.next = self.head.next
         self.head = new_head
 
-    def end(self,data5):
-        end = Node(data5)
+    def end(self,data):
+        end = Node(data)
         if (self.head == None):
             self.head = end
             return
@@ -28,40 +30,33 @@ class LinkedList:
             temp = temp.next        
         temp.next = end
 
-    def mid(self,node,data6):
-        mid = Node(data6)
+    def mid(self,node,data):
+        mid = Node(data)
         mid.next = node.next
         node.next = mid
 
     def deleting(self,data):
         temp = self.head
         if(temp.data!=None):
-            if(temp.data==data):        # Checks if first element is to be deleted
+            if(temp.data==data):        
                 self.head = temp.next
-                temp = None             # Removing Garbage values.
+                temp = None            
                 return
 
         while(temp!=None):
             if(temp.data==data):
                 break
-            prev = temp             # Node before the node to be deleted
+            prev = temp             
             temp = temp.next
         
         if(temp == None):
             return
-# temp.next points to the node after the node to be deleted. prev.next points to the to be deleted node.
         prev.next = temp.next
-# Now, prev node points to the node after the node to be deleted.
-        temp = None                 # Removing Garbage values.
+        temp = None                
 
 print()
-sll = LinkedList()
-sll.head = Node("Blue")
-data2 = Node("Red")
-data3 = Node("Green")
 
-sll.head.next = data2
-data2.next = data3
+sll = LinkedList()
 
 sll.append("Yellow")
 sll.end("Purple")
