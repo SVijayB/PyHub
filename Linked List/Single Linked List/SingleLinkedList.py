@@ -17,10 +17,11 @@ class LinkedList:
             temp = temp.next
 
     def append(self,data):
-        if(self.head==None):
-            self.head = Node(data)
+        new_head = Node(data)
+        if(self.head == None):
+            self.head = new_head
+            return
         else:
-            new_head = Node(data)
             new_head.next = self.head.next
             self.head = new_head
 
@@ -46,7 +47,6 @@ class LinkedList:
                 self.head = temp.next
                 temp = None            
                 return
-
         while(temp!=None):
             if(temp.data==data):
                 break
