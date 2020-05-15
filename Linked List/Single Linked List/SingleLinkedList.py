@@ -18,12 +18,8 @@ class LinkedList:
 
     def append(self,data):
         new_head = Node(data)
-        if(self.head == None):
-            self.head = new_head
-            return
-        else:
-            new_head.next = self.head.next
-            self.head = new_head
+        new_head.next = self.head
+        self.head = new_head
 
     def end(self,data):
         end = Node(data)
@@ -67,11 +63,11 @@ while(True):
         print("2. Delete an Element")
         print("3. Print Linked List")
         print("4. Close the Progream")
-        choice = int(input("Choose between 1,2 or 3 : "))
-        if(choice!=1 and choice!=2 and choice!=3):
+        choice = int(input("Choose between 1,2,3 or 4 : "))
+        if(choice!=1 and choice!=2 and choice!=3 and choice!=4):
             raise ValueError
     except ValueError:
-        print("ERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
+        print("ERROR : ONLY VALUE BETWEEN 1-4 IS ACCEPTED")
     else:
         if(choice==1):
             try:
@@ -98,13 +94,13 @@ while(True):
         if(choice==2):
             sll.printing()
             data = str(input("\nWhich Element do you want to delete? : "))
-            sll.delete(data)
+            sll.deleting(data)
 
         if(choice==3):
             sll.printing()
 
         if(choice==4):
-            sys.exist(0)
+            sys.exit(0)
 
 
 
