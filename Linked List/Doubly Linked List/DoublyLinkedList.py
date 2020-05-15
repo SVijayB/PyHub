@@ -20,16 +20,16 @@ class DoublyLinkedList:
 
 # Inserting after a Node :
     def insertion(self,node,data):
-        temp = Node(data)
+        insert = Node(data)
         temp = self.head
         while(temp.next!=None):
             if(temp.data==node):
                 break
             temp = temp.next
-        node.next = temp
-        temp.prev = node
-        if (temp.next!=None): 
-            temp.next.prev = temp
+        temp.next = insert
+        temp.prev = temp
+        if (insert.next!=None): 
+            temp.next.prev = insert
 
 # Inserting at the last Node:
     def end(self,data):
@@ -47,15 +47,20 @@ class DoublyLinkedList:
 
 # Deleting
     def delete(self,node):
-        if (node.prev == None):
-            self.x = node.next
+        temp = self.head
+        while(temp.next!=None):
+            if(temp.data==node):
+                break
+            temp = temp.next
+        if (temp.prev == None):
+            self.x = temp.next
         else:
-            node.prev.next = node.next
+            temp.prev.next = temp.next
         
-        if(node.next == None):
-            self.y = node.prev
+        if(temp.next == None):
+            self.y = temp.prev
         else:
-            node.next.prev = node.prev
+            temp.next.prev = temp.prev
 
 # Printing
     def printing(self):
@@ -105,7 +110,7 @@ while(True):
         if(choice==2):
             dll.printing()
             data = str(input("\nWhich Element do you want to delete? : "))
-            dll.deleting(data)
+            dll.delete(data)
 
         if(choice==3):
             dll.printing()
