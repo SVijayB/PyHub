@@ -45,9 +45,10 @@ class DoubleLinkedList:
             print(temp.data)
             temp = temp.next
 
-dll = DoubleLinkedList
+print()
+dll = DoubleLinkedList()
 dll.add("Red")
 dll.add("Yellow")
-dll.insertion(dll.head.next,"Red")
+dll.insertion(dll.head.next,"Blue")
 dll.end("Green")
 dll.printing()
