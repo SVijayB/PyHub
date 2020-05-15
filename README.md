@@ -78,8 +78,9 @@ Implementation of Object-oriented programming System(<a href="https://github.com
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Modules/Operations.py">Operations.py</a>             | A program that is to be imported.
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Modules/Importing.py">Importing.py</a>              | Importing Operations.py.
 </pre>
+
+### Methods
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/tree/master/OOPS/Methods">Methods</a>
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Methods/Instance.py">Instance.py</a>               | Understanding Instance Methods.
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Methods/Static.py">Static.py</a>                 | Understanding Static Methods
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Methods/Class.py">Class.py</a>                  | Understanding Class Methods
