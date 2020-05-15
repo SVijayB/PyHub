@@ -161,6 +161,18 @@ Reading and Writing Files in Python.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Writing.py">Writing.py</a>                    | Understanding the Write only mode.
 </pre>
 
+## Linked List
+
+### Single Linked List
+<pre>
+
+</pre>
+
+### Doubly Linked List
+<pre>
+
+</pre>
+
 ## HackerRank
 
 <p align="center">
