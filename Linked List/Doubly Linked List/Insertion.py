@@ -4,7 +4,7 @@ class Node:
         self.next = None
         self.prev = None
 
-class DoubleLinkedList:
+class DoublyLinkedList:
     def __init__(self):
         self.head = None
 
@@ -46,7 +46,7 @@ class DoubleLinkedList:
             temp = temp.next
 
 print()
-dll = DoubleLinkedList()
+dll = DoublyLinkedList()
 dll.add("Red")
 dll.add("Yellow")
 dll.insertion(dll.head.next,"Blue")
