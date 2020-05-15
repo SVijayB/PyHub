@@ -9,6 +9,9 @@
 
 - [Basics](#Basics)
 - [OOPS](#OOPS)
+    - [Inheritance](#Inheritance)
+    - [Methods](#Methods)
+    - [Modules](#Modules)
 - [Graphics](#Graphics)
 - [Arcade Module](#Arcade-Module)
 - [Random Module](#Random-Module)
@@ -58,13 +61,17 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Objects.py">Objects.py</a>                    | Understanding Objects in OOPS.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/OperatorOverloading.py">OperatorOverloading.py</a>        | Operator Overloading in Python.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Polymorphism.py">Polymorphism.py</a>               | Implementing Polymorphism in Python.
+</pre>
 
-• <a href="https://github.com/1StranGe/PyHub/tree/master/OOPS/Inheritance">Inheritance</a>
+### Inheritance
+
+<pre>
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Inherit.py">Inherit.py</a>                | Basic Understanding of Inheritance in Python.
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Hierarchical.py">Hierarchical.py</a>           | Hierarchical Inheritance
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Hybrid.py">Hybrid.py</a>                 | Hybrid Inheritance.
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Inheritance/Multi-Level.py">Multi-Level.py</a>            | Multi-Level Inheritance
-
+</pre>
+<pre>
 • <a href="https://github.com/1StranGe/PyHub/tree/master/OOPS/Modules">Modules</a>
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Modules/LibMod.py">LibMod.py</a>                 | Using a Standard Python Library Module.
     • <a href="https://github.com/1StranGe/PyHub/blob/master/OOPS/Modules/Operations.py">Operations.py</a>             | A program that is to be imported.
