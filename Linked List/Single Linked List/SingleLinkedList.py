@@ -1,3 +1,4 @@
+# Complete implementation of Single Linked List
 import sys
 
 class Node:
@@ -30,7 +31,7 @@ class LinkedList:
         while(temp.next!=None):
             temp = temp.next        
         temp.next = end
-        
+
     def mid(self,node,data):
         temp = self.head
         while(temp.next!=None):
@@ -72,7 +73,7 @@ while(True):
         if(choice!=1 and choice!=2 and choice!=3 and choice!=4):
             raise ValueError
     except ValueError:
-        print("ERROR : ONLY VALUE BETWEEN 1-4 IS ACCEPTED")
+        print("\nERROR : ONLY VALUE BETWEEN 1-4 IS ACCEPTED")
     else:
         if(choice==1):
             try:
@@ -84,7 +85,7 @@ while(True):
                 if(ans!=1 and ans!=2 and ans!=3):
                     raise ValueError
             except ValueError:
-                print("ERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
+                print("\nERROR : ONLY VALUE BETWEEN 1-3 IS ACCEPTED")
             else:
                 if(ans==1):
                     data = str(input("Enter Data to be stored in the first position : "))
