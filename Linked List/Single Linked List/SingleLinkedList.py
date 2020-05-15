@@ -30,11 +30,16 @@ class LinkedList:
         while(temp.next!=None):
             temp = temp.next        
         temp.next = end
-
+        
     def mid(self,node,data):
+        temp = self.head
+        while(temp.next!=None):
+            if(temp.data==node):
+                break
+            temp = temp.next
         mid = Node(data)
-        mid.next = node.next
-        node.next = mid
+        mid.next = temp.next
+        temp.next = mid
 
     def deleting(self,data):
         temp = self.head
@@ -88,8 +93,9 @@ while(True):
                     data = str(input("Enter Data to be stored in the last position : "))
                     sll.end(data)
                 if(ans==3):
-                    data = str(input("Enter Data to be stored in between two nodes : "))
-                    nodeinfo = str(input("Enter after which node you want to inser : "))
+                    sll.printing()
+                    data = str(input("\nEnter Data to be stored in between two nodes : "))
+                    nodeinfo = str(input("Enter after which node you want to insert : "))
                     sll.mid(nodeinfo,data)           
         if(choice==2):
             sll.printing()
