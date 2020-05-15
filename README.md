@@ -165,12 +165,10 @@ Reading and Writing Files in Python.
 
 ### Single Linked List
 <pre>
-
-</pre>
-
-### Doubly Linked List
-<pre>
-
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Creation.py">Creation.py</a>                   | Creating and Traversing a Single Linked List.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Insertion.py">Insertion.py</a>                  | Inserting at beginning,ending and between nodes.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Deletion.py">Deletion.py</a>                   | Deleting a node from Single Linked List.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/DoublyLinkedList.py">DoublyLinkedList.py</a>           | Complete Implementation of a Single Linked List.
 </pre>
 
 ## HackerRank
