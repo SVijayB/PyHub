@@ -18,7 +18,18 @@ class DoublyLinkedList:
             self.head.prev = temp
         self.head = temp 
 
-
+# Inserting after a Node :
+    def insertion(self,node,data):
+        insert = Node(data)
+        temp = self.head
+        while(temp.next!=None):
+            if(temp.data==node):
+                break
+            temp = temp.next
+        temp.next = insert
+        temp.prev = temp
+        if (insert.next!=None): 
+            temp.next.prev = insert
 
 # Inserting at the last Node:
     def end(self,data):
