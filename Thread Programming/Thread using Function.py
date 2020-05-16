@@ -4,6 +4,8 @@ import threading
 def evenNumber():
     a = threading.current_thread().getName()
     print("Thread Inside the function :",a)
+    threading.current_thread().name = "Even Number Thread"
+    print("After changing thread name",threading.current_thread().getName())
     for x in range (20):
         if x%2 == 0:
             print(x)
