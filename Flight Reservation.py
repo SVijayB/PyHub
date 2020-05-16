@@ -17,7 +17,9 @@ class flightReservation:
 res = flightReservation(8)
 t1 = Thread(target=res.buy,args=[3])
 t2 = Thread(target=res.buy,args=[4])
-t3 = Thread(target=res.buy,args=[3])
+t3 = Thread(target=res.buy,args=[7])
 t1.start()
+sleep(2)        # To prevent the threads from running parallely and giving false information
 t2.start()
+sleep(2)        # To prevent the threads from running parallely and giving false information
 t3.start()
