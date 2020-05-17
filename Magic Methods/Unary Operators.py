@@ -15,3 +15,22 @@ oct       __oct__(self,others)        Octal
 hex       __hex__(self,others)        Hexa
     """
 print(doc.__doc__)
+print("EXAMPLE : ")
+class x:
+    def __init__(self,y):
+        self.y = y
+
+    def __neg__(self):
+        return self.y
+    
+    def __pos__(self):
+        return self.y
+
+    def __invert__(self):
+        return self.y
+    
+if __name__ == "__main__":
+    obj = x(-2*2)
+    print(-obj)
+    print(+obj)
+    print(~obj)
