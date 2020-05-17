@@ -3,7 +3,7 @@
 
 try:
     a = int(input("Hey! How old are you?"))
-    b = int(input("How long have you been coding?"))
+    b = int(input("How long have you been coding? "))
 except:
     print("ERROR : PLEASE ENTER THE CORRECT VALUES")
 else:
@@ -13,3 +13,4 @@ else:
         print("Hey! You are",a,"years old with a coding experiance of",b,"years!")
 finally:
     print("PROGRAM TERMINATED")                 # Irrespective of conditions, this statement is always run.
+input("Press any key to exit ")

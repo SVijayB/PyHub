@@ -12,7 +12,7 @@ except:
 print("\nExample 2 : ")
 try:
         a = int(input("Enter the value of the numerator : "))
-        b = int(input("Enter the value of the denominator"))
+        b = int(input("Enter the value of the denominator : "))
 
         print("Result =",a/b)
 except ValueError:
@@ -23,4 +23,5 @@ except :
     print("UNKNOWN ERROR! PLEASE CHECK YOUR VALUES")
 
 print("\nYou can also use except(error1,error2) to catch multiple exceptions in a single parameter")
+input("Press any key to exit ")
 

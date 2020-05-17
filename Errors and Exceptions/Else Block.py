@@ -6,7 +6,7 @@ except ValueError:
 else:
     print("You are",age,"Years old")
     try:
-        exp = int(input("How many years have you been coding?"))
+        exp = int(input("How many years have you been coding? "))
     except:
         print("VALUE ERROR: ENTER YEARS IN NUMBERS ONLY")
     else:
@@ -14,3 +14,4 @@ else:
             print("Awesome! You are only",age,"and you've already coded for",exp,"years long!")
         else:
             print("You have a coding experiance of",exp,"years")
+input("Press any key to exit ")

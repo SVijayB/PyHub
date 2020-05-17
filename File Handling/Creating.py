@@ -1,5 +1,5 @@
 # Creating a new text file.
-path = "assets/File Handling/Random.txt"        # Remember to enter the file name you want to create.
+path = "assets/Random.txt"        # Remember to enter the file name you want to create.
 print("Creating a file at assets/File Handling with the name Random.txt")
 file = open(path, "w+")   
  
@@ -21,3 +21,4 @@ Modes for other files(CSV,JSON):
 The exact same procedure for other files. Just change .txt to .Json or .csv
     """                     
 print(doc.__doc__)
+input("Press any key to exit ")
