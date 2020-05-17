@@ -1,7 +1,7 @@
 # Extended Assignment Operators : 
 def doc():
     """
-Types of binary operators : 
+Types of Extended Assignment operators : 
 opr         Magic                       Job
 +=       __iadd__(self,others)          Add
 -=       __isub__(self,others)          Sub
