@@ -8,3 +8,4 @@ x = 54.3        # Data is overwritten if you reassign a new value to the variabl
 print(x)
 X = 52.7        # Variable names are case sensitive.
 print(X)
+input("Press any key to exit ")
