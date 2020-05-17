@@ -1,4 +1,5 @@
 import threading 
+from time import sleep
 
 # Checking if main thread or not
 t = threading.current_thread().getName()
@@ -9,3 +10,5 @@ else:
 print(t)
 threading.current_thread().name = "MAIN THREAD!"        # Changing the name of the main thread
 print(threading.current_thread().getName())
+sleep(1)
+input("Enter any Key to exit ")

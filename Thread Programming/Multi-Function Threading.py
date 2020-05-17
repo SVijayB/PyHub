@@ -1,5 +1,6 @@
 from threading import Thread
 import threading
+from time import sleep
 
 def even_odd():
     print("Thread name when calling even_odd",threading.current_thread().getName())
@@ -22,3 +23,5 @@ def oddNo():
 
 t = Thread(target=even_odd)     # Function contains more than 1 function
 t.start()
+sleep(1)
+input("Enter any Key to exit ")

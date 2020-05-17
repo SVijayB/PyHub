@@ -23,3 +23,5 @@ sleep(2)        # To prevent the threads from running parallely and giving false
 t2.start()
 sleep(2)        # To prevent the threads from running parallely and giving false information
 t3.start()
+sleep(1)
+input("Enter any Key to exit ")

@@ -16,3 +16,5 @@ sleep(2)        # Using sleep function to prevent parallel threading from collap
 t2.start()
 sleep(2)
 print("\nYou can see that both the functions ran parallely")
+sleep(1)
+input("Enter any Key to exit ")

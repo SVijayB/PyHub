@@ -1,5 +1,6 @@
 from threading import Thread
 import threading
+from time import sleep
 
 def evenNumber():
     a = threading.current_thread().getName()
@@ -14,4 +15,6 @@ a = threading.current_thread().getName()
 print("\nThread outside the function : "+a)
 t = Thread(target=evenNumber)
 t.start()
+sleep(1)
+input("Enter any Key to exit ")
 
