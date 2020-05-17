@@ -7,3 +7,4 @@ print(y)
 
 y = random.choices(x)         # Picks a Single value from the given list(x).
 print(y)
+input("Press any key to exit ")
