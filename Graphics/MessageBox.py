@@ -4,7 +4,7 @@ from tkinter import messagebox
 root = Tk()
 root.title("Buttons")
 root.geometry("300x300")
-root.iconbitmap("assets/Graphics/favicon.ico")
+root.iconbitmap("assets/favicon.ico")
 
 def info_box():
     messagebox.showinfo("Info Box","This is an Info Box")   # First Arg is title, Second Arg is the info.
@@ -31,7 +31,7 @@ root.mainloop()
 root = Tk()
 root.title("Buttons")
 root.geometry("300x300")
-root.iconbitmap("assets/Graphics/favicon.ico")
+root.iconbitmap("assets/favicon.ico")
 answer = messagebox.askyesno("Yes or No Box","Do you like Blue?")
 if(answer):
     print("\nYou like blue!!")

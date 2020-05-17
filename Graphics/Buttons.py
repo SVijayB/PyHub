@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 root.title("Buttons")
 root.geometry("300x300")
-root.iconbitmap("assets/Graphics/favicon.ico")
+root.iconbitmap("assets/favicon.ico")
 root.configure(bg="black")  
 frame = Frame(root)
 frame.pack()

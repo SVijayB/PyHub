@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Frames")
-root.iconbitmap("assets/Graphics/favicon.ico")
+root.iconbitmap("assets/favicon.ico")
 root.geometry("300x300")
 root.configure(bg="black")  
 frame1 = Frame(root, height=100,width=100,bg="red")

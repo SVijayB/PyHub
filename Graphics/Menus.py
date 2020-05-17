@@ -29,7 +29,7 @@ print(doc.__doc__)
 root = Tk()
 root.title("Menus")
 root.geometry("300x300")
-root.iconbitmap("assets/Graphics/favicon.ico")
+root.iconbitmap("assets/favicon.ico")
 
 menu_button = Menubutton(root,text="Colours",relief=RAISED)     # Apears raised
 menu_button.grid()
