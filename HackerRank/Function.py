@@ -12,3 +12,4 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+input("Press any key to exit ")

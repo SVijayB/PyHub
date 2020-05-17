@@ -9,3 +9,4 @@ if __name__ == '__main__':
             print("Weird")
         elif(n>20):
             print("Not Weird")
+input("Press any key to exit ")
