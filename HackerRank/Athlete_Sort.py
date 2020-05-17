@@ -5,3 +5,4 @@ if __name__ == '__main__':
 
     for ans in sorted(arr, key = lambda ans: int(ans.split()[k])):
         print(ans)
+input("Press any key to exit ")
