@@ -118,22 +118,22 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 </p>
 
 <pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                     | Creating a Smiley using the Arcade Module.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>              | Creating a Still 2D image.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                       | Creating Snow particle effect.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                      | A countdown timer that notifies when countdown reaches zero.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Clock.py">Clock.py</a>                      | Building a simple analog clock.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                   | Moving a 2D object in an arcade window.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Smiley.py">Smiley.py</a>                     | Creating a Smiley using the Arcade Module.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Snow.py">Snow.py</a>                       | Creating Snow particle effect.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Still%20Imaging.py">Still Imaging.py</a>              | Creating a Still 2D image.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Arcade%20Module/Timer.py">Timer.py</a>                      | A countdown timer that notifies when countdown reaches zero.
 </pre>
 
 ## Random Module
 
 Using the Random module in python to generate numbers or pick elements in Lists.
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Lists.py">Lists.py</a>                      | Picking an element from a list in random.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/RandomFn.py">RandomFn.py</a>                   | Understanding the random function.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Range.py">Range.py</a>                      | Using randint and randrange.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/SeedFn.py">SeedFn.py</a>                     | Using and understanding the seed function.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Range.py">Range.py</a>                      | Using randint and randrange.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Random%20Module/Lists.py">Lists.py</a>                      | Picking an element from a list in random.
 </pre>
 
 ## SMTP Module
@@ -161,13 +161,13 @@ Learning about various Python Errors and different ways to <a href="https://gith
 Reading and Writing Files in Python.
 
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Append.py">Append.py</a>                     | Using Append mode to write into files.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Copying.py">Copying.py</a>                    | Copying data from one file to another.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Creating.py">Creating.py</a>                   | Creating a new file and understanding modes in open fn.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Reading.py">Reading.py</a>                    | Reading from a file.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Renaming.py">Renaming.py</a>                   | Renaming a file using the OS module.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/With%20Statement.py">With Statement.py</a>             | Understanding and using the with statement
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Creating.py">Creating.py</a>                   | Creating a new file and understanding modes in open fn.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Writing%20Dictionary.py">Writing Dictionary.py</a>         | Writing a Dictionary into a JSON or Pickle File.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Append.py">Append.py</a>                     | Using Append mode to write into files.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Copying.py">Copying.py</a>                    | Copying data from one file to another.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/With%20Statement.py">With Statement.py</a>             | Understanding and using the with statement
 • <a href="https://github.com/1StranGe/PyHub/blob/master/File%20Handling/Writing.py">Writing.py</a>                    | Understanding the Write only mode.
 </pre>
 
