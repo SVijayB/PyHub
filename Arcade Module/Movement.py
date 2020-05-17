@@ -69,6 +69,7 @@ class movement(arcade.Window):
             self.player.new_x = 0
 
 if __name__=="__main__":
+    print("Use Arrow Keys to move the square")
     move = movement(win_width,win_height)
     move.start()
     arcade.run()
