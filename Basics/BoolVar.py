@@ -21,3 +21,4 @@ if(mod(num)):
 	print("Even")
 else:
 	print("Odd")
+input("Press any key to exit ")
