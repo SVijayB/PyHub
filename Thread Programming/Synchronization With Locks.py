@@ -25,6 +25,8 @@ t3 = Thread(target=res.buy,args=[7])
 t1.start()
 t2.start()
 t3.start()
+sleep(1)
+input("Enter any Key to exit ")
 """
 If you noticed in this case, it prints the else statement. 
 This is because, the processes are ran one after another.

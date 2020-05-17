@@ -9,7 +9,7 @@ port = 587
 
 username = str(input("Enter Gmail Username : "))                                
 password = str(input ("Enter Gmail Password : "))                                           
-_to = username            # Add any other username you want by adding a comma.                
+_to = username                                      # Add any other username you want by adding a comma.                
 _from = username
 try:
     connection = smtplib.SMTP(host,port)
@@ -34,7 +34,7 @@ try:
     msg = MIMEText(html_message,"html")
     message.attach(msg)
 
-    filename = "assets/Mail Attachments/name.txt"       # File path.
+    filename = "Mail Attachments/name.txt"              # File path.
     openfile = open(filename,'rb')                      # Opening the file.
     mimref = MIMEBase("applicaiton","octect_stream")    # Telling the browser the way to open the file.
     mimref.set_payload(openfile.read())                 # Setting the file as payload to be sent.

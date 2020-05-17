@@ -1,5 +1,6 @@
 from threading import Thread
 import threading
+from time import sleep
 
 class MyThread(Thread):
     def run(self):
@@ -12,6 +13,8 @@ class MyThread(Thread):
 
 obj = MyThread()
 obj.start()         # Part of the thread we created. From the inherited class of Thread.
+sleep(1)
+input("Enter any Key to exit ")
 
 """
 class MyThread(Thread):
