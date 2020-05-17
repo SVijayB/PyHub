@@ -140,9 +140,9 @@ Using the Random module in python to generate numbers or pick elements in Lists.
 
 Using the SMTP Module to send E-mails.
 <pre>
-• <a href="https://github.com/1StranGe/PyHub/blob/master/SMTP%20Module/Attachements.py">Attachements.py</a>               | Attaching .txt files to Email.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/SMTP%20Module/HTML_Emails.py">HTML_Emails.py</a>                | Sending HTML based messages via Gmail.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/SMTP%20Module/SendingEmails.py">SendingEmails.py</a>              | Sending a plain text message through Gmail.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/SMTP%20Module/HTML_Emails.py">HTML_Emails.py</a>                | Sending HTML based messages via Gmail.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/SMTP%20Module/Attachements.py">Attachements.py</a>               | Attaching .txt files to Email.
 </pre>
 
 ## Errors And Exceptions
@@ -152,8 +152,8 @@ Learning about various Python Errors and different ways to <a href="https://gith
 <pre>
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Try%20Except%20Block.py">Try and Except.py</a>             | Understanding the Try and Except Blocks.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Else%20Block.py">Else Block.py</a>                 | Using the Else block for Error Handling.
-• <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Finally%20Clause.py">Finally Clause.py</a>             | Implementing and Understanding the Finally Clause
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/OwnExceptions.py">Own Exceptions.py</a>             | Creating our very own Error Exceptions.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Errors%20and%20Exceptions/Finally%20Clause.py">Finally Clause.py</a>             | Implementing and Understanding the Finally Clause.
 </pre>
 
 ## File Handling
