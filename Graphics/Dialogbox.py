@@ -4,7 +4,7 @@ from tkinter import simpledialog
 window = Tk()
 window.title("Check Boxes")
 window.geometry("320x240")
-window.iconbitmap("assets/Graphics/favicon.ico")
+window.iconbitmap("assets/favicon.ico")
 colour = simpledialog.askstring("Colour","Enter A Colour : ",parent=window) #First arg = title, second = message
 if colour == None:
     print("You did not enter any colour :(")

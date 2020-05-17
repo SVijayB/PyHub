@@ -4,7 +4,7 @@ tk = Tk()
 
 tk.title("Hello World!")
 tk.geometry("500x500")
-tk.iconbitmap("assets/Graphics/favicon.ico")
+tk.iconbitmap("assets/favicon.ico")
 label = Label(tk,text="I am 1StranGe",font=("Arial Bold",18))      
 label.grid(column=0,row=0)                                          # Setting the string to print at pos (0,0)
 button  = Button(tk,text="Click here!",bg="black",fg="white")       # Background and font colours.

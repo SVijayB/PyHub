@@ -3,7 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("Check Boxes")
 window.geometry("320x240")
-window.iconbitmap("assets/Graphics/favicon.ico")
+window.iconbitmap("assets/favicon.ico")
 radio_state = IntVar()
 male = Radiobutton(window,text="Male",variable=radio_state,value=1)     #Every radio button in a group must have unique value.
 male.grid(column=0,row=0)

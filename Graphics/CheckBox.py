@@ -3,7 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("Check Boxes")
 window.geometry("400x400")
-window.iconbitmap("assets/Graphics/favicon.ico")
+window.iconbitmap("assets/favicon.ico")
 a = IntVar()
 a.set(True)
 check_box1 = Checkbutton(window,text="Python is fun?",variable = a)             

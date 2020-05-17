@@ -11,7 +11,7 @@ def DoubleClick(event):
 window = Tk()
 window.title("Check Boxes")
 window.geometry("200x200")
-window.iconbitmap("assets/Graphics/favicon.ico")
+window.iconbitmap("assets/favicon.ico")
 button = Button(window,text="Click on this button!")
 button.pack()
 button.bind("<Button-1>",click)             # Used for single click, built in function.
@@ -25,7 +25,7 @@ window.mainloop()
 window = Tk()
 window.title("Submit Boxes")
 window.geometry("200x200")
-window.iconbitmap("assets/Graphics/favicon.ico")
+window.iconbitmap("assets/favicon.ico")
 
 frame = Frame(window)
 frame.pack()
