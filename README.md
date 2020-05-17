@@ -22,6 +22,7 @@
     - [Single Linked List](#Single-Linked-List)
     - [Doubly Linked List](#Doubly-Linked-List)
 - [Thread Programming](#Thread-Programming)
+- [Magic Methods](#Magic-Methods)
 - [HackerRank](#HackerRank)
 - [Contributing](#Contributing)
 - [License](#License)
@@ -201,6 +202,18 @@ Understanding Thread Programming in Python.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Thread%20Programming/Sleep.py">Sleep.py</a>                      | Understanding the sleep function .
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Thread%20Programming/Flight%20Reservation.py">Flight Reservation.py</a>         | A sample program to understand need for threading.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Thread%20Programming/Synchronization%20With%20Locks.py">Synchronization With Locks.py</a> | Synchronising thread programs.
+</pre>
+
+## Magic Methods
+Overlaoding various types of operators using Dunder or Magic Methods
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Intro.py">Intro.py</a>                      | Understanding uses of magic methods.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Binary%20Operators.py">Binary Operators.py</a>           | Binary Operator overloading using magic methods.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Comparison%20Operators.py">Comparison Operators.py</a>       | Comparison operators overloading.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Extended%20Assignment.py">Extended Assignment.py</a>        | Overloading extended assignmenet operators.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Unary%20Operators.py">Unary Operators.py</a>            | Overloading Unary Operators.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Example.py">Example.py</a>                    | Concatenating dictionary objects.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/repr%20method.py">repr method.py</a>                | Created a Length Convertor using magic methods.
 </pre>
 
 ## HackerRank
