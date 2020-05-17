@@ -27,6 +27,10 @@
 - [Contributing](#Contributing)
 - [License](#License)
 
+### Note :
+Most of these programs run by just executing them through cmd or by double tapping them.</br>
+However, if you want to modify them on an IDE, open the folder(topic) seperately instead of opening PyHub.</br>
+This is done mainly to load assets present in the sub-folder.
 
 ## Basics
 
