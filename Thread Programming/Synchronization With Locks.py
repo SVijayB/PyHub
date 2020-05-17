@@ -28,4 +28,5 @@ t3.start()
 """
 If you noticed in this case, it prints the else statement. 
 This is because, the processes are ran one after another.
+You can also use Semophores instead of Lock.s
 """
