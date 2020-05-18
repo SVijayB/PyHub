@@ -2,7 +2,7 @@ import socket
 from threading import Thread
 clients = {}
 addresses = {}
-host = "192.168.0.192"; port = 8080
+host = "localhost"; port = 8080
 
 s = socket.socket()
 s.bind((host,port))
@@ -19,20 +19,20 @@ def accept_client():
 
 def handle_client(con,adr):
     name = con.recv(1024).decode("utf8")
-    welcome = "Thanks for using this Chat Room " + name + ". You can use #quit if you want to exit"
-    con.send(bytes(welcome,"utf8"))
+    welcome_message = "Thanks for using this Chat Room " + name + ". You can use #quit if you want to exit"
+    con.send(bytes(welcome_message, "utf8"))
 
     message = name + " has joint the chat!"
-    broadcast(bytes(message,"utf8"))
+    broadcast(bytes(message, "utf8"))
 
     clients[con] = name
 
     while(True):
         message = con.recv(1024)
-        if(message!=bytes("#quit","utf8")):
+        if(message!=bytes("#quit", "utf8")):
             broadcast(message, name + ":")
         else:
-            con.send(bytes("#quit","utf8"))
+            con.send(bytes("#quit", "utf8"))
             con.close()
             del clients[con]
             broadcast(bytes(name + " has left the chat."))
@@ -40,7 +40,7 @@ def handle_client(con,adr):
 
 def broadcast(message,prefix=""):
     for x in clients:
-        x.send(bytes(prefix,"utf8")+message)
+        x.send(bytes(prefix, "utf8")+message)
 
 
 if __name__ == "__main__":
