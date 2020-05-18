@@ -15,11 +15,12 @@ def receive():
 def send():
     message = my_message.get()
     my_message.set("")
-    s.send(bytes(message,"utf8"))
+    s.send(bytes(message, "utf8"))
 
     if message == "#quit":
         s.close()
         window.quit()
+        print('[+] Quitting...')
 
 def closing():
     my_message.set("#quit")
