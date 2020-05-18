@@ -15,7 +15,8 @@ def accept_client():
         client_con.send("Hey! Welcome to the Chat Room. Enter Your Name To Continue.".encode("utf8"))
         addresses[client_address] = client_address
         t2 = Thread(target=handle_client,args=(client_con,client_address)).start()
-
+        print(client_address, "Has Connected")
+    
 
 def broadcast(message, prefix=""):
     for x in clients:
@@ -26,6 +27,7 @@ def handle_client(con,adr):
     name = con.recv(1024).decode("utf8")
     welcome_message = "Thanks for using this Chat Room " + name + ". You can use #quit if you want to exit"
     con.send(bytes(welcome_message, "utf8"))
+    print(name,"has joint the chat")
 
     message = name + " has joint the chat!"
     broadcast(bytes(message, "utf8"))
