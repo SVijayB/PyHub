@@ -3,6 +3,17 @@ import tkinter
 import socket
 from threading import Thread
 
+def receive():
+    while (True):
+        try:
+            message = s.recv(1024).decode("utf8")
+            message_list.insert(tkinter.END,message)
+        except:
+            print("ERROR : Unable to Recieve messages")
+            break
+
+
+
 window = Tk()
 window.title("Chat Room")
 window.configure(bg="white")
@@ -37,7 +48,7 @@ window.protocol("WM_DELETE_WINDOW",closing)
 host = "192.168.0.192"; port = 8080
 s = socket.socket()
 s.connect((host,port))
-recieve_thread = Thread(target=recieve)
+recieve_thread = Thread(target=receive)
 recieve_thread.start()
 
 mainloop()
