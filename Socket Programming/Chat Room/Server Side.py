@@ -38,10 +38,9 @@ def handle_client(con,adr):
         if(message != bytes("#quit", "utf8")):
             broadcast(message, name + ": ")
         else:
-            con.send(bytes("#quit", "utf8"))
             con.close()
             del clients[con]
-            broadcast(bytes(name + " has left the chat."), "utf8")
+            broadcast(bytes(name + " has left the chat.", "utf8"))
 
 if __name__ == "__main__":
     s.listen(5)         # Only 5 clients can join
