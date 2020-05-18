@@ -16,6 +16,7 @@ def accept_client():
         t2 = Thread(target=handle_client,args=(client_con,client_address))
         t2.start()
     
+
 def handle_client(con,adr):
     name = con.recv(1024).decode("utf8")
     welcome = "Thanks for using this Chat Room " + name + ". You can use #quit if you want to exit"
@@ -36,7 +37,11 @@ def handle_client(con,adr):
             del clients[con]
             broadcast(bytes(name + " has left the chat."))
 
-def broadcast() 
+
+def broadcast(message,prefix=""):
+    for x in clients:
+        x.send(bytes(prefix,"utf8")+message)
+
 
 if __name__ == "__main__":
     s.listen(5)         # Only 5 clients can join
