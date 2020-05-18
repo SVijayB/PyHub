@@ -24,6 +24,9 @@ def closing():
     my_message.set("#quit")
     send()
 
+host = input("Enter Host IP : ")
+port = int(input("Enter Port : "))
+
 window = Tk()
 window.title("Chat Room")
 window.configure(bg="white")
@@ -52,9 +55,10 @@ send_button.pack()
 
 window.protocol("WM_DELETE_WINDOW",closing)
 
-host = "localhost"; port = 8080
 s = socket.socket()
+
 s.connect((host,port))
+
 recieve_thread = Thread(target=receive)
 recieve_thread.start()
 
