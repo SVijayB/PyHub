@@ -9,7 +9,6 @@ def receive():
             message = s.recv(1024).decode("utf8")
             message_list.insert(tkinter.END,message)
         except:
-            print("ERROR : Unable to Recieve messages")
             break
 
 def send():
