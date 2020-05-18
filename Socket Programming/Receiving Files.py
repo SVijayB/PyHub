@@ -1,6 +1,6 @@
 import socket
 print("Run the Server and the Client through command prompt using \"python filename.py\"",
-"from the Socket Programming directory")
+"from the Socket Programming directory or by just directly double tapping the script files")
 s = socket.socket()
 host = "localhost"; port = 8080
 s.connect((host,port))
