@@ -56,9 +56,11 @@ send_button.pack()
 window.protocol("WM_DELETE_WINDOW",closing)
 
 s = socket.socket()
-
-s.connect((host,port))
-
+try:
+    s.connect((host,port))
+except:
+    print("Please Verify Host IP and Port Number")
+    sys.exit(0)
 recieve_thread = Thread(target=receive)
 recieve_thread.start()
 
