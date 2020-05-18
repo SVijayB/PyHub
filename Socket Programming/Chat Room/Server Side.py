@@ -2,7 +2,7 @@ import socket
 from threading import Thread
 clients = {}
 addresses = {}
-host = "192.168.0.192"; port = "8080"
+host = "192.168.0.192"; port = 8080
 
 s = socket.socket()
 s.bind((host,port))
