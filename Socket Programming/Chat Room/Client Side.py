@@ -12,7 +12,18 @@ def receive():
             print("ERROR : Unable to Recieve messages")
             break
 
+def send():
+    message = my_message
+    my_message.set("")
+    s.send(bytes(message,"utf8"))
 
+    if message == "#quit":
+        s.close()
+        window.quit()
+
+def closing():
+    my_message.set("#quit")
+    send()
 
 window = Tk()
 window.title("Chat Room")
