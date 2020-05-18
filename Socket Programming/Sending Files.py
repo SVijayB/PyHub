@@ -1,6 +1,7 @@
 # This is a server that sends files over to the client that requests for the file.
 import socket
-
+print("Run the Server and the Client through command prompt using \"python filename.py\"",
+"from the Socket Programming directory")
 s = socket.socket()
 host = "localhost"; port = 8080
 s.bind((host,port))
