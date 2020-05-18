@@ -20,7 +20,6 @@ def send():
     if message == "#quit":
         s.close()
         window.quit()
-        print('[+] Quitting...')
 
 def closing():
     my_message.set("#quit")
@@ -51,9 +50,6 @@ text_field.pack()
 
 send_button = Button(window,text = "Send", bg="white", command = send)
 send_button.pack()
-
-quit_button = Button(window,text = "Exit", bg="white", command = closing)
-quit_button.pack()
 
 window.protocol("WM_DELETE_WINDOW",closing)
 
