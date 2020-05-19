@@ -17,4 +17,11 @@ del a[3]										#Deleting
 print("After deleting the 3rd element in A : " , a)
 a.clear() 										#Deleting entire Dictionary
 print("After deleting entire dictionary A : " , a)
+dict = {"a":1, "b":2, "c":3, "d":4}
+z = dict.items()
+print(z)
+x = dict.keys()
+print(x)
+y = dict.values()
+print(y)
 input("Press any key to exit ")
