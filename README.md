@@ -22,6 +22,7 @@
     - [Single Linked List](#Single-Linked-List)
     - [Doubly Linked List](#Doubly-Linked-List)
 - [Thread Programming](#Thread-Programming)
+- [Socket Programming](#Socket-Programming)
 - [Magic Methods](#Magic-Methods)
 - [HackerRank](#HackerRank)
 - [Contributing](#Contributing)
@@ -206,6 +207,23 @@ Understanding Thread Programming in Python.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Thread%20Programming/Sleep.py">Sleep.py</a>                      | Understanding the sleep function .
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Thread%20Programming/Flight%20Reservation.py">Flight Reservation.py</a>         | A sample program to understand need for threading.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Thread%20Programming/Synchronization%20With%20Locks.py">Synchronization With Locks.py</a> | Synchronising thread programs.
+</pre>
+
+## Socket Programming
+<p align="center">
+    <a href="https://github.com/1StranGe/Chat-Room-101"><img src="https://i.ibb.co/p3jgQSk/SS.png" alt="Logo" border="0"></a>
+    <br>A Simple GUI based Chat Room Application.
+</p>
+Using sockets in python to create a server and client side to send and recieve messages and files.
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Socket%20Programming/Server.py">Server.py</a>                     | Building a server using sockets in python.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Socket%20Programming/Client.py">Client.py</a>                     | Creating a client side to access the server.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Socket%20Programming/Sending%20Files.py">Sending Files.py</a>              | Sending files through sockets.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Socket%20Programming/Receiving%20Files.py">Receiving Files.py</a>            | Requesting and receiving files from server.
+• <a href="https://github.com/1StranGe/Chat-Room-101">Chat Room Application : </a>
+    • <a href="https://github.com/1StranGe/PyHub/blob/master/Socket%20Programming/Chat%20Room/Server%20Side.py">Server Side.py</a>            | A server side to recieve and send messages.
+    • <a href="https://github.com/1StranGe/PyHub/blob/master/Socket%20Programming/Chat%20Room/Client%20Side.py">Client Side.py</a>            | A GUI based client side.
+
 </pre>
 
 ## Magic Methods
