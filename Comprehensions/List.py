@@ -14,5 +14,5 @@ x = set(i for i in list1 if i%2==0)
 print(x)
 
 print("Example 3 : ")
-x = set((a,b) for a in range(3) for b in range(4))
+x = set((a,b) for a in range(3) for b in range(4))  # Nested for loop. a is external and b is internal
 print(x)  
