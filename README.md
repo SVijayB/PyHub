@@ -31,9 +31,7 @@
 
 ### Note :
 Most of these programs run by just executing them through cmd or by double tapping them.
-
 However, if you want to modify them on an IDE, open the folder(topic) seperately instead of opening PyHub.
-
 This is done mainly to load assets present in the sub-folder.
 
 ## Basics
