@@ -36,3 +36,10 @@ dict1 = {"a":1, "b":2, "c":3, "d":4, "e":5, "f":6, "g":7, "h":8}
 new_dict = {k:("Even No." if v%2==0 else "Odd No.") for (k,v) in dict1.items()}
 print(new_dict)
 
+print("\nNested Dictionary Comprehension")
+dict = {"one":{"a":10},"two":{"b":20}}
+for (external_key, external_value) in dict.items():
+    for(internal_key,internal_value) in external_value.items():
+        external_value.update({internal_key: (internal_value)*2})
+dict.update({external_key:external_value})
+print(dict)
