@@ -24,6 +24,7 @@
 - [Thread Programming](#Thread-Programming)
 - [Socket Programming](#Socket-Programming)
 - [Magic Methods](#Magic-Methods)
+- [Comprehensions](#Comprehensions)
 - [HackerRank](#HackerRank)
 - [Contributing](#Contributing)
 - [License](#License)
@@ -236,6 +237,13 @@ Overlaoding various types of operators using Dunder or Magic Methods
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Unary%20Operators.py">Unary Operators.py</a>            | Overloading Unary Operators.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/Example.py">Example.py</a>                    | Concatenating dictionary objects.
 • <a href="https://github.com/1StranGe/PyHub/blob/master/Magic%20Methods/repr%20method.py">repr method.py</a>                | Created a Length Convertor using magic methods.
+</pre>
+
+## Comprehensions
+Understanding the different uses of list and dictionary comprehensions.
+<pre>
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Comprehensions/List.py">List.py</a>                       | List Comprehensions.
+• <a href="https://github.com/1StranGe/PyHub/blob/master/Comprehensions/Dictionary.py">Dictionary.py</a>                 | Dictionary Comprehensions.
 </pre>
 
 ## HackerRank
