@@ -30,3 +30,9 @@ print("\nDictionary Comprehensions as lambda functions : ")
 farenheit = {1:10, 2:20, 3:30, 4:40}
 cel_dict = {k:(float(5)/9)*(v-32) for (k,v) in farenheit.items()}
 print(cel_dict)
+
+print("\nUsing conditional statements in Dictionary Comprehensions")
+dict1 = {"a":1, "b":2, "c":3, "d":4, "e":5, "f":6, "g":7, "h":8}
+new_dict = {k:("Even No." if v%2==0 else "Odd No.") for (k,v) in dict1.items()}
+print(new_dict)
+
