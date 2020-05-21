@@ -11,7 +11,7 @@ We love your input! We want to make contributing to this project as easy and tra
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
 
-Please note we have a [code of conduct](https://github.com/1StranGe/PyHub/blob/master/docs/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](https://github.com/SVijayB/PyHub/blob/master/docs/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ### General rules
 
