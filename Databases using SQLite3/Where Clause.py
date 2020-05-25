@@ -11,3 +11,5 @@ records = cursor.fetchall()
 
 for x,y in records:
     print(x,y)
+
+Connection.close()

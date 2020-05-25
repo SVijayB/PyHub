@@ -29,5 +29,6 @@ while True:
     if (student_record==None):
         break
     print(student_record)
+connection.close()
 print("\nNotice that it prints from the 2nd record, this is because we already printed the first one a while ago.",
 "thus, the cursor points to the very next record.")
