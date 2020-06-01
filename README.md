@@ -246,6 +246,26 @@ Understanding the different uses of list and dictionary comprehensions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/Dictionary.py">Dictionary.py</a>                 | Dictionary Comprehensions.
 </pre>
 
+## Databases using SQLite3
+Using Python's SQLite3 module to create, insert and manipulate data in a database.
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Creating%20a%20Database.py">Creating a Database.py</a>        | Creating a Database using SQLite3.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Creating%20Attributes.py">Creating Attributes.py</a>        | Creating columns for the table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Extracting%20Data.py">Extracting Data.py</a>            | Extracting data from a table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Inserting%20Records.py">Inserting Records.py</a>          | Entering data into a table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Order%20By%20Clause.py">Order By Clause.py</a>            | Sorting data in a table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Where%20Clause.py">Where Clause.py</a>               | Extracting relevant data using where clause.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/IN%20and%20NOT%20IN%20Clause.py">IN and NOT IN Clause.py</a>       | Understanding the In and Not In clause.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Distinct%20Data.py">Distinct Data.py</a>              | Obtaining distinct values from the table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Like%20Clause.py">Like Clause.py</a>                | Extracting relevant data using like clause.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Limit%20Clause.py">Limit Clause.py</a>               | Understanding the limit and ofset clauses .
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Delete%20Clause.py">Delete Clause.py</a>              | Deleting records or columns from a table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Updating%20Data.py">Updating Data.py</a>              | Updating records in the table.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/GLOB%20Operator.py">GLOB Operator.py</a>              | Understanding and implementing the glob operator.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Aggregate%20Functions.py">Aggregate Functions.py</a>        | Finding average, sum, maximum and other values.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Alter%20Table.py">Alter Table.py</a>                | Altering contents of a table.
+
+</pre>
 ## HackerRank
 
 <p align="center">
