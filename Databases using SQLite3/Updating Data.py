@@ -9,7 +9,7 @@ records = cursor.fetchall()
 for id,name,mark,grade in records:
     print(id,name,mark,grade)
 print("\nAFTER UPDATING : ")
-query = """UPDATE Student_Records SET MARKS = 73,GRADES='B' WHERE ID = 6"""    # Names starting with a
+query = """UPDATE Student_Records SET MARKS = 73,GRADES='B' WHERE ID = 6"""   
 cursor.execute(query)
 query2 = """SELECT * FROM Student_Records WHERE ID = 6"""
 cursor.execute(query2)
