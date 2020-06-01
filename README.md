@@ -5,6 +5,9 @@
     <br>A Repository that encompasses all my works on Python
 </p>
 
+<details>	
+<summary>Table of content </summary>
+
 ## Table of Contents
 
 - [Basics](#Basics)
@@ -25,9 +28,12 @@
 - [Socket Programming](#Socket-Programming)
 - [Magic Methods](#Magic-Methods)
 - [Comprehensions](#Comprehensions)
+- [Databases Using SQLite3](#Databases-using-SQLite3)
 - [HackerRank](#HackerRank)
 - [Contributing](#Contributing)
 - [License](#License)
+
+</details>
 
 ### Note :
 Most of these programs run by just executing them through cmd or by double tapping them.
