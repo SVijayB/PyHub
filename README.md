@@ -28,6 +28,7 @@
 - [Socket Programming](#Socket-Programming)
 - [Magic Methods](#Magic-Methods)
 - [Comprehensions](#Comprehensions)
+- [Generators](#Generators)
 - [Databases Using SQLite3](#Databases-using-SQLite3)
 - [HackerRank](#HackerRank)
 - [Contributing](#Contributing)
@@ -185,6 +186,7 @@ Reading and Writing Files in Python.
 </pre>
 
 ## Linked List
+
 Understanding Single and Doubly Linked List in Python.
 #### Single Linked List
 <pre>
@@ -203,6 +205,7 @@ Understanding Single and Doubly Linked List in Python.
 </pre>
 
 ## Thread Programming
+
 Understanding Thread Programming in Python.
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Thread%20Programming/Main%20Thread.py">Main Thread.py</a>                | Understanding and renaming the main thread.
@@ -234,6 +237,7 @@ Using sockets in python to create a server and client side to send and recieve m
 </pre>
 
 ## Magic Methods
+
 Overlaoding various types of operators using Dunder or Magic Methods
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Intro.py">Intro.py</a>                      | Understanding uses of magic methods.
@@ -246,13 +250,22 @@ Overlaoding various types of operators using Dunder or Magic Methods
 </pre>
 
 ## Comprehensions
+
 Understanding the different uses of list and dictionary comprehensions.
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/List.py">List.py</a>                       | List Comprehensions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/Dictionary.py">Dictionary.py</a>                 | Dictionary Comprehensions.
 </pre>
 
+## Generators
+
+Understanding the functions and uses of Python Generators.
+<pre>
+
+</pre>
+
 ## Databases using SQLite3
+
 Using Python's SQLite3 module to create, insert and manipulate data in a database.
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Creating%20a%20Database.py">Creating a Database.py</a>        | Creating a Database using SQLite3.
@@ -270,8 +283,8 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/GLOB%20Operator.py">GLOB Operator.py</a>              | Understanding and implementing the glob operator.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Aggregate%20Functions.py">Aggregate Functions.py</a>        | Finding average, sum, maximum and other values.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Alter%20Table.py">Alter Table.py</a>                | Altering contents of a table.
-
 </pre>
+
 ## HackerRank
 
 <p align="center">
