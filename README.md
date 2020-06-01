@@ -6,7 +6,7 @@
 </p>
 
 <details>	
-<summary>Table of content </summary>
+<summary>Table of contents</summary>
 
 ## Table of Contents
 
