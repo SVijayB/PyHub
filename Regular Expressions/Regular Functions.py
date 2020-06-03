@@ -1,4 +1,5 @@
 import re
+import string
 print("""
 Different Regular Functions are : 
 re.compile(pattern, flags)           -> Compiles the pattern to be matched
@@ -9,7 +10,7 @@ re.findall(pattern, string, flag)    -> Prints all the matches found using the p
 re.finditer(pattern, string, flags)  -> Returns the string as an iterable object
 re.sub(pattern, repl, string, count) -> Replaces the string with the pattern
 re.subn(pattern, repl, string, count)-> Does the same thing as re.sub but returns it in a tuple(string and count)
-re.escape(pattern)
+re.escape(pattern)                   -> Escapes all characters other than ascii characters
 """)
 
 print("Using the re.compile function")
@@ -45,4 +46,15 @@ print(x)
 
 print("\nUsing the subn function")
 x = re.subn(r"there","World","Hello there. Python is fun. Hello there")
+print(x)
+
+print("\nUsing the escape function")
+pattern = string.ascii_lowercase
+x = re.escape(pattern)
+print(x)
+pattern = string.digits
+x = re.escape(pattern)
+print(x)
+pattern = "+-*$^&#"
+x = re.escape(pattern)
 print(x)
