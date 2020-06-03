@@ -1,6 +1,6 @@
 import sqlite3
 
-db = sqlite3.connect("Databases using SQLite3/assets/Student_Records.db")
+db = sqlite3.connect("assets/Student_records.db")
 print("Connection has been made successfuly!")
 cursor = db.cursor()
 query = """SELECT DISTINCT GRADES FROM Student_Records"""
@@ -11,3 +11,4 @@ for x in records:
     print(x)
 db.commit()
 db.close()
+input("Press any key to exit ")

@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect("Databases using SQLite3/assets/Student_Records.db")
+connection = sqlite3.connect("assets/Student_records.db")
 print("Connection has been made successfuly!")
 cursor = connection.cursor()    # Control structure for traversal over record in DB.
 cursor.execute("""INSERT INTO Student_Records(ID,NAMES,MARKS,GRADES)VALUES(?,?,?,?)""",(1,"Vijay",78,"B"))
@@ -26,3 +26,4 @@ cursor.execute("""INSERT INTO Student_Records(ID,NAMES,MARKS,GRADES)VALUES(?,?,?
 print("Records have been added")
 connection.commit()
 connection.close()
+input("Press any key to exit ")
