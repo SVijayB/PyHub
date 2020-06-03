@@ -16,3 +16,11 @@ if (y):
     print("Strings match")
 else:
     print("Strings do not match")
+
+print("\nMatching without using the compile function : ")
+pattern = "Hello world"
+x = re.match(pattern,"Hello World")
+if (y):
+    print("Strings match")
+else:
+    print("Strings do not match")
