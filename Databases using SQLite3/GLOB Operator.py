@@ -2,7 +2,7 @@
 
 import sqlite3
 
-db = sqlite3.connect("Databases using SQLite3/assets/Student_Records.db")
+db = sqlite3.connect("assets/Student_records.db")
 cursor = db.cursor()
 
 query = """SELECT NAMES FROM Student_Records where NAMES GLOB 'A*' """
@@ -30,3 +30,4 @@ print()
 cursor.execute(query3)
 names = cursor.fetchall()
 print(names)
+input("Press any key to exit ")

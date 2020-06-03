@@ -7,7 +7,7 @@ def fun(query):
         print(x)
     print()
 
-db = sqlite3.connect("Databases using SQLite3/assets/Student_Records.db")
+db = sqlite3.connect("assets/Student_records.db")
 cursor = db.cursor()
 
 query = """SELECT AVG(MARKS) FROM Student_records"""
@@ -24,3 +24,5 @@ query4 = """SELECT COUNT(NAMES) FROM STUDENT_records WHERE NAMES LIKE 'a%'""" # 
 fun(query4)
 query3 = """SELECT SUM(MARKS) FROM Student_records""" # Finds sum of all marks
 fun(query3)
+
+input("Press any key to exit ")

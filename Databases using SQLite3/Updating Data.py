@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect("Databases using SQLite3/assets/Student_Records.db")
+connection = sqlite3.connect("assets/Student_records.db")
 cursor = connection.cursor()
 print("BEFORE UPDATING : ")
 query2 = """SELECT * FROM Student_Records WHERE ID = 6"""
@@ -18,3 +18,4 @@ for id,name,mark,grade in records:
     print(id,name,mark,grade)
 connection.commit()
 connection.close()
+input("Press any key to exit ")
