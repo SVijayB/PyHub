@@ -7,8 +7,8 @@ re.match(pattern, string, flags)     -> Checks if there is a match between patte
 re.split(pattern, string, max, flag) -> Splits the string based on the pattern provided
 re.findall(pattern, string, flag)    -> Prints all the matches found using the pattern
 re.finditer(pattern, string, flags)  -> Returns the string as an iterable object
-re.sub(pattern, repl, string, count)
-re.subn(pattern, repl, string, count)
+re.sub(pattern, repl, string, count) -> Replaces the string with the pattern
+re.subn(pattern, repl, string, count)-> Does the same thing as re.sub but returns it in a tuple(string and count)
 re.escape(pattern)
 """)
 
@@ -34,6 +34,15 @@ x = re.split("\W+","Hello,World")   # W to start from the left and + to keep mov
 print(x)
 x = re.split("(\W+)","Hello,World")   # W to start from the left and + to keep moving forward, braces will print ,
 print(x)
+
 print("\nUsing the findall function")
 x = re.findall(r"Hello","Hello World")  # Checks and prints matches.
+print(x)
+
+print("\nUsing the sub function")
+x = re.sub(r"there","World","Hello there. Python is fun.")  # Checks if there is present and then replaces it with world.
+print(x)
+
+print("\nUsing the subn function")
+x = re.subn(r"there","World","Hello there. Python is fun. Hello there")
 print(x)
