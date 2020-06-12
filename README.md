@@ -311,4 +311,4 @@ Also, thanks for contributing to Open-source!
 
 ## License
 
-This repository is licensed under MIT. Read the [LICENSE](https://github.com/SVijayB/PyHub/blob/master/LICENSE) file for more information.
+This repository is under The MIT License. Read the [LICENSE](https://github.com/SVijayB/PyHub/blob/master/LICENSE) file for more information.
