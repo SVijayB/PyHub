@@ -59,4 +59,4 @@ pattern = "+-*$^&#"
 x = re.escape(pattern)
 print(x)
 
-input("Press any key to exit ")
+input("Press any key to exit ") 

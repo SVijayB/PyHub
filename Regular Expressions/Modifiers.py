@@ -27,3 +27,5 @@ pattern = "Hello \n World"
 sequence = "Hello \n World"
 x = re.match(pattern,sequence,re.M) # Considers even if the line ends.
 check(x)
+
+input("Press any key to exit ")
