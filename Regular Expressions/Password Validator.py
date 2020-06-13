@@ -9,3 +9,5 @@ while(True):
         print(x + " is a valid password")
     else:
         print(x + " is not a valid password. Password MUST be atleast 7 characters with atleast 1 number")
+
+input("Press any key to exit ")
