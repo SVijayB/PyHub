@@ -10,29 +10,33 @@
 
 ## Table of Contents
 
-- [Basics](#Basics)
-- [OOPS](#OOPS)
-    - [Inheritance](#Inheritance)
-    - [Modules](#Modules)
-    - [Methods](#Methods)
-- [Graphics](#Graphics)
-- [Arcade Module](#Arcade-Module)
-- [Random Module](#Random-Module)
-- [SMTP Module](#SMTP-Module)
-- [Errors And Exceptions](#Errors-And-Exceptions)
-- [File Handling](#File-Handling)
-- [Linked List](#Linked-List)
-    - [Single Linked List](#Single-Linked-List)
-    - [Doubly Linked List](#Doubly-Linked-List)
-- [Thread Programming](#Thread-Programming)
-- [Socket Programming](#Socket-Programming)
-- [Magic Methods](#Magic-Methods)
-- [Comprehensions](#Comprehensions)
-- [Generators](#Generators)
-- [Databases Using SQLite3](#Databases-using-SQLite3)
-- [HackerRank](#HackerRank)
-- [Contributing](#Contributing)
-- [License](#License)
+- [PyHub](#pyhub)
+  - [Table of Contents](#table-of-contents)
+    - [Note :](#note-)
+  - [Basics](#basics)
+  - [OOPS](#oops)
+      - [Inheritance](#inheritance)
+      - [Modules](#modules)
+      - [Methods](#methods)
+  - [Graphics](#graphics)
+  - [Arcade Module](#arcade-module)
+  - [Random Module](#random-module)
+  - [SMTP Module](#smtp-module)
+  - [Errors And Exceptions](#errors-and-exceptions)
+  - [File Handling](#file-handling)
+  - [Linked List](#linked-list)
+      - [Single Linked List](#single-linked-list)
+      - [Doubly Linked List](#doubly-linked-list)
+  - [Thread Programming](#thread-programming)
+  - [Socket Programming](#socket-programming)
+  - [Magic Methods](#magic-methods)
+  - [Regular Expressions](#regular-expressions)
+  - [Comprehensions](#comprehensions)
+  - [Generators](#generators)
+  - [Databases using SQLite3](#databases-using-sqlite3)
+  - [HackerRank](#hackerrank)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 </details>
 
@@ -247,6 +251,18 @@ Overlaoding various types of operators using Dunder or Magic Methods
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Unary%20Operators.py">Unary Operators.py</a>            | Overloading Unary Operators.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Example.py">Example.py</a>                    | Concatenating dictionary objects.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/repr%20method.py">repr method.py</a>                | Created a Length Convertor using magic methods.
+</pre>
+
+## Regular Expressions
+
+Understanding various functions and operations of the re module in python.
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Regular%20Functions.py">Regular Functions.py</a>          | Understanding and using all the different functions in the re module.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Match%20Function.py">Match Function.py</a>             | Using the match function and all its special characters.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Matching%20Vs%20Searching.py">Matching Vs Searching.py</a>      | Finding the difference between matching and searching.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Greedy%20Vs%20Non-Greedy.py">Greedy Vs Non-Greedy.py</a>       | Understanding the difference between greedy and non greedy functions.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Modifiers.py">Modifiers.py</a>                  | Learning the uses of different flags\modifiers.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Password%20Validator.py">Password Validator.py</a>         | A simple example program to validate passwords using regex.
 </pre>
 
 ## Comprehensions
