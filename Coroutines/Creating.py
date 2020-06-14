@@ -4,11 +4,16 @@ def searching(string):
     while True:
         name = (yield)      # Recieved from the send function.
         if string in name:
-            print(name)
+            print(string + " is present in " + name)
+        else:
+            print(string + " is not present in " + name)
     
-x = searching("Hello")
+key = input("Enter the term you want to search for in string : ")
+x = searching(key)
 x.__next__()
-    
-x.send("Hello")             # .send() is a built-in function.
-x.send("Hello World")
-x.send("World")
+
+while(True):
+    s = input("Enter the Strings : ")
+    x.send(s)               # .send() is a built-in function.
+
+input("Press any key to exit ")
