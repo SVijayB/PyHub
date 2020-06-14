@@ -27,6 +27,7 @@
 - [Thread Programming](#thread-programming)
 - [Socket Programming](#socket-programming)
 - [Magic Methods](#magic-methods)
+- [Coroutines](#Coroutines)
 - [Regular Expressions](#regular-expressions)
 - [Comprehensions](#comprehensions)
 - [Generators](#generators)
@@ -248,6 +249,14 @@ Overlaoding various types of operators using Dunder or Magic Methods
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Unary%20Operators.py">Unary Operators.py</a>            | Overloading Unary Operators.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Example.py">Example.py</a>                    | Concatenating dictionary objects.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/repr%20method.py">repr method.py</a>                | Created a Length Convertor using magic methods.
+</pre>
+
+## Coroutines
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Creating.py">Creating.py</a>                   | Creating and understanding coroutines.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Pipelining.py">Pipelining.py</a>                 | Pipelining in couroutines.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Closing.py">Closing.py</a>                    | Creating and closing a coroutine.
 </pre>
 
 ## Regular Expressions
