@@ -1,4 +1,5 @@
 # Coroutines are almost like generators. The only difference is the way we use the yield statement.
+# We use coroutines to create a sequence, where one block executes, closes and gives control to the next.
 def searching(string):
     print("Searching String : {}".format(string))
     while True:
