@@ -32,6 +32,7 @@
 - [Comprehensions](#comprehensions)
 - [Generators](#generators)
 - [Databases using SQLite3](#databases-using-sqlite3)
+- [Graphs](#graphs)
 - [HackerRank](#hackerrank)
 - [Contributing](#contributing)
 - [License](#license)
@@ -129,7 +130,7 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 ## Arcade Module
 
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/Arcade%20Module"><img src="https://i.ibb.co/w6nHrHw/Arcade-Module.png" alt="SS" border="0" style="width:600px;height:400px;"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/Arcade%20Module"><img src="https://i.ibb.co/w6nHrHw/Arcade-Module.png" alt="SS2" border="0" style="width:600px;height:400px;"></a>
     <br>Creating Still Images and Animations, Moving Objects and more using Python's Arcade Module
 </p>
 
@@ -310,10 +311,25 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Alter%20Table.py">Alter Table.py</a>                | Altering contents of a table.
 </pre>
 
+## Graphs
+
+<p align="center">
+    <img src="https://i.ibb.co/vwHzW9C/Graphs-Logo.png" alt="Graphs Logo" border="0">
+    <br>Using the Matplotlib Library in Python to draw different types of graphs.
+</p>
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Line%20Graph.py">Line Graph.py</a>                 | Drawing a Line graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Multiple%20Line%20Graphs.py">Multiple Line Graphs.py</a>       | Drawing multi lined graph for comparison.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Bar%20Chart.py">Bar Chart.py</a>                  | Creating a bar graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Histogram%20Graph.py">Histogram Graph.py</a>            | Drawing a Histogram Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Pie%20Chart.py">Pie Chart.py</a>                  | Building a pie chart.
+</pre>
+
 ## HackerRank
 
 <p align="center">
-    <a href="https://www.hackerrank.com/SVijayB"><img src="https://i.ibb.co/qCDRvTg/Hacker-Rank-Logo.png" alt="Logo" border="0"></a>
+    <a href="https://www.hackerrank.com/SVijayB"><img src="https://i.ibb.co/qCDRvTg/Hacker-Rank-Logo.png" alt="HackerRank Logo" border="0"></a>
     <br>Collection of questions from HackerRank
 </p>
 
