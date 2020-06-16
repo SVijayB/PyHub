@@ -314,7 +314,7 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 ## Graphs
 
 <p align="center">
-    <img src="https://i.ibb.co/vwHzW9C/Graphs-Logo.png" alt="Graphs Logo" border="0">
+    <img src="https://i.ibb.co/4gTnMfx/Graphs-Logo.png" alt="Graphs Logo" border="0", width="600px">
     <br>Using the Matplotlib Library in Python to draw different types of graphs.
 </p>
 
