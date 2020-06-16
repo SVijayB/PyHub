@@ -10,6 +10,6 @@ graphs.xlabel("Game Progress %")
 graphs.ylabel("Game Difficulty")
 graphs.title("Half Life and Half Life 2 Difficulty Comparison")
 
-graphs.plot(Halflife,Halflife_difficulty,color='y')
+graphs.plot(Halflife,Halflife_difficulty,color='r')
 graphs.plot(Halflife2,Halflife2_difficulty,color='b')
 graphs.show()
