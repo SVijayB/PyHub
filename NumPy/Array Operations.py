@@ -83,3 +83,11 @@ b = np.array([1,2,3,4])
 c = np.array([1,2,3,4])
 print(np.array_equal(a,b))
 print(np.array_equal(b,c))
+
+print("\nTo add elements at the end of the array : ")
+print("a :", a)
+print(np.append(a,[100,200,300]))
+
+print("\nGengerating random numbers : ")
+big_data = np.random.random_integers(1,100,size=1000)   # Generating 1000 random numbers from 1-100 
+print(big_data)
