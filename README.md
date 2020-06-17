@@ -369,7 +369,7 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 
 ## Contributing 
 
-To contribute to the programs, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/PyHub/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests.
+To contribute to the programs, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/PyHub/blob/master/.github/CONTRIBUTING.md) before sending us Pull requests.
 
 Also, thanks for contributing to Open-source!
 
