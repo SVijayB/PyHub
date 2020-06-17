@@ -30,7 +30,7 @@
 - [Coroutines](#Coroutines)
 - [Regular Expressions](#regular-expressions)
 - [NumPy](#numpy)
-    -[Graphs](#mathematical-graphs)
+    - [Graphs](#mathematical-graphs)
 - [Comprehensions](#comprehensions)
 - [Generators](#generators)
 - [Databases using SQLite3](#databases-using-sqlite3)
@@ -281,6 +281,7 @@ Understanding various functions and operations of the re module in python.
     <br>Understanding the various functions and operations of the NumPy Library in Python.
 </p>
 
+<br>
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Numerical%20Computations.py">Numerical Computations.py</a>     | Mathematical and Numerical Computations.
