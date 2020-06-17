@@ -11,7 +11,7 @@ We love your input! We want to make contributing to this project as easy and tra
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
 
-Please note we have a [code of conduct](https://github.com/SVijayB/PyHub/blob/master/docs/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [Code Of Conduct](https://github.com/SVijayB/PyHub/blob/master/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ### General rules
 
@@ -49,4 +49,4 @@ Please note we have a [code of conduct](https://github.com/SVijayB/PyHub/blob/ma
  
 ### Any contributions you make will be under the MIT Software License
 
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+In short, when you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/SVijayB/PyHub/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
