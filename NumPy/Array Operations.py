@@ -59,19 +59,27 @@ print("Int : \n",c)
 c = np.array([[1,7,6,4],[2,8.4,7,11],[2,6,4.3,12]],dtype = float)
 print("Float : \n",c)
 
-print("\n Null Matrix : ")
-c = np.zeros([3,4],dtype = int) # By default, values are in float
+print("\nConverting a 1D array into a 2D array : ")
+c = np.arange(1,10).reshape(3,3)    # 3 rows and 3 columns
 print(c)
 
-print("\nUnit Matrix : ")
-c = np.ones([3,4],dtype = int)
+print("\nConcatenating Arrays : ")
+a = np.arange(0,10,2)
+b = np.arange(0,10,3)
+c = np.concatenate([a,b])
 print(c)
+c = c.reshape(3,3)
+print("After converting to a 2d array : \n",c)
 
-print("\nCreating an array with a sequence of numbers :")
-c = np.arange(5,70,4)
-print(c)
-x = 2*((4*2)-1)        
-c = np.arange(5,70,x)  # You can use complex equations as well
-print(c)
-c = np.arange(5,70,0.5) # You can use floating point values as well
-print(c)
+print("\nComparing elements of two arrays : ")
+a = np.array([6,7,3,9])
+b = np.array([5,7,9,9])
+print(a==b)
+print(a>b)
+
+print("\nComparing complete arrays : ")
+a = np.array([5,6,7,8])
+b = np.array([1,2,3,4])
+c = np.array([1,2,3,4])
+print(np.array_equal(a,b))
+print(np.array_equal(b,c))
