@@ -29,6 +29,8 @@
 - [Magic Methods](#magic-methods)
 - [Coroutines](#Coroutines)
 - [Regular Expressions](#regular-expressions)
+- [NumPy](#numpy)
+    -[Graphs](#mathematical-graphs)
 - [Comprehensions](#comprehensions)
 - [Generators](#generators)
 - [Databases using SQLite3](#databases-using-sqlite3)
@@ -271,6 +273,28 @@ Understanding various functions and operations of the re module in python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Greedy%20Vs%20Non-Greedy.py">Greedy Vs Non-Greedy.py</a>       | Understanding the difference between greedy and non greedy functions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Modifiers.py">Modifiers.py</a>                  | Learning the uses of different flags\modifiers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Password%20Validator.py">Password Validator.py</a>         | A simple example program to validate passwords using regex.
+</pre>
+
+## NumPy
+<p align="center">
+    <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="https://i.ibb.co/264zKvv/Num-Py-Logo.png" alt="NumPy Logo" border="0", width="700px"></a>
+    <br>Understanding the various functions and operations of the NumPy Library in Python.
+</p>
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Numerical%20Computations.py">Numerical Computations.py</a>     | Mathematical and Numerical Computations.
+</pre>
+
+#### Mathematical Graphs
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Sin.py">Sin.py</a>                        | Sin Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Cos.py">Cos.py</a>                        | Cos Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Tan.py">Tan.py</a>                        | Tan Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Comparing%20Sin%20and%20Cos.py">Comparing Sin and Cos.py</a>      | Comparing the Sin and Cos Graphs.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Square%20Root.py">Square Root.py</a>                | Square Root Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Exponent.py">Exponent.py</a>                   | Exponent Graph.
 </pre>
 
 ## Comprehensions
