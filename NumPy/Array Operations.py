@@ -91,3 +91,5 @@ print(np.append(a,[100,200,300]))
 print("\nGengerating random numbers : ")
 big_data = np.random.random_integers(1,100,size=1000)   # Generating 1000 random numbers from 1-100 
 print(big_data)
+
+input("Press any key to exit ")
