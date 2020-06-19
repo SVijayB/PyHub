@@ -42,3 +42,5 @@ class temp:
 
 t = temp()
 print("After converting to Fahrenheit :", t.feh)
+
+input("Press any key to exit ")

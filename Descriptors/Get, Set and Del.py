@@ -19,3 +19,5 @@ t = temp(112)
 print(t.y)
 t.y = 0
 print(t.x)
+
+input("Press any key to exit ")
