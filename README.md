@@ -35,6 +35,12 @@
 - [Generators](#generators)
 - [Databases using SQLite3](#databases-using-sqlite3)
 - [Graphs](#graphs)
+- [Descriptors](#descriptors)
+- [Meta Programming](#meta-programming)
+    -[Decorators](#decorators)
+        -[Class Decorators](#class-decorators)
+        -[Function Decorators](#function-decorators)
+    -[Metaclasses](#metaclasses)
 - [HackerRank](#hackerrank)
 - [Contributing](#contributing)
 - [License](#license)
@@ -349,6 +355,37 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Bar%20Chart.py">Bar Chart.py</a>                  | Creating a bar graph.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Histogram%20Graph.py">Histogram Graph.py</a>            | Drawing a Histogram Graph.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Pie%20Chart.py">Pie Chart.py</a>                  | Building a pie chart.
+</pre>
+
+## Descriptors
+Using python's descriptors to create managed attributes.
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Descriptors/Get%2C%20Set%20and%20Del.py">Get, Set and Del.py</a>           | Understanding the get,set and del descriptors.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Descriptors/Calling%20a%20descriptors.py">Calling a descriptors.py</a>      | Different methods of a calling a descriptor.
+</pre>
+
+## Meta Programming
+Understanding and using the concepts of Metaprogramming in python.
+### Decorators
+Using python decorators to call and modify a function or a class
+#### Function Decorators
+Understanding and utilising function decorators
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Fn%20Inside%20a%20Fn.py">Fn Inside a Fn.py</a>             | Creating a nested function.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Passing%20Fn%20as%20Arg.py">Passing Fn as Arg.py</a>          | Passing a function as an argument to another function.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Fn%20returning%20Fn.py">Fn returning Fn.py</a>            | Returning a function in a function.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Encapsulating%20nested%20fn.py">Encapsulating nested fn.py</a>    | Function to call a nested function to provide data.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Adding%20new%20attributes.py">Adding new attributes.py</a>      | Adding new attributes using decorators to an existing function.
+</pre>
+#### Class Decorators
+Using Class decorators
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Class%20Decorators/Class%20Decorators.py">Class Decorators.py</a>           | Understanding class decorators in Python.
+</pre>
+### Metaclasses
+Creating and understanding metaclasses in OOPS
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Meta%20Classes/Meta%20Classes.py">Meta Classes.py</a>               | Understanding and using meta classes.
 </pre>
 
 ## HackerRank
