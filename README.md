@@ -37,10 +37,10 @@
 - [Graphs](#graphs)
 - [Descriptors](#descriptors)
 - [Meta Programming](#meta-programming)
-    -[Decorators](#decorators)
-        -[Class Decorators](#class-decorators)
-        -[Function Decorators](#function-decorators)
-    -[Metaclasses](#metaclasses)
+    - [Decorators](#decorators)
+        - [Class Decorators](#class-decorators)
+        - [Function Decorators](#function-decorators)
+    - [Metaclasses](#metaclasses)
 - [HackerRank](#hackerrank)
 - [Contributing](#contributing)
 - [License](#license)
@@ -365,9 +365,7 @@ Using python's descriptors to create managed attributes.
 </pre>
 
 ## Meta Programming
-Understanding and using the concepts of Metaprogramming in python.
 ### Decorators
-Using python decorators to call and modify a function or a class
 #### Function Decorators
 Understanding and utilising function decorators
 <pre>
