@@ -1,4 +1,5 @@
 # The instance of a class is called a meta class.
+# A metaclass is a class whose instances are classes.
 def metafunction():
     print("This is the metaclass function")
 
