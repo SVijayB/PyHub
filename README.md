@@ -283,7 +283,7 @@ Understanding various functions and operations of the re module in python.
 
 ## NumPy
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="https://i.ibb.co/264zKvv/Num-Py-Logo.png" alt="NumPy Logo" border="0", width="700px"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="https://i.ibb.co/264zKvv/Num-Py-Logo.png" alt="NumPy Logo" border="0" width="700px"></a>
     <br>Understanding the various functions and operations of the NumPy Library in Python.
 </p>
 
@@ -345,7 +345,7 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 ## Graphs
 
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/Graphs"><img src="https://i.ibb.co/4gTnMfx/Graphs-Logo.png" alt="Graphs Logo" border="0", width="700px"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/Graphs"><img src="https://i.ibb.co/4gTnMfx/Graphs-Logo.png" alt="Graphs Logo" border="0" width="700px"></a>
     <br>Using the Matplotlib Library in Python to draw different types of graphs.
 </p>
 
