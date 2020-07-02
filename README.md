@@ -307,6 +307,11 @@ Understanding various functions and operations of the re module in python.
 
 ### Pandas
 
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Bitcoin.ipynb">Bitcoin.ipynb</a>                 | Bitcoin gross product analysis.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Winequality.ipynb">Winequality.ipynb</a>             | Wine quality frequency graph.
+</pre>
+
 ## Comprehensions
 
 Understanding the different uses of list and dictionary comprehensions.
