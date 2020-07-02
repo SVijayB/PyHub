@@ -5,6 +5,8 @@
     <br>A Repository that encompasses all my works on Python
 </p>
 
+---
+
 <details>	
 <summary>Table of contents</summary>
 
@@ -53,6 +55,8 @@ Most of these programs run by just executing them through cmd or by double tappi
 However, if you want to modify them on an IDE, open the folder(topic) seperately instead of opening PyHub.
 This is done mainly to load assets present in the sub-folder.
 
+---
+
 ## Basics
 
 Python <a href="https://github.com/SVijayB/PyHub/tree/master/Basics">Basics</a> for Beginners.
@@ -73,6 +77,8 @@ Python <a href="https://github.com/SVijayB/PyHub/tree/master/Basics">Basics</a> 
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Copy.py">Copy.py</a>                       | Understanding Normal, Shallow and Deep Copy.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Operators.py">Operators.py</a>                  | Covered all python Operators.
 </pre>
+
+---
 
 ## OOPS
 
@@ -112,6 +118,8 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/Methods/Class.py">Class.py</a>                      | Understanding Class Methods
 </pre>
 
+---
+
 ## Graphics
 
 <p align="center">
@@ -136,6 +144,8 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Graphics/Simple%20Calculator.py">Simple Calculator.py</a>          | Creating a GUI based Calculator.
 </pre>
 
+---
+
 ## Arcade Module
 
 <p align="center">
@@ -152,6 +162,8 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Arcade%20Module/Movement.py">Movement.py</a>                   | Moving a 2D object in an arcade window.
 </pre>
 
+---
+
 ## Random Module
 
 Using the Random module in python to generate numbers or pick elements in Lists.
@@ -162,6 +174,8 @@ Using the Random module in python to generate numbers or pick elements in Lists.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Random%20Module/Lists.py">Lists.py</a>                      | Picking an element from a list in random.
 </pre>
 
+---
+
 ## SMTP Module
 
 Using the SMTP Module to send E-mails.
@@ -170,6 +184,8 @@ Using the SMTP Module to send E-mails.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/SMTP%20Module/HTML_Emails.py">HTML_Emails.py</a>                | Sending HTML based messages via Gmail.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/SMTP%20Module/Attachements.py">Attachements.py</a>               | Attaching .txt files to Email.
 </pre>
+
+---
 
 ## Errors And Exceptions
 
@@ -181,6 +197,8 @@ Learning about various Python Errors and different ways to <a href="https://gith
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Errors%20and%20Exceptions/OwnExceptions.py">Own Exceptions.py</a>             | Creating our very own Error Exceptions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Errors%20and%20Exceptions/Finally%20Clause.py">Finally Clause.py</a>             | Implementing and Understanding the Finally Clause.
 </pre>
+
+---
 
 ## File Handling
 
@@ -196,6 +214,8 @@ Reading and Writing Files in Python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/File%20Handling/With%20Statement.py">With Statement.py</a>             | Understanding and using the with statement
 • <a href="https://github.com/SVijayB/PyHub/blob/master/File%20Handling/Writing.py">Writing.py</a>                    | Understanding the Write only mode.
 </pre>
+
+---
 
 ## Linked List
 
@@ -216,6 +236,8 @@ Understanding Single and Doubly Linked List in Python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/DoublyLinkedList.py">DoublyLinkedList.py</a>           | Complete Implementation of Doubly Linked List.
 </pre>
 
+---
+
 ## Thread Programming
 
 Understanding Thread Programming in Python.
@@ -230,6 +252,8 @@ Understanding Thread Programming in Python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Thread%20Programming/Flight%20Reservation.py">Flight Reservation.py</a>         | A sample program to understand need for threading.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Thread%20Programming/Synchronization%20With%20Locks.py">Synchronization With Locks.py</a> | Synchronising thread programs.
 </pre>
+
+---
 
 ## Socket Programming
 <p align="center">
@@ -248,6 +272,8 @@ Using sockets in python to create a server and client side to send and recieve m
 
 </pre>
 
+---
+
 ## Magic Methods
 
 Overlaoding various types of operators using Dunder or Magic Methods
@@ -261,6 +287,8 @@ Overlaoding various types of operators using Dunder or Magic Methods
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/repr%20method.py">repr method.py</a>                | Created a Length Convertor using magic methods.
 </pre>
 
+---
+
 ## Coroutines
 
 Understanding, Creating and Using Coroutines in Python.
@@ -269,6 +297,8 @@ Understanding, Creating and Using Coroutines in Python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Pipelining.py">Pipelining.py</a>                 | Pipelining in couroutines.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Closing.py">Closing.py</a>                    | Creating and closing a coroutine.
 </pre>
+
+---
 
 ## Regular Expressions
 
@@ -281,6 +311,8 @@ Understanding various functions and operations of the re module in python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Modifiers.py">Modifiers.py</a>                  | Learning the uses of different flags\modifiers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Password%20Validator.py">Password Validator.py</a>         | A simple example program to validate passwords using regex.
 </pre>
+
+---
 
 ## NumPy & Pandas
 <p align="center">
@@ -314,6 +346,8 @@ Understanding various functions and operations of the re module in python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Winequality.ipynb">Winequality.ipynb</a>             | Wine quality frequency graph.
 </pre>
 
+---
+
 ## Comprehensions
 
 Understanding the different uses of list and dictionary comprehensions.
@@ -321,6 +355,8 @@ Understanding the different uses of list and dictionary comprehensions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/List.py">List.py</a>                       | List Comprehensions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/Dictionary.py">Dictionary.py</a>                 | Dictionary Comprehensions.
 </pre>
+
+---
 
 ## Generators
 
@@ -330,6 +366,8 @@ Understanding the functions and uses of Python Generators.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Generators/Generators.py">Generators.py</a>                 | Exploring generators and their functions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Generators/Generator%20Expressions.py">Generator Expressions.py</a>      | Using Generator expressions.
 </pre>
+
+---
 
 ## Databases using SQLite3
 
@@ -352,6 +390,8 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Alter%20Table.py">Alter Table.py</a>                | Altering contents of a table.
 </pre>
 
+---
+
 ## Graphs
 
 <p align="center">
@@ -367,12 +407,16 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Graphs/Pie%20Chart.py">Pie Chart.py</a>                  | Building a pie chart.
 </pre>
 
+---
+
 ## Descriptors
 Using python's descriptors to create managed attributes.
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Descriptors/Get%2C%20Set%20and%20Del.py">Get, Set and Del.py</a>           | Understanding the get,set and del descriptors.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Descriptors/Calling%20a%20descriptors.py">Calling a descriptors.py</a>      | Different methods of a calling a descriptor.
 </pre>
+
+---
 
 ## Meta Programming
 ### Decorators
@@ -396,7 +440,6 @@ Creating and understanding metaclasses in OOPS
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Meta%20Classes/Meta%20Classes.py">Meta Classes.py</a>               | Understanding and using meta classes.
 </pre>
 
----
 ---
 
 ## Contributing 
