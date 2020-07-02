@@ -294,6 +294,7 @@ Understanding various functions and operations of the re module in python.
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Numerical%20Computations.py">Numerical Computations.py</a>     | Mathematical and Numerical Computations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Numpy.ipynb">Numpy.ipynb</a>                   | Basic functions and operations using Numpy
 </pre>
 
 #### Mathematical Graphs
