@@ -281,12 +281,13 @@ Understanding various functions and operations of the re module in python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Password%20Validator.py">Password Validator.py</a>         | A simple example program to validate passwords using regex.
 </pre>
 
-## NumPy
+## NumPy & Pandas
 <p align="center">
     <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="https://i.ibb.co/264zKvv/Num-Py-Logo.png" alt="NumPy Logo" border="0" width="700px"></a>
     <br>Understanding the various functions and operations of the NumPy Library in Python.
 </p>
 
+### Numpy
 <br>
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
@@ -303,6 +304,8 @@ Understanding various functions and operations of the re module in python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Square%20Root.py">Square Root.py</a>                | Square Root Graph.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Exponent.py">Exponent.py</a>                   | Exponent Graph.
 </pre>
+
+### Pandas
 
 ## Comprehensions
 
