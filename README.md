@@ -31,10 +31,11 @@
 - [Magic Methods](#magic-methods)
 - [Coroutines](#Coroutines)
 - [Regular Expressions](#regular-expressions)
-- [Numpy And Pandas](#numPy-&-Pandas)
+- [Numerical Computation](#numerical-computation)
     - [NumPy](#numpy)
         - [Graphs](#mathematical-graphs)
     - [Pandas](#pandas)
+    - [PyTorch](#pytorch)
 - [Comprehensions](#comprehensions)
 - [Generators](#generators)
 - [Databases using SQLite3](#databases-using-sqlite3)
@@ -314,7 +315,7 @@ Understanding various functions and operations of the re module in python.
 
 ---
 
-## NumPy & Pandas
+## Numerical Computation
 <p align="center">
     <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="https://i.ibb.co/264zKvv/Num-Py-Logo.png" alt="NumPy Logo" border="0" width="700px"></a>
     <br>Understanding the various functions and operations of the NumPy Library in Python.
@@ -344,6 +345,11 @@ Understanding various functions and operations of the re module in python.
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Bitcoin.ipynb">Bitcoin.ipynb</a>                 | Bitcoin gross product analysis.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Winequality.ipynb">Winequality.ipynb</a>             | Wine quality frequency graph.
+</pre>
+
+### PyTorch
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/PyTorch/PyTorch.ipynb">PyTorch.ipynb</a>                 | Brief introduction to PyTorch.
 </pre>
 
 ---
