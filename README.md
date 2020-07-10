@@ -1,7 +1,7 @@
 # PyHub
 
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub"><img src="https://i.ibb.co/Z8thDff/Python-Logo.png" alt="Logo" border="0"></a>
+    <a href="https://github.com/SVijayB/PyHub"><img src="assets/Python Logo.png" alt="Logo" border="0"></a>
     <br>A Repository that encompasses all my works on Python
 </p>
 
@@ -124,7 +124,7 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 ## Graphics
 
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/Graphics"><img src="https://i.ibb.co/G5KDM7k/SS.png" alt="SS" border="0"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/Graphics"><img src="assets/Calculator.PNG" alt="SS" border="0"></a>
     <br>Utilising Python's Tkinter module to build Graphical User Interface(GUI)
 </p>
 
@@ -150,7 +150,7 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 ## Arcade Module
 
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/Arcade%20Module"><img src="https://i.ibb.co/w6nHrHw/Arcade-Module.png" alt="SS2" border="0" width="600px"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/Arcade%20Module"><img src="assets/Arcade Module.PNG" alt="SS2" border="0" width="600px"></a>
     <br>Creating Still Images and Animations, Moving Objects and more using Python's Arcade Module
 </p>
 
@@ -258,7 +258,7 @@ Understanding Thread Programming in Python.
 
 ## Socket Programming
 <p align="center">
-    <a href="https://github.com/SVijayB/Chat-Room-101"><img src="https://i.ibb.co/p3jgQSk/SS.png" alt="Logo" border="0"></a>
+    <a href="https://github.com/SVijayB/Chat-Room-101"><img src="assets/Socket Programming.PNG" alt="Logo" border="0"></a>
     <br>A Simple GUI based Chat Room Application.
 </p>
 Using sockets in python to create a server and client side to send and recieve messages and files.
@@ -317,7 +317,7 @@ Understanding various functions and operations of the re module in python.
 
 ## Numerical Computation
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="https://i.ibb.co/264zKvv/Num-Py-Logo.png" alt="NumPy Logo" border="0" width="700px"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="assets/NumPy Logo.png" alt="NumPy Logo" border="0" width="700px"></a>
     <br>Understanding the various functions and operations of the NumPy Library in Python.
 </p>
 
@@ -401,7 +401,7 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 ## Graphs
 
 <p align="center">
-    <a href="https://github.com/SVijayB/PyHub/tree/master/Graphs"><img src="https://i.ibb.co/4gTnMfx/Graphs-Logo.png" alt="Graphs Logo" border="0" width="700px"></a>
+    <a href="https://github.com/SVijayB/PyHub/tree/master/Graphs"><img src="assets/Graphs Logo.png" alt="Graphs Logo" border="0" width="700px"></a>
     <br>Using the Matplotlib Library in Python to draw different types of graphs.
 </p>
 
