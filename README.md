@@ -46,6 +46,7 @@
         - [Class Decorators](#class-decorators)
         - [Function Decorators](#function-decorators)
     - [Metaclasses](#metaclasses)
+- [Miscellaneous](#Miscellaneous)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -446,6 +447,11 @@ Creating and understanding metaclasses in OOPS
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Meta%20Classes/Meta%20Classes.py">Meta Classes.py</a>               | Understanding and using meta classes.
 </pre>
 
+## Miscellaneous
+A random collection of program with various functionalities.
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>               | A simple program to help you append data to a list.
+</pre>
 ---
 
 ## Contributing 
