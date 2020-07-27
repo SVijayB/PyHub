@@ -452,8 +452,9 @@ Creating and understanding metaclasses in OOPS
 ## Miscellaneous
 A random collection of program with various functionalities.
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>               | A simple program to help you append data to a list.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>               | Renaming multiple files at once.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>              | A simple program to help you append data to a list.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>          | Renaming multiple files at once.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/XOR%20calculator.py">XOR calculator.py</a>             | Calculate maximal XOR value between two numbers.
 </pre>
 
 ---
