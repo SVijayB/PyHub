@@ -455,6 +455,8 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>              | A simple program to help you append data to a list.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>          | Renaming multiple files at once.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/XOR%20calculator.py">XOR calculator.py</a>             | Calculate maximal XOR value between two numbers.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hastags.py">Hashtags.py</a>                   | Adds a hashtag to each word.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Case%20Swapper.py">Case Swapper.py</a>               | Creates a sequence of altering upper and lower cased string.
 </pre>
 
 ---
