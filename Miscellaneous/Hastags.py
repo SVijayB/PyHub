@@ -4,7 +4,7 @@ Program description :
 Adds a '#' to all the words in the sentence you provide and then copies it to your clipboard.
 Can be used for insta and other social media platforms.
 
-Note : To run this program -> `pip install paperclip` first.
+Note : To run this program -> `pip install pyperclip` first.
 """
 def hastags(value):
     value = value.split()
