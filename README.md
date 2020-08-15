@@ -458,6 +458,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hastags.py">Hashtags.py</a>                   | Adds a hashtag to each word.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Case%20Swapper.py">Case Swapper.py</a>               | Creates a sequence of altering upper and lower cased string.
 • <a href="https://github.com/SVijayB/PyHub/tree/master/Miscellaneous/ReadMe%20List.py">ReadMe List.py</a>                | A README list creator.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Check for happy numbers.
 </pre>
 
 ---
