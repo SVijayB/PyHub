@@ -1,3 +1,5 @@
+# A happy number is a number which eventually reaches 1 when replaced by the sum of the square of each digit. 
+
 def isHappy(n): 
     numbers = []
     numbers.append(n) 
