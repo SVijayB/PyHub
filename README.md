@@ -450,6 +450,12 @@ Creating and understanding metaclasses in OOPS
 
 ---
 
+## Sorting
+Collection of all sorting algorithms.
+• Bubble Sort 
+
+---
+
 ## Miscellaneous
 A random collection of program with various functionalities.
 <pre>
