@@ -78,6 +78,7 @@ Python <a href="https://github.com/SVijayB/PyHub/tree/master/Basics">Basics</a> 
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Arrays.py">Arrays.py</a>                     | Implementing 1D and 2D Arrays.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Copy.py">Copy.py</a>                       | Understanding Normal, Shallow and Deep Copy.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Operators.py">Operators.py</a>                  | Covered all python Operators.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Tuples.py">Tuples.py</a>                  | Implementing Tuples.
 </pre>
 
 ---
