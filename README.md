@@ -452,6 +452,7 @@ Creating and understanding metaclasses in OOPS
 
 ## Sorting
 Collection of all sorting algorithms.
+• Bogo Sort
 • Bubble Sort 
 • Counting Sort 
 • Heap Sort 
