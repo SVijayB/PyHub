@@ -1,3 +1,4 @@
+# function that returns the different letters corresponding to digits.
 def getString(d):
     if d==2:
         return 'abc'
@@ -15,13 +16,15 @@ def getString(d):
         return 'tuv'
     if d==9:
         return 'wxyz'
-    
+ 
+# function that generates the different combinations.
+
 def keypad(n):
     if n==0:
         return [""]
     smallint=n//10
     remainder=n%10
-    smallout=keypad(smallint)
+    smallout=keypad(smallint)     # recursion calls the function again.
     options=getString(remainder)
     output=[]
     for s in smallout:
