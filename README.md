@@ -325,32 +325,32 @@ Understanding various functions and operations of the re module in python.
 ### Numpy
 <br>
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Numerical%20Computations.py">Numerical Computations.py</a>     | Mathematical and Numerical Computations.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Numpy.ipynb">Numpy.ipynb</a>                   | Basic functions and operations using Numpy
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/Numpy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/Numpy/Numerical%20Computations.py">Numerical Computations.py</a>     | Mathematical and Numerical Computations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/Numpy/NumPy.ipynb">Numpy.ipynb</a>                   | Basic functions and operations using Numpy
 </pre>
 
 #### Mathematical Graphs
 
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Sin.py">Sin.py</a>                        | Sin Graph.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Cos.py">Cos.py</a>                        | Cos Graph.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Tan.py">Tan.py</a>                        | Tan Graph.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Comparing%20Sin%20and%20Cos.py">Comparing Sin and Cos.py</a>      | Comparing the Sin and Cos Graphs.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Square%20Root.py">Square Root.py</a>                | Square Root Graph.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy/Graphs/Exponent.py">Exponent.py</a>                   | Exponent Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/assets/Graphs/Sin.py">Sin.py</a>                        | Sin Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/assets/Graphs/Cos.py">Cos.py</a>                        | Cos Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/assets/Graphs/Tan.py">Tan.py</a>                        | Tan Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/assets/Graphs/Comparing%20Sin%20and%20Cos.py">Comparing Sin and Cos.py</a>      | Comparing the Sin and Cos Graphs.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/assets/Graphs/Square%20Root.py">Square Root.py</a>                | Square Root Graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/assets/Graphs/Exponent.py">Exponent.py</a>                   | Exponent Graph.
 </pre>
 
 ### Pandas
 
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Bitcoin.ipynb">Bitcoin.ipynb</a>                 | Bitcoin gross product analysis.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/Pandas/Winequality.ipynb">Winequality.ipynb</a>             | Wine quality frequency graph.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/Pandas/Bitcoin.ipynb">Bitcoin.ipynb</a>                 | Bitcoin gross product analysis.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/Pandas/Winequality.ipynb">Winequality.ipynb</a>             | Wine quality frequency graph.
 </pre>
 
 ### PyTorch
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/NumPy%20%26%20Pandas/PyTorch/PyTorch.ipynb">PyTorch.ipynb</a>                 | Brief introduction to PyTorch.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/PyTorch/PyTorch.ipynb">PyTorch.ipynb</a>                 | Brief introduction to PyTorch.
 </pre>
 
 ---
