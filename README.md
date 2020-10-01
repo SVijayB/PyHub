@@ -476,6 +476,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check for even or odd numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check for prime numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Displays different possible keypad combinations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
 
 </pre>
