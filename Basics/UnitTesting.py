@@ -8,7 +8,7 @@ class MainClass:
         return num1-num2
 
 
-class MainClassTest(unittest.TestCase):
+class UnitTesting(unittest.TestCase):
 
     def test_add(self):
         mainc = MainClass()
