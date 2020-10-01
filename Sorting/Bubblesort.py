@@ -1,3 +1,5 @@
+
+# program to sort a list by using bubble sort
 def bubbleSort(lst):
     for i in range(len(lst)-1):
         for j in range(len(lst)-i-1):
