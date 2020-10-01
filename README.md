@@ -474,6 +474,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/tree/master/Miscellaneous/ReadMe%20List.py">ReadMe List.py</a>                | A README list creator.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Check for happy numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check for even or odd numbers.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check for prime numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Displays different possible keypad combinations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
 
