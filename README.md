@@ -459,6 +459,7 @@ Collection of all sorting algorithms.
 • Merge Sort 
 • Insertion Sort
 • QuickSort
+• Recursive Bubble Sort
 • Selection Sort
 
 ---
