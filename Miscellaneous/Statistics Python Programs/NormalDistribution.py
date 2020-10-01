@@ -1,3 +1,4 @@
+"""Program to calculate normal distribution"""
 import math
 mean, std = 20, 2
 cdf = lambda x: 0.5 * (1 + math.erf((x - mean) / (std * (2 ** 0.5))))

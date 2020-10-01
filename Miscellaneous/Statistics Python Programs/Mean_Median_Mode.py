@@ -1,3 +1,5 @@
+"""Program to calculate mean,mode and medium"""
+
 n=int(input())
 count1=[0]*n
 arr1=input()

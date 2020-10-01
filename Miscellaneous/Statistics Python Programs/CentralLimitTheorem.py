@@ -1,3 +1,5 @@
+"""implementation of central limit theorem"""
+
 import math
 
 x=int(input())

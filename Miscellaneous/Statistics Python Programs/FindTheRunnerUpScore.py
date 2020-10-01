@@ -1,3 +1,5 @@
+"""Find out the runner score of the participants of the game"""
+
 if __name__ == '__main__':
     n = int(raw_input())
     arr = map(int, raw_input().split())

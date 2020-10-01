@@ -1,3 +1,5 @@
+"""Find out the prosibility of coin change"""
+
 import math
 import os
 import random
