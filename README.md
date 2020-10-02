@@ -479,6 +479,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Displays different possible keypad combinations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Image_Compressor.py">Image_Compressor.py</a>           | Image Compression using Machine Learning.
 
 </pre>
 
