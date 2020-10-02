@@ -1,2 +1,5 @@
 .vscode/launch.json
 OOPS/Modules/__pycache__
+.idea/
+.DS_Store
+.DS_Store?
