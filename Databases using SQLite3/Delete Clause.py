@@ -34,4 +34,4 @@ student_record = cursor.fetchall()
 for id,names,marks,grades in student_record:
     print(id,names,marks,grades)
 db.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

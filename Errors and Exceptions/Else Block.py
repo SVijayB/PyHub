@@ -14,4 +14,4 @@ else:
             print("Awesome! You are only",age,"and you've already coded for",exp,"years long!")
         else:
             print("You have a coding experiance of",exp,"years")
-input("Press any key to exit ")
+input("Press Enter key to exit ")

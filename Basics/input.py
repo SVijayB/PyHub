@@ -23,4 +23,4 @@ print(e)
 print(f)
 
 
-end = input("Press any key to exit ")
+end = input("Press Enter key to exit ")

@@ -11,4 +11,4 @@ try:
     s.close()                                   # Closed connection.
 except:
     print("ERROR : MAKE SURE THE SERVER IS RUNNING")
-input("Press any key to exit ")
+input("Press Enter key to exit ")

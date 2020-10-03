@@ -23,4 +23,4 @@ for x,y,z in records:
     print(x,y,z)
 db.commit()
 db.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

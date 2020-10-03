@@ -26,4 +26,4 @@ def rename():
 
 if __name__ == '__main__':
     rename()
-    input("Press enter to exit ")
+    input("Press Enter key to exit ")
