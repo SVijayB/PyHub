@@ -123,6 +123,23 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 
 ---
 
+## Sorting Algorithms
+Collection of all different sorting algorithms.
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/BogoSort.py">BogoSort.py</a>                   | Bogo Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/Bubblesort.py">Bubblesort.py</a>                 | Bubble Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/CountingSort.py">CountingSort.py</a>               | Counting Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/HeapSort.py">HeapSort.py</a>                   | Heap Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/InsertionSort.py">InsertionSort.py</a>              | Insertion Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/MergeSort.py">MergeSort.py</a>                  | Merge Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/QuickSort.py">QuickSort.py</a>                  | Quick Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/RecursiveBubbleSort.py">RecursiveBubbleSort.py</a>        | Bubble sorting using recursion.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/SelectionSort.py">SelectionSort.py</a>              | Selection Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/ShellSort.py">ShellSort.py</a>                  | Shell Sort.
+</pre>
+
+---
+
 ## Graphics
 
 <p align="center">
@@ -450,20 +467,6 @@ Creating and understanding metaclasses in OOPS
 
 ---
 
-## Sorting
-Collection of all sorting algorithms.
-• Bogo Sort
-• Bubble Sort 
-• Counting Sort 
-• Heap Sort 
-• Merge Sort 
-• Insertion Sort
-• QuickSort
-• Recursive Bubble Sort
-• Selection Sort
-
----
-
 ## Miscellaneous
 A random collection of program with various functionalities.
 <pre>
@@ -479,6 +482,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Displays different possible keypad combinations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Image_Compressor.py">Image_Compressor.py</a>           | Image Compression using Machine Learning.
 
 </pre>
 
