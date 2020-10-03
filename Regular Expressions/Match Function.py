@@ -65,4 +65,4 @@ print(x)
 x = re.search(r"Hello\sWorld","Hello World").group()
 print(x)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

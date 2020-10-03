@@ -44,4 +44,4 @@ print("Tuple c is: ", c)
 print("Length of tuple c: ", len(c))
 print()
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

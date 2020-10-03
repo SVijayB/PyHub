@@ -6,4 +6,4 @@ elif(i==100):
     print("The number is equal to 100")
 else:
     print("The number is greater than 100")
-input("Press any key to exit ")
+input("Press Enter key to exit ")

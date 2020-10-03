@@ -20,4 +20,4 @@ print(t.y)
 t.y = 0
 print(t.x)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

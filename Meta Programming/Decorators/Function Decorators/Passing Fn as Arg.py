@@ -7,4 +7,4 @@ def y():
 
 x(y())  # Argument function is executed first and then the calling function.
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

@@ -14,4 +14,4 @@ path = "assets\Pickle.pkl"
 file = open(path,"wb")          # For pickle files use WB - Write and read from a binary file.
 pickle.dump(dict,file)
 file.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")
