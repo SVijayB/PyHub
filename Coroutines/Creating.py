@@ -17,4 +17,4 @@ while(True):
     s = input("Enter the Strings : ")
     x.send(s)               # .send() is a built-in function.
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

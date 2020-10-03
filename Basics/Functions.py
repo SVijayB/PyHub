@@ -35,4 +35,4 @@ par = partial(fun,5,6,7)					#Have to import from functools to access.
 print("Using Partial Function :" , par(7))
 par = partial(fun,6,7)
 print("Changing two arguments : " , par(8,9))
-input("Press any key to exit ")
+input("Press Enter key to exit ")

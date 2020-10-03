@@ -14,4 +14,4 @@ except ValueError:
     print("ERROR : ONLY VALUE BETWEEN 1-10 IS ACCEPTED")
 else:
     print("You have rated Python for",rate)
-input("Press any key to exit ")
+input("Press Enter key to exit ")

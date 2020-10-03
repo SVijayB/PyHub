@@ -6,4 +6,4 @@ database.execute("""CREATE TABLE Student_Records(ID INT PRIMARY KEY NOT NULL,
 NAMES TEXT NOT NULL, MARKS TEXT NOT NULL, GRADES NOT NULL)""")
 print("Columns created in your Database")
 database.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

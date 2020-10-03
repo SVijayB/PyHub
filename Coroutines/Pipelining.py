@@ -35,4 +35,4 @@ f.__next__()
 sentence = input("Enter the sentence : ")
 x(sentence, f)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

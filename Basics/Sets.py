@@ -18,4 +18,4 @@ x.add(5) 			# adds 5 to set x
 print("After adding 5 to set X : " , x)
 y.remove(5) 		#removes 5 from set y
 print("After removing 5 from set Y : " , y)
-input("Press any key to exit ")
+input("Press Enter key to exit ")

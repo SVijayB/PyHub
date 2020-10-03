@@ -13,4 +13,4 @@ for x,y in records:
     print(x,y)
 
 Connection.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

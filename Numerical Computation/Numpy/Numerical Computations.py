@@ -57,4 +57,4 @@ print("Location of maximum element in array :", np.argmax(a))
 print("Minimum element in array :", np.min(a))
 print("Location of Minimum element in array :", np.argmin(a))
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

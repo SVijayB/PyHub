@@ -22,4 +22,4 @@ join(add)
 c = add(a,b)
 print(c)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

@@ -32,4 +32,4 @@ if y:
 else:
     print("Match not found")
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")
