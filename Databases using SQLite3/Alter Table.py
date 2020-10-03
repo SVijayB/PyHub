@@ -7,4 +7,4 @@ query = """ALTER TABLE Students RENAME TO Student_records ADD COLUMN E-mail """
 cursor.execute(query)
 db.commit()
 db.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

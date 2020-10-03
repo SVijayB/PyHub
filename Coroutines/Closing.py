@@ -20,4 +20,4 @@ while(True):
         print("Coroutine Closed")
         break
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

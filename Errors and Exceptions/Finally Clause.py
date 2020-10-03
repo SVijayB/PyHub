@@ -13,4 +13,4 @@ else:
         print("Hey! You are",a,"years old with a coding experiance of",b,"years!")
 finally:
     print("PROGRAM TERMINATED")                 # Irrespective of conditions, this statement is always run.
-input("Press any key to exit ")
+input("Press Enter key to exit ")

@@ -55,4 +55,4 @@ while (True):
     ans = input("Did you recieve a call or not? : ")
     print(str(rec.send(ans)))  
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

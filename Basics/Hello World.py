@@ -1,2 +1,2 @@
 print("Hello World!")
-input("(Press Enter to exit)")
+input("Press any key to exit ")

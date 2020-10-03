@@ -67,4 +67,4 @@ Logical Operators :
 	~	#Logical Not
 	"""
 print("\n",SimOperators2.__doc__)
-input("Press any key to exit ")
+input("Press Enter key to exit ")

@@ -21,4 +21,4 @@ Modes for other files(CSV,JSON):
 The exact same procedure for other files. Just change .txt to .Json or .csv
     """                     
 print(doc.__doc__)
-input("Press any key to exit ")
+input("Press Enter key to exit ")
