@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: |
+            Hey @${{ github.actor }}!, thank you for contributing to open source!
+            Your pull request will be reviewed at the earliest. 
+          issue-message: |
+            Hey @${{ github.actor }}!, thanks for dropping an issue. We will look into this as soon as possible.
