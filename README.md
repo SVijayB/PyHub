@@ -46,6 +46,7 @@
         - [Class Decorators](#class-decorators)
         - [Function Decorators](#function-decorators)
     - [Metaclasses](#metaclasses)
+- [Machine Learning](#machine-learning)
 - [Miscellaneous](#Miscellaneous)
 - [Contributing](#contributing)
 - [License](#license)
@@ -463,6 +464,16 @@ Using Class decorators
 Creating and understanding metaclasses in OOPS
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Meta%20Classes/Meta%20Classes.py">Meta Classes.py</a>               | Understanding and using meta classes.
+</pre>
+
+---
+
+## Machine Learning
+Covering the basics of machine learning using Python
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/LinearRegression.ipynb">LinearRegression.ipynb</a>        | Linear Regression.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/NaiveBayes.ipynb">NaiveBayes.ipynb</a>              | Naive Bayes classifier.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/SupportVectorMachine.ipynb">SupportVectorMachine.ipynb</a>    | Support Vector Machine.
 </pre>
 
 ---
