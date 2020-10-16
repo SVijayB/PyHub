@@ -36,6 +36,7 @@
         - [Graphs](#mathematical-graphs)
     - [Pandas](#pandas)
     - [PyTorch](#pytorch)
+- [Statistics](#statistics)
 - [Comprehensions](#comprehensions)
 - [Generators](#generators)
 - [Databases using SQLite3](#databases-using-sqlite3)
@@ -370,6 +371,19 @@ Understanding various functions and operations of the re module in python.
 ### PyTorch
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/PyTorch/PyTorch.ipynb">PyTorch.ipynb</a>                 | Brief introduction to PyTorch.
+</pre>
+
+---
+
+### Statistics
+Implementing various mathematical statistics theorems using Python.
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Statistics/BinomialProbability.py">BinomialProbability.py</a>        | Compute binomial porbabilities.
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Statistics/CentralLimitTheorem.py">CentralLimitTheorem.py</a>        | Implementation of central limit theorem.
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Statistics/CoinChangeMaxPossibilities.py">CoinChangePossibilities.py</a>    | Find out possibility of coin change.
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Statistics/Mean_Median_Mode.py">Mean_Median_Mode.py</a>           | Calculate mean, mode and medium.
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Statistics/NormalDistribution.py">NormalDistribution.py</a>         | Calculate normal distribution .
 </pre>
 
 ---
