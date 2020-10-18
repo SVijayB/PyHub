@@ -383,7 +383,7 @@ Implementing various mathematical statistics theorems using Python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Statistics/CentralLimitTheorem.py">CentralLimitTheorem.py</a>        | Implementation of central limit theorem.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Statistics/CoinChangeMaxPossibilities.py">CoinChangePossibilities.py</a>    | Find out possibility of coin change.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Statistics/Mean_Median_Mode.py">Mean_Median_Mode.py</a>           | Calculate mean, mode and medium.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Statistics/NormalDistribution.py">NormalDistribution.py</a>         | Calculate normal distribution .
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Statistics/NormalDistribution.py">NormalDistribution.py</a>         | Calculate normal distribution.
 </pre>
 
 ---
@@ -498,17 +498,19 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>              | A simple program to help you append data to a list.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>          | Renaming multiple files at once.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/XOR%20calculator.py">XOR calculator.py</a>             | Calculate maximal XOR value between two numbers.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hastags.py">Hashtags.py</a>                   | Adds a hashtag to each word.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hashtags.py">Hashtags.py</a>                   | Adds a hashtag to each word.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Case%20Swapper.py">Case Swapper.py</a>               | Creates a sequence of altering upper and lower cased string.
 • <a href="https://github.com/SVijayB/PyHub/tree/master/Miscellaneous/ReadMe%20List.py">ReadMe List.py</a>                | A README list creator.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Check for happy numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check for even or odd numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check for prime numbers.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Displays different possible keypad combinations.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Displays the minimum value of array.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">Keypad_combinations.py</a>        | Displays different possible keypad combinations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">Print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Image_Compressor.py">Image_Compressor.py</a>           | Image Compression using Machine Learning.
-
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Miscellaneous/Huffman_Coding.py">Huffman_Coding.py</a>             | Huffman coding implementation.
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | A simple game similar to rock paper scissors.
+• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Miscellaneous/tictactoe.py">Tictactoe.py</a>                  | Building tic tac toe using Python.
 </pre>
 
 ---
