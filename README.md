@@ -508,9 +508,9 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">Print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Image_Compressor.py">Image_Compressor.py</a>           | Image Compression using Machine Learning.
-• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Miscellaneous/Huffman_Coding.py">Huffman_Coding.py</a>             | Huffman coding implementation.
-• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | A simple game similar to rock paper scissors.
-• <a href="https://github.com/SVijayB/PyHub/blob/ReadMe-File-Update/Miscellaneous/tictactoe.py">Tictactoe.py</a>                  | Building tic tac toe using Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Huffman_Coding.py">Huffman_Coding.py</a>             | Huffman coding implementation.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | A simple game similar to rock paper scissors.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/tictactoe.py">Tictactoe.py</a>                  | Building tic tac toe using Python.
 </pre>
 
 ---
