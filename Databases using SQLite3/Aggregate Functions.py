@@ -25,4 +25,4 @@ fun(query4)
 query3 = """SELECT SUM(MARKS) FROM Student_records""" # Finds sum of all marks
 fun(query3)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

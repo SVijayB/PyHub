@@ -11,6 +11,6 @@ s.send(fileName.encode())
 info = s.recv(1024)     # Getting the info from the file.
 print(info.decode())
 s.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")
 
  

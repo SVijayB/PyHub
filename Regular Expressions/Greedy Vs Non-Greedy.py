@@ -13,4 +13,4 @@ print("Non Greedy. Matches the first and next and then prints it : ")
 x = re.match(r'<.*?>',sequence1).group()            # Non-Greedy
 print(x)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

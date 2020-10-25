@@ -19,4 +19,4 @@ def polynomial(a,b,c):
 expression = polynomial(1,2,3)
 print(expression(4))
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

@@ -12,4 +12,4 @@ def mainfn(b):
 name = input("Enter your name : ")
 mainfn(name)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

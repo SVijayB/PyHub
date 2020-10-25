@@ -6,4 +6,4 @@ try:
     database.close()
 except:
     print("Connection ERROR")
-input("Press any key to close ")
+input("Press Enter key to exit ")

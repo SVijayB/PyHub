@@ -23,5 +23,5 @@ except :
     print("UNKNOWN ERROR! PLEASE CHECK YOUR VALUES")
 
 print("\nYou can also use except(error1,error2) to catch multiple exceptions in a single parameter")
-input("Press any key to exit ")
+input("Press Enter key to exit ")
 

@@ -26,4 +26,4 @@ cursor.execute("""INSERT INTO Student_Records(ID,NAMES,MARKS,GRADES)VALUES(?,?,?
 print("Records have been added")
 connection.commit()
 connection.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

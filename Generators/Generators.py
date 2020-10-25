@@ -9,4 +9,4 @@ def reverse(string):
 for char in reverse("Vijay"):
     print(char)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

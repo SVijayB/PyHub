@@ -13,4 +13,4 @@ print(x)
 # We can also print float values.
 x = random.uniform(0,10.0)      # Prints Floating point values
 print(x)
-input("Press any key to exit ")
+input("Press Enter key to exit ")

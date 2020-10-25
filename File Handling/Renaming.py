@@ -11,4 +11,4 @@ The rename function takes two arguments, the first is the path to the file you w
 Second is the name of the file you want to change it to(Make sure you add path as well).
     """
 print(doc.__doc__)
-input("Press any key to exit ")
+input("Press Enter key to exit ")
