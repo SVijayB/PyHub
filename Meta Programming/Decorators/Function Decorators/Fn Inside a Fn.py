@@ -28,4 +28,4 @@ b = int(input("Enter the second term : "))
 answer = addition(a,b)
 print(answer)
 
-input("Press any key to exit ")
+input("Press Enter key to exit ")

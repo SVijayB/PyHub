@@ -12,4 +12,4 @@ a = [[1,2],[3,4],[5,6],[7,8,9],[10,11,12]]
 print("New 2D Array A :" , a)
 print("Printing elements of A(a[1][1]) :" ,a[1][1])
 print("Printing elements of A(a[4][2]) :" ,a[4][2])
-input("Press any key to exit ")
+input("Press Enter key to exit ")

@@ -29,4 +29,4 @@ student_record = cursor.fetchall()
 for names,marks in student_record:
     print(names,marks)
 connection.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")

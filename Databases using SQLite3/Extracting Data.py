@@ -32,4 +32,4 @@ while True:
 connection.close()
 print("\nNotice that it prints from the 2nd record, this is because we already printed the first one a while ago.",
 "thus, the cursor points to the very next record.")
-input("Press any key to exit ")
+input("Press Enter key to exit ")

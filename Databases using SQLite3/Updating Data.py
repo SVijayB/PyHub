@@ -18,4 +18,4 @@ for id,name,mark,grade in records:
     print(id,name,mark,grade)
 connection.commit()
 connection.close()
-input("Press any key to exit ")
+input("Press Enter key to exit ")
