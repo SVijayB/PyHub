@@ -511,6 +511,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Huffman_Coding.py">Huffman_Coding.py</a>             | Huffman coding implementation.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | A simple game similar to rock paper scissors.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/tictactoe.py">Tictactoe.py</a>                  | Building tic tac toe using Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/VowelDict.py">VowelDict.py</a>                  | Count vowels in words and append them to a dictionary.
 </pre>
 
 ---

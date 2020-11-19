@@ -24,4 +24,8 @@ x = dict.keys()
 print(x)
 y = dict.values()
 print(y)
+temp1 = "hello"
+temp2 = "wow"
+dict.update({temp1:temp2})
+print(dict)
 input("Press Enter key to exit ")
