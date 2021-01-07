@@ -512,6 +512,8 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | A simple game similar to rock paper scissors.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/tictactoe.py">Tictactoe.py</a>                  | Building tic tac toe using Python.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/VowelDict.py">VowelDict.py</a>                  | Count vowels in words and append them to a dictionary.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Relations.py">Relations.py</a>                  | Find the reflexive, symmetric and transitive relations.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/YouTube%20downloader.py">YouTube Downloader.py</a>         | Download youtube videos, playlists and audio.
 </pre>
 
 ---
