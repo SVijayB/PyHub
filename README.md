@@ -514,6 +514,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/VowelDict.py">VowelDict.py</a>                  | Count vowels in words and append them to a dictionary.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Relations.py">Relations.py</a>                  | Find the reflexive, symmetric and transitive relations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/YouTube%20downloader.py">YouTube Downloader.py</a>         | Download youtube videos, playlists and audio.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/URL_shortener.py">URL_shortener.py</a>              | Shortens your URLs.
 </pre>
 
 ---

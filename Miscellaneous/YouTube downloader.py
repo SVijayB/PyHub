@@ -1,3 +1,5 @@
+# Download YouTube videos, playlists and music.
+
 from pytube import YouTube
 from pytube import Playlist
 

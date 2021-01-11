@@ -1,4 +1,5 @@
 #import the required function form math module.
+
 from math import sqrt
 
 #function definition to check whether a number is prime or not.
