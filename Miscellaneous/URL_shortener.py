@@ -1,3 +1,5 @@
+# Shorten your URLs.
+
 import pyshorteners
 
 # Single URL

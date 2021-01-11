@@ -1,3 +1,5 @@
+# Obtain reflexive, symmetric and transitive relations from a given set of numbers.
+
 def reflexive(numbers):
     print("REFLEXIVE = [{",end = "\n  ")
     for i in numbers:
