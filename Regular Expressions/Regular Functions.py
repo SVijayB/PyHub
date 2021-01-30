@@ -16,7 +16,7 @@ re.escape(pattern)                   -> Escapes all characters other than ascii 
 print("Using the re.compile function")
 pattern = "Hello world"
 x = re.compile(pattern)
-y = x.match("Hello world")
+y = x.match("Hello world I am vijay")
 if (y):
     print("Strings match")
 else:
@@ -27,7 +27,7 @@ pattern = "Hello world"
 x = re.match(pattern,"Hello World")
 if (y):
     print("Strings match")
-else:
+else:   
     print("Strings do not match")
 
 print("\nUsing the Split Function : ")
