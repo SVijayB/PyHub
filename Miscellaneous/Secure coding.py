@@ -1,3 +1,5 @@
+# https://devopedia.org/secure-coding-with-python
+
 import secrets
 import string
 import sys
