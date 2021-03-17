@@ -4,12 +4,13 @@ def x(sentence, next_coroutine):
         next_coroutine.send(temp)
     next_coroutine.close()
 
+
 def u(next_coroutine=None):
     pattern = input("Enter the pattern you are searching for : ")
     print("Searching String {}".format(pattern))
     try:
         while True:
-            temp = (yield)
+            temp = yield
             if pattern in temp:
                 next_coroutine.send(temp)
             else:
@@ -17,10 +18,11 @@ def u(next_coroutine=None):
     except GeneratorExit:
         print("Completed Matching Process")
 
+
 def printing():
     try:
         while True:
-            temp = (yield)
+            temp = yield
             print(temp + " is present in the string")
     except GeneratorExit:
         print("Completed Pipelining")

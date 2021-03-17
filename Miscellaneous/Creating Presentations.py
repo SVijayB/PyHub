@@ -18,9 +18,9 @@ Second_Layout = X.slide_layouts[5]
 second_slide = X.slides.add_slide(Second_Layout)
 second_slide.shapes.title.text = "Second slide"
 
-textbox = second_slide.shapes.add_textbox(Inches(3), Inches(1.5),Inches(3), Inches(1))
+textbox = second_slide.shapes.add_textbox(Inches(3), Inches(1.5), Inches(3), Inches(1))
 textframe = textbox.text_frame
-paragraph = textframe.add_paragraph() 
+paragraph = textframe.add_paragraph()
 paragraph.text = "This is a paragraph in the second slide!"
 
 X.save("First_presentation.pptx")

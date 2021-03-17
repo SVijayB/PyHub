@@ -1,5 +1,7 @@
-print("Tuples in Python are ordered collection of elements. They are immutable." +
-"They can have Strings, numbers, Float, and more or a combination of all of them")
+print(
+    "Tuples in Python are ordered collection of elements. They are immutable."
+    + "They can have Strings, numbers, Float, and more or a combination of all of them"
+)
 print()
 
 print("For tuples in python, we use round brackets")
@@ -20,7 +22,9 @@ print("Return value of a new tuple can be specified by a range.")
 print("Index 2 to 5 in a: ", a[2:4])
 print()
 
-print("To change values in a tuple, convert the tuple into a list and make some changes.")
+print(
+    "To change values in a tuple, convert the tuple into a list and make some changes."
+)
 c = ("red", "orange", "blue")
 d = list(c)
 d[1] = "yellow"

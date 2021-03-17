@@ -1,6 +1,8 @@
 import re
 import string
-print("""
+
+print(
+    """
 Different Regular Functions are : 
 re.compile(pattern, flags)           -> Compiles the pattern to be matched
 re.search(pattern, string, flags)    -> Searches through the string for exact match
@@ -11,41 +13,48 @@ re.finditer(pattern, string, flags)  -> Returns the string as an iterable object
 re.sub(pattern, repl, string, count) -> Replaces the string with the pattern
 re.subn(pattern, repl, string, count)-> Does the same thing as re.sub but returns it in a tuple(string and count)
 re.escape(pattern)                   -> Escapes all characters other than ascii characters
-""")
+"""
+)
 
 print("Using the re.compile function")
 pattern = "Hello world"
 x = re.compile(pattern)
 y = x.match("Hello world I am vijay")
-if (y):
+if y:
     print("Strings match")
 else:
     print("Strings do not match")
 
 print("\nMatching without using the compile function : ")
 pattern = "Hello world"
-x = re.match(pattern,"Hello World")
-if (y):
+x = re.match(pattern, "Hello World")
+if y:
     print("Strings match")
-else:   
+else:
     print("Strings do not match")
 
 print("\nUsing the Split Function : ")
-x = re.split("\W+","Hello,World")   # W to start from the left and + to keep moving forward.
+x = re.split(
+    "\W+", "Hello,World"
+)  # W to start from the left and + to keep moving forward.
 print(x)
-x = re.split("(\W+)","Hello,World")   # W to start from the left and + to keep moving forward, braces will print ,
+x = re.split(
+    "(\W+)", "Hello,World"
+)  # W to start from the left and + to keep moving forward, braces will print ,
 print(x)
 
 print("\nUsing the findall function")
-x = re.findall(r"Hello","Hello World")  # Checks and prints matches.
+x = re.findall(r"Hello", "Hello World")  # Checks and prints matches.
 print(x)
 
 print("\nUsing the sub function")
-x = re.sub(r"there","World","Hello there. Python is fun.")  # Checks if there is present and then replaces it with world.
+x = re.sub(
+    r"there", "World", "Hello there. Python is fun."
+)  # Checks if there is present and then replaces it with world.
 print(x)
 
 print("\nUsing the subn function")
-x = re.subn(r"there","World","Hello there. Python is fun. Hello there")
+x = re.subn(r"there", "World", "Hello there. Python is fun. Hello there")
 print(x)
 
 print("\nUsing the escape function")
@@ -59,4 +68,4 @@ pattern = "+-*$^&#"
 x = re.escape(pattern)
 print(x)
 
-input("Press Enter key to exit ") 
+input("Press Enter key to exit ")

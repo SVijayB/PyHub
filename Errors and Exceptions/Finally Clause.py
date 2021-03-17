@@ -7,10 +7,18 @@ try:
 except:
     print("ERROR : PLEASE ENTER THE CORRECT VALUES")
 else:
-    if(a<15 and b>=1):
-        print("Hey! You are only",a,"years old and you already have coding experiance of",b,"years!")
+    if a < 15 and b >= 1:
+        print(
+            "Hey! You are only",
+            a,
+            "years old and you already have coding experiance of",
+            b,
+            "years!",
+        )
     else:
-        print("Hey! You are",a,"years old with a coding experiance of",b,"years!")
+        print("Hey! You are", a, "years old with a coding experiance of", b, "years!")
 finally:
-    print("PROGRAM TERMINATED")                 # Irrespective of conditions, this statement is always run.
+    print(
+        "PROGRAM TERMINATED"
+    )  # Irrespective of conditions, this statement is always run.
 input("Press Enter key to exit ")

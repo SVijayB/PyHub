@@ -1,20 +1,26 @@
 # A generator is a function that has a yield statement instead of a return statement.
 # It is used to create iterables.
 print("Without Using Yield Statemenet")
+
+
 def x():
     return "a"
     return "b"
     return "c"
+
 
 y = x()
 for i in range(3):
     print(y)
 
 print("\nUsing the Yield Statemenet")
+
+
 def x():
     yield "a"
     yield "b"
     yield "c"
+
 
 y = x()
 for i in range(3):
@@ -39,20 +45,23 @@ while (True):
 """
 
 print("\nUsing the Yield Statemenet")
+
+
 def calls_recieved(recieved=None):
     a = 0
-    while (True):
+    while True:
         if recieved == "yes":
-            a = a+1
+            a = a + 1
             recieved = yield a
         else:
             recieved = yield a
 
+
 rec = calls_recieved()
 rec.__next__()
-       
-while (True):
+
+while True:
     ans = input("Did you recieve a call or not? : ")
-    print(str(rec.send(ans)))  
+    print(str(rec.send(ans)))
 
 input("Press Enter key to exit ")

@@ -1,4 +1,6 @@
-print("\nIn python everything is an object. Every initialization and declaration in python is an object.")
+print(
+    "\nIn python everything is an object. Every initialization and declaration in python is an object."
+)
 print("Example : ")
 a = 5
 b = "Hey"

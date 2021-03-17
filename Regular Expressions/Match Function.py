@@ -12,14 +12,17 @@ else:
 # Group Function
 sequence = "Hello World What Is Going On"
 x = re.match(r"(Hello) (World) (What)", sequence)
-if (x):
-    print(x.group())    # Without argument it returns the entire match word (It has a fixed arg = 0)
+if x:
+    print(
+        x.group()
+    )  # Without argument it returns the entire match word (It has a fixed arg = 0)
     print(x.group(0))
     print(x.group(1))
     print(x.group(2))
-    print(x.group(1,3))
+    print(x.group(1, 3))
 
-print("""
+print(
+    """
 Specific Characters : 
 .               -> Matches every character except new line characters.
 \w              -> Matches any single character digit or underscore.
@@ -57,12 +60,13 @@ $               -> Matches pattern at the end of the string.
 (?#...)
 (?=...)
 (?!...)
-""")
+"""
+)
 
-# Backslash  Case : 
-x = re.search(r"Hello\\sWorld","Hello\sWorld").group()
+# Backslash  Case :
+x = re.search(r"Hello\\sWorld", "Hello\sWorld").group()
 print(x)
-x = re.search(r"Hello\sWorld","Hello World").group()
+x = re.search(r"Hello\sWorld", "Hello World").group()
 print(x)
 
 input("Press Enter key to exit ")

@@ -10,20 +10,21 @@ Note : The program renames only image files(.jpg) at the moment. Other extension
 worked upon later.
 """
 
+
 def rename():
     i = 0
     path = input("Enter the path of the folder in which files are present \n> ")
     name = input("Enter the name to which you want to rename all the files into \n> ")
     for filename in os.listdir(path):
         dest = name + str(i) + ".jpg"
-        initial = path + "\\" +filename
-        final = path + "\\" +dest
+        initial = path + "\\" + filename
+        final = path + "\\" + dest
         os.rename(initial, final)
         i = i + 1
 
     print("Files have been renamed succesfully!!")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     rename()
     input("Press Enter key to exit ")

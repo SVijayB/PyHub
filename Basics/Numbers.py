@@ -1,11 +1,11 @@
-import cmath        #Used for complex numbers.
+import cmath  # Used for complex numbers.
 
 x = 55.5
-print(int(x))       #Gets only the integer value.
+print(int(x))  # Gets only the integer value.
 print(x)
 
-x = 5               #Value of x is reinitialized.
+x = 5  # Value of x is reinitialized.
 y = 6
-z = complex(x,y)    #x is the real number and y is the imaginary number.
+z = complex(x, y)  # x is the real number and y is the imaginary number.
 print(z)
 input("Press Enter key to exit ")

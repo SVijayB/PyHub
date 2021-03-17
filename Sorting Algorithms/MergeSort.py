@@ -1,4 +1,4 @@
-def merge(lst1,lst2):
+def merge(lst1, lst2):
     lst = []
     while lst1 and lst2:
         if lst1[0] < lst2[0]:
@@ -17,13 +17,15 @@ def merge(lst1,lst2):
         lst.extend(lst2)
     return lst
 
+
 def mergeSort(lst):
     if len(lst) <= 1:
         return lst
-    mid = int(len(lst)/2)
+    mid = int(len(lst) / 2)
     left = mergeSort(lst[:mid])
     right = mergeSort(lst[mid:])
-    return merge(left,right)
+    return merge(left, right)
 
-lst = list(map(int,raw_input('Enter the number list: ').split()))
+
+lst = list(map(int, raw_input("Enter the number list: ").split()))
 print(mergeSort(lst))
