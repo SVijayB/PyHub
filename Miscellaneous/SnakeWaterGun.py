@@ -1,5 +1,6 @@
 # Snake Water Gun Game Devlopement
 import random
+
 NoOfRound = 10
 user = 0
 comp = 0
@@ -10,11 +11,15 @@ while NoOfRound > 0:
     c = input("Enter Your Choice:-")
     choice = c.capitalize()
 
-    if choice in ('S', 'W', 'G'):
+    if choice in ("S", "W", "G"):
 
         n = random.randint(1, 3)
 
-        if (choice == 'S' and n == 1) or (choice == 'W' and n == 2) or (choice == 'G' and n == 3):
+        if (
+            (choice == "S" and n == 1)
+            or (choice == "W" and n == 2)
+            or (choice == "G" and n == 3)
+        ):
             print("Draw")
 
         elif choice == "S":
@@ -58,14 +63,6 @@ else:
 print("---------------------------------")
 
 print("Scoreboard")
-print("Your Score:-", user, "\nComputer's Score:-", comp )
+print("Your Score:-", user, "\nComputer's Score:-", comp)
 
 print("---------------------------------")
-
-
-
-
-
-
-
-

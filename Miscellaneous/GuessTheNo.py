@@ -22,6 +22,6 @@ while NoOfGuess > 0:
 
     print("---------------------------------")
     if NoOfGuess == 0:
-        print("Game Over! The Number was ",n)
+        print("Game Over! The Number was ", n)
     else:
         print("No of Guesses left: ", NoOfGuess)

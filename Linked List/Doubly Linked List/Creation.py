@@ -1,25 +1,27 @@
 class Node:
-    def __init__(self,data):
+    def __init__(self, data):
         self.data = data
         self.next = None
         self.prev = None
+
 
 class DoublyLinkedList:
     def __init__(self):
         self.head = None
 
-    def add(self,data):
+    def add(self, data):
         a = Node(data)
         a.next = self.head
-        if(self.head!=None):
+        if self.head != None:
             self.head.prev = a
-        self.head = a 
+        self.head = a
 
     def printing(self):
         temp = self.head
-        while(temp!=None):
+        while temp != None:
             print(temp.data)
             temp = temp.next
+
 
 print()
 dll = DoublyLinkedList()

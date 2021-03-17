@@ -49,7 +49,7 @@ def find_k_means(X, K, max_iters=10):
 
 
 # Get input Image
-image_path = './test_goku.png'
+image_path = "./test_goku.png"
 
 
 # Load Image from the path and return as a Numpy array
@@ -60,7 +60,7 @@ def load_image(path):
 
 image = load_image(image_path)
 w, h, d = image.shape
-print(F'Image found with width: {w}, height: {h}, depth: {d}')
+print(f"Image found with width: {w}, height: {h}, depth: {d}")
 
 X = image.reshape((w * h, d))
 K = 12  # The desired number of colors in the compressed image
@@ -74,12 +74,12 @@ idx = np.array(idx, dtype=np.uint8)
 X_reconstructed = np.array(colors[idx, :] * 255, dtype=np.uint8).reshape((w, h, d))
 compressed_image = Image.fromarray(X_reconstructed)
 
-compressed_image.save('out.png')
+compressed_image.save("out.png")
 
 
 # Getting file stats
 def convert_bytes(num):
-    for x in ['bytes', 'KB', 'MB', 'GB', 'TB']:
+    for x in ["bytes", "KB", "MB", "GB", "TB"]:
         if num < 1024.0:
             return "%3.1f %s" % (num, x)
         num /= 1024.0
@@ -91,5 +91,5 @@ def file_size(file_path):
         return convert_bytes(file_info.st_size)
 
 
-print(F"Original Image size is {file_size(image_path)}")
-print(F"After Compression, the size is {file_size(r'out.png')}")
+print(f"Original Image size is {file_size(image_path)}")
+print(f"After Compression, the size is {file_size(r'out.png')}")

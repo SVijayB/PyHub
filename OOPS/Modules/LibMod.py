@@ -2,5 +2,5 @@
 import math
 
 num = int(input("Enter number to find Square root : "))
-y = (math.sqrt(num))        # Accessing Module math.
+y = math.sqrt(num)  # Accessing Module math.
 print(y)

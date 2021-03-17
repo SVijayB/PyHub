@@ -18,21 +18,24 @@ Example : lo = 3, hi = 5, k = 6.
 
 The maximal usable XORed value is 6 because it is the maximal value that is less thank or equal to the limit k = 6.
 """
+
+
 def calculator(lo, hi, k):
     a = lo
     b = a + 1
     max = -1
-    while(a<b and b<=hi):
-        while(b<=hi):
-            value = (a^b)
+    while a < b and b <= hi:
+        while b <= hi:
+            value = a ^ b
             print(a, "xor", b, "=", value)
-            if(value > max and value <= k):
+            if value > max and value <= k:
                 max = value
             b = b + 1
         a = a + 1
         b = a + 1
     print("Maximal value is", max)
-    
+
+
 if __name__ == "__main__":
     lo = int(input("Enter one number : "))
     hi = int(input("Enter the second number : "))

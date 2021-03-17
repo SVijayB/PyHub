@@ -2,17 +2,19 @@ from threading import Thread
 import threading
 from time import sleep
 
+
 class MyThread(Thread):
     def run(self):
         print("Pyramid : ")
         print(threading.current_thread().getName())
-        for x in range(0,5):
-            for j in range(0,x+1):
-                print("*",end=" ")
+        for x in range(0, 5):
+            for j in range(0, x + 1):
+                print("*", end=" ")
             print("\r")
 
+
 obj = MyThread()
-obj.start()         # Part of the thread we created. From the inherited class of Thread.
+obj.start()  # Part of the thread we created. From the inherited class of Thread.
 sleep(1)
 input("Enter any Key to exit ")
 

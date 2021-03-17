@@ -5,6 +5,7 @@ class parent:
     def parentmethod2(self):
         print("Calling the second parent method")
 
+
 class child(parent):
     def childmethod(self):
         print("Calling the Child Method")
@@ -12,14 +13,15 @@ class child(parent):
     def parentmethod2(self):
         print("Modified parent method 2")
 
+
 p = parent()
 c = child()
 
-p.parentmethod()        # Accessing Parent Method
-c.childmethod()         # Accessing Child Method
-c.parentmethod()        # Accessing the inherited parent method from child class.  
-p.parentmethod2()       # Accessing the 2nd parent method from parent class
-c.parentmethod2()       # Accessing the 2nd parent method from the child class after modification
+p.parentmethod()  # Accessing Parent Method
+c.childmethod()  # Accessing Child Method
+c.parentmethod()  # Accessing the inherited parent method from child class.
+p.parentmethod2()  # Accessing the 2nd parent method from parent class
+c.parentmethod2()  # Accessing the 2nd parent method from the child class after modification
 
 print("\nView code and read comments for better understanding.")
 

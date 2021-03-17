@@ -1,40 +1,44 @@
 # Obtain reflexive, symmetric and transitive relations from a given set of numbers.
 
+
 def reflexive(numbers):
-    print("REFLEXIVE = [{",end = "\n  ")
+    print("REFLEXIVE = [{", end="\n  ")
     for i in numbers:
         for j in numbers:
-            if(i==j):
+            if i == j:
                 print("(" + str(i) + "," + str(j) + ")", end="\n  ")
     print("}]")
 
+
 def symmetric(numbers):
-    print("SYMMETRIC = [",end = "\n")
+    print("SYMMETRIC = [", end="\n")
     for i in range(0, len(numbers)):
-        for j in range(i+1, len(numbers)):
-            print("  {",end = " ")
+        for j in range(i + 1, len(numbers)):
+            print("  {", end=" ")
             print("(" + str(numbers[i]) + "," + str(numbers[j]) + ")", end=" ")
             print("(" + str(numbers[j]) + "," + str(numbers[i]) + ")", end=" ")
             print("}")
     print("]")
 
+
 def transitive(numbers):
-    print("TRANSITIVE = [",end = "\n")
+    print("TRANSITIVE = [", end="\n")
     for i in range(0, len(numbers)):
-        for j in range(i+1, len(numbers)):
-            for k in range(j+1, len(numbers)):
-                print("  {",end = " ")
+        for j in range(i + 1, len(numbers)):
+            for k in range(j + 1, len(numbers)):
+                print("  {", end=" ")
                 print("(" + str(numbers[i]) + "," + str(numbers[j]) + ")", end=" ")
                 print("(" + str(numbers[j]) + "," + str(numbers[k]) + ")", end=" ")
                 print("(" + str(numbers[i]) + "," + str(numbers[k]) + ")", end=" ")
                 print("}")
     print("]")
 
+
 if __name__ == "__main__":
     n = int(input("How many elements in the set?\n> "))
     numbers = []
     print("Enter numbers : ")
-    for i in range (n):
+    for i in range(n):
         x = int(input("> "))
         numbers.append(x)
 
