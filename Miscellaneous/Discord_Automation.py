@@ -75,6 +75,22 @@ def Create_channels():
         if keyboard.is_pressed("esc"):
             break
 
+def rename():
+    i = 12
+    while True:
+        if keyboard.is_pressed("q"):
+            pyautogui.hotkey('ctrl', 'a')
+            pyautogui.hotkey('backspace')
+            time.sleep(0.5)
+            pyautogui.typewrite("TEAM " + str(i))
+            pyautogui.click(1410, 965)
+            time.sleep(0.5)
+            pyautogui.hotkey('esc')
+            i = i + 1
+            pyautogui.moveTo(283, 471)
+        if keyboard.is_pressed("w"):
+            break
+
 
 if __name__ == "__main__":
-    Create_channels()
+    rename()
