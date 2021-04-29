@@ -44,7 +44,7 @@ logo = """
 """
 
 def randomiser():
-    themes = ["Theme 1","Theme 2","Theme 3","Theme 4","Theme 5","Theme 6"]
+    themes = ["Fintech","Automation Tools","Healthtech","Transport","Cyber Security","Education"]
     random_themes = []
     themes_dict = {}
     for i in range(6):
@@ -96,3 +96,6 @@ if __name__ == "__main__":
             print("Good luck to all the participants! Thank you for taking part in TechEden.")
             input()
             break
+
+# Future scope: Add in module to directly append team name with theme picked to an excel sheet.
+# Build a simple discord bot that takes in the team name -> Checks for the role and then provides them a random theme.
