@@ -124,17 +124,12 @@ def Message():
 
 # Use below function to save a huge amount of time -> typewrite takes time and causes Discord to lag/freeze.
 def paste():
-    i = 1
     while(True):
         if keyboard.is_pressed("f2"):
             pyautogui.keyDown('ctrl')
             pyautogui.press('v')
             pyautogui.keyUp('ctrl') 
-            for x in range(4):
-                pyautogui.press('backspace')
-            pyautogui.typewrite(str(i) + "**.")
             pyautogui.press('enter')
-            i = i + 1
         if keyboard.is_pressed("esc"):
             break
         
