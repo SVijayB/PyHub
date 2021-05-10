@@ -1,5 +1,6 @@
 import tkinter as tk
 import random
+import csv
 import os
 
 black = "\033[1;0;40m"
@@ -61,9 +62,10 @@ def picker(themes):
         if(i == 0 or i == 3):
             yellow(logo)
         if(i == 1 or i == 4):
-            pink(logo)
+            pink(logo) 
         if(i == 2 or i == 5):
             red(logo)
+        team_name = int(input("Enter your team number\n> "))
         keys = list(themes.keys())
         print("Pick any one of these numbers", end = " ")
         keys_string = ''.join(str(keys))
@@ -79,9 +81,30 @@ def picker(themes):
             print("Your theme is ", end="")
             green(str(themes[choice]) + ".")
             print("Good luck!")
+        writer(team_name, themes[choice])
         del themes[choice]
         input()
         os.system("cls")
+
+def writer(name,theme):
+
+    fields = ["TEAM NUMBER","THEME"]
+    try:
+        open("Theme_Generator.csv", "r")
+    except:
+        with open("Theme_Generator.csv", "a+") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=fields)
+            writer.writeheader()
+
+    with open("Theme_Generator.csv", "a+") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fields)
+        value = [
+            {
+                "TEAM NUMBER": name,
+                "THEME": theme,
+            }
+        ]
+        writer.writerows(value)
 
 if __name__ == "__main__":
     while(True):
@@ -97,5 +120,4 @@ if __name__ == "__main__":
             input()
             break
 
-# Future scope: Add in module to directly append team name with theme picked to an excel sheet.
 # Build a simple discord bot that takes in the team name -> Checks for the role and then provides them a random theme.
