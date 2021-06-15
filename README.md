@@ -527,7 +527,7 @@ Also, thanks for contributing to Open-source!
 
 ## License
 
-This repository is under The MIT License. Read the [LICENSE](https://github.com/SVijayB/PyHub/blob/master/LICENSE) file for more information.
+This repository is under the GNU General Public Version 3 License. Read the [LICENSE](https://github.com/SVijayB/PyHub/blob/master/LICENSE) file for more information.
 
 <!--# Haven't updated readme file since Jan 11, 2021. Will have to get to it soon. Self reminder to update it when you see this.
 Probably work on a method to automate it. If you find the time that is.-->
