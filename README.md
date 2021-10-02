@@ -135,6 +135,7 @@ Collection of all different sorting algorithms.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/InsertionSort.py">InsertionSort.py</a>              | Insertion Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/MergeSort.py">MergeSort.py</a>                  | Merge Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/QuickSort.py">QuickSort.py</a>                  | Quick Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/Radix%20Sort.py">RadixSort.py</a>                  | Radix Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/RecursiveBubbleSort.py">RecursiveBubbleSort.py</a>        | Bubble sorting using recursion.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/SelectionSort.py">SelectionSort.py</a>              | Selection Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/ShellSort.py">ShellSort.py</a>                  | Shell Sort.
@@ -504,6 +505,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Check for happy numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check for even or odd numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check for prime numbers.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/FizzBuzz.py">FizzBuzz.py</a>              | Prints FizzBuzz, Fizz and Buzz to conditions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">Keypad_combinations.py</a>        | Displays different possible keypad combinations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">Print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
