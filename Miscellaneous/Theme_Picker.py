@@ -33,6 +33,7 @@ def pink(message):
 def cyan(message):
     print("\033[1;36;40m" + message + black)
 
+
 logo = """
  _____              _      _____      _              
 |_   _|            | |    |  ___|    | |             
@@ -44,31 +45,40 @@ logo = """
 
 """
 
+
 def randomiser():
-    themes = ["Fintech","Automation Tools","Healthtech","Transport","Cyber Security","Education"]
+    themes = [
+        "Fintech",
+        "Automation Tools",
+        "Healthtech",
+        "Transport",
+        "Cyber Security",
+        "Education",
+    ]
     random_themes = []
     themes_dict = {}
     for i in range(6):
         x = random.choices(themes)[0]
         random_themes.append(x)
         themes.remove(x)
-    num_set = [1,2,3,4,5,6]
+    num_set = [1, 2, 3, 4, 5, 6]
     for i in range(6):
         themes_dict[num_set[i]] = random_themes[i]
     return themes_dict
 
+
 def picker(themes):
     for i in range(6):
-        if(i == 0 or i == 3):
+        if i == 0 or i == 3:
             yellow(logo)
-        if(i == 1 or i == 4):
-            pink(logo) 
-        if(i == 2 or i == 5):
+        if i == 1 or i == 4:
+            pink(logo)
+        if i == 2 or i == 5:
             red(logo)
         team_name = int(input("Enter your team number\n> "))
         keys = list(themes.keys())
-        print("Pick any one of these numbers", end = " ")
-        keys_string = ''.join(str(keys))
+        print("Pick any one of these numbers", end=" ")
+        keys_string = "".join(str(keys))
         cyan(keys_string)
         choice = int(input("> "))
         try:
@@ -86,9 +96,10 @@ def picker(themes):
         input()
         os.system("cls")
 
-def writer(name,theme):
 
-    fields = ["TEAM NUMBER","THEME"]
+def writer(name, theme):
+
+    fields = ["TEAM NUMBER", "THEME"]
     try:
         open("Theme_Generator.csv", "r")
     except:
@@ -106,17 +117,20 @@ def writer(name,theme):
         ]
         writer.writerows(value)
 
+
 if __name__ == "__main__":
-    while(True):
+    while True:
         os.system("cls")
         green(logo)
         choice = input("Start assigning themes?(Y/n)\n> ")
-        if(choice == "Yes" or choice == "Y" or choice == "y" or choice == "yes"):
+        if choice == "Yes" or choice == "Y" or choice == "y" or choice == "yes":
             os.system("cls")
             themes = randomiser()
             picker(themes)
         else:
-            print("Good luck to all the participants! Thank you for taking part in TechEden.")
+            print(
+                "Good luck to all the participants! Thank you for taking part in TechEden."
+            )
             input()
             break
 
