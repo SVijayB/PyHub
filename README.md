@@ -12,49 +12,50 @@
 
 ## Table of Contents
 
-- [Basics](#basics)
-- [OOPS](#oops)
-    - [Inheritance](#inheritance)
-    - [Modules](#modules)
-    - [Methods](#methods)
-- [Graphics](#graphics)
-- [Arcade Module](#arcade-module)
-- [Random Module](#random-module)
-- [SMTP Module](#smtp-module)
-- [Errors And Exceptions](#errors-and-exceptions)
-- [File Handling](#file-handling)
-- [Linked List](#linked-list)
-    - [Single Linked List](#single-linked-list)
-    - [Doubly Linked List](#doubly-linked-list)
-- [Thread Programming](#thread-programming)
-- [Socket Programming](#socket-programming)
-- [Magic Methods](#magic-methods)
-- [Coroutines](#Coroutines)
-- [Regular Expressions](#regular-expressions)
-- [Numerical Computation](#numerical-computation)
-    - [NumPy](#numpy)
-        - [Graphs](#mathematical-graphs)
-    - [Pandas](#pandas)
-    - [PyTorch](#pytorch)
-- [Statistics](#statistics)
-- [Comprehensions](#comprehensions)
-- [Generators](#generators)
-- [Databases using SQLite3](#databases-using-sqlite3)
-- [Graphs](#graphs)
-- [Descriptors](#descriptors)
-- [Meta Programming](#meta-programming)
-    - [Decorators](#decorators)
-        - [Class Decorators](#class-decorators)
-        - [Function Decorators](#function-decorators)
-    - [Metaclasses](#metaclasses)
-- [Machine Learning](#machine-learning)
-- [Miscellaneous](#Miscellaneous)
-- [Contributing](#contributing)
-- [License](#license)
+-   [Basics](#basics)
+-   [OOPS](#oops)
+    -   [Inheritance](#inheritance)
+    -   [Modules](#modules)
+    -   [Methods](#methods)
+-   [Graphics](#graphics)
+-   [Arcade Module](#arcade-module)
+-   [Random Module](#random-module)
+-   [SMTP Module](#smtp-module)
+-   [Errors And Exceptions](#errors-and-exceptions)
+-   [File Handling](#file-handling)
+-   [Linked List](#linked-list)
+    -   [Single Linked List](#single-linked-list)
+    -   [Doubly Linked List](#doubly-linked-list)
+-   [Thread Programming](#thread-programming)
+-   [Socket Programming](#socket-programming)
+-   [Magic Methods](#magic-methods)
+-   [Coroutines](#Coroutines)
+-   [Regular Expressions](#regular-expressions)
+-   [Numerical Computation](#numerical-computation)
+    -   [NumPy](#numpy)
+        -   [Graphs](#mathematical-graphs)
+    -   [Pandas](#pandas)
+    -   [PyTorch](#pytorch)
+-   [Statistics](#statistics)
+-   [Comprehensions](#comprehensions)
+-   [Generators](#generators)
+-   [Databases using SQLite3](#databases-using-sqlite3)
+-   [Graphs](#graphs)
+-   [Descriptors](#descriptors)
+-   [Meta Programming](#meta-programming)
+    -   [Decorators](#decorators)
+        -   [Class Decorators](#class-decorators)
+        -   [Function Decorators](#function-decorators)
+    -   [Metaclasses](#metaclasses)
+-   [Machine Learning](#machine-learning)
+-   [Miscellaneous](#Miscellaneous)
+-   [Contributing](#contributing)
+-   [License](#license)
 
 </details>
 
 ### Note :
+
 Most of these programs run by just executing them through cmd or by double tapping them.
 However, if you want to modify them on an IDE, open the folder(topic) seperately instead of opening PyHub.
 This is done mainly to load assets present in the sub-folder.
@@ -64,6 +65,7 @@ This is done mainly to load assets present in the sub-folder.
 ## Basics
 
 Python <a href="https://github.com/SVijayB/PyHub/tree/master/Basics">Basics</a> for Beginners.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Hello%20World.py">Hello World.py</a>                | A simple Hello World program.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Basics/Numbers.py">Numbers.py</a>                    | Int, Float and Complex Numbers.
@@ -88,6 +90,7 @@ Python <a href="https://github.com/SVijayB/PyHub/tree/master/Basics">Basics</a> 
 ## OOPS
 
 Implementation of Object-oriented programming System(<a href="https://github.com/SVijayB/PyHub/tree/master/OOPS">OOPS</a>) Concepts in Python.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/Abstract.py">Abstract.py</a>                   | Creating an Abstract Class and Method.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/ClassAtr.py">ClassAtr.py</a>                   | Accessing Class Attributes.
@@ -110,6 +113,7 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 </pre>
 
 #### Modules
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/Modules/LibMod.py">LibMod.py</a>                     | Using a Standard Python Library Module.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/Modules/Operations.py">Operations.py</a>                 | A program that is to be imported.
@@ -117,6 +121,7 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 </pre>
 
 #### Methods
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/Methods/Instance.py">Instance.py</a>                   | Understanding Instance Methods.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/OOPS/Methods/Static.py">Static.py</a>                     | Understanding Static Methods
@@ -126,7 +131,9 @@ Implementation of Object-oriented programming System(<a href="https://github.com
 ---
 
 ## Sorting Algorithms
+
 Collection of all different sorting algorithms.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/BogoSort.py">BogoSort.py</a>                   | Bogo Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/Bubblesort.py">Bubblesort.py</a>                 | Bubble Sort.
@@ -190,6 +197,7 @@ Collection of all different sorting algorithms.
 ## Random Module
 
 Using the Random module in python to generate numbers or pick elements in Lists.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Random%20Module/RandomFn.py">RandomFn.py</a>                   | Understanding the random function.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Random%20Module/SeedFn.py">SeedFn.py</a>                     | Using and understanding the seed function.
@@ -202,6 +210,7 @@ Using the Random module in python to generate numbers or pick elements in Lists.
 ## SMTP Module
 
 Using the SMTP Module to send E-mails.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/SMTP%20Module/SendingEmails.py">SendingEmails.py</a>              | Sending a plain text message through Gmail.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/SMTP%20Module/HTML_Emails.py">HTML_Emails.py</a>                | Sending HTML based messages via Gmail.
@@ -243,7 +252,9 @@ Reading and Writing Files in Python.
 ## Linked List
 
 Understanding Single and Doubly Linked List in Python.
+
 #### Single Linked List
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Creation.py">Creation.py</a>                   | Creating and Traversing a Single Linked List.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Insertion.py">Insertion.py</a>                  | Inserting at beginning,ending and between nodes.
@@ -252,6 +263,7 @@ Understanding Single and Doubly Linked List in Python.
 </pre>
 
 #### Doubly Linked List
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Creation.py">Creation.py</a>                   | Creating and Traversing a Doubly Linked List.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Linked%20List/Doubly%20Linked%20List/Insertion.py">Insertion.py</a>                  | Inserting at beginning, ending and between nodes.
@@ -264,6 +276,7 @@ Understanding Single and Doubly Linked List in Python.
 ## Thread Programming
 
 Understanding Thread Programming in Python.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Thread%20Programming/Main%20Thread.py">Main Thread.py</a>                | Understanding and renaming the main thread.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Thread%20Programming/Thread%20using%20Function.py">Thread using Function.py</a>      | Threading a function.
@@ -279,6 +292,7 @@ Understanding Thread Programming in Python.
 ---
 
 ## Socket Programming
+
 <p align="center">
     <a href="https://github.com/SVijayB/Chat-Room-101"><img src="assets/Socket Programming.PNG" alt="Logo" border="0"></a>
     <br>A Simple GUI based Chat Room Application.
@@ -300,6 +314,7 @@ Using sockets in python to create a server and client side to send and recieve m
 ## Magic Methods
 
 Overlaoding various types of operators using Dunder or Magic Methods
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Intro.py">Intro.py</a>                      | Understanding uses of magic methods.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Magic%20Methods/Binary%20Operators.py">Binary Operators.py</a>           | Binary Operator overloading using magic methods.
@@ -315,6 +330,7 @@ Overlaoding various types of operators using Dunder or Magic Methods
 ## Coroutines
 
 Understanding, Creating and Using Coroutines in Python.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Creating.py">Creating.py</a>                   | Creating and understanding coroutines.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Coroutines/Pipelining.py">Pipelining.py</a>                 | Pipelining in couroutines.
@@ -326,6 +342,7 @@ Understanding, Creating and Using Coroutines in Python.
 ## Regular Expressions
 
 Understanding various functions and operations of the re module in python.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Regular%20Functions.py">Regular Functions.py</a>          | Understanding and using all the different functions in the re module.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Regular%20Expressions/Match%20Function.py">Match Function.py</a>             | Using the match function and all its special characters.
@@ -338,12 +355,14 @@ Understanding various functions and operations of the re module in python.
 ---
 
 ## Numerical Computation
+
 <p align="center">
     <a href="https://github.com/SVijayB/PyHub/tree/master/NumPy"><img src="assets/NumPy Logo.png" alt="NumPy Logo" border="0" width="700px"></a>
     <br>Understanding the various functions and operations of the NumPy Library in Python.
 </p>
 
 ### Numpy
+
 <br>
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/Numpy/Array%20Operations.py">Array Operations.py</a>           | NumPy Operations for Array manipulations.
@@ -370,6 +389,7 @@ Understanding various functions and operations of the re module in python.
 </pre>
 
 ### PyTorch
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Numerical%20Computation/PyTorch/PyTorch.ipynb">PyTorch.ipynb</a>                 | Brief introduction to PyTorch.
 </pre>
@@ -377,6 +397,7 @@ Understanding various functions and operations of the re module in python.
 ---
 
 ### Statistics
+
 Implementing various mathematical statistics theorems using Python.
 
 <pre>
@@ -392,6 +413,7 @@ Implementing various mathematical statistics theorems using Python.
 ## Comprehensions
 
 Understanding the different uses of list and dictionary comprehensions.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/List.py">List.py</a>                       | List Comprehensions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Comprehensions/Dictionary.py">Dictionary.py</a>                 | Dictionary Comprehensions.
@@ -402,6 +424,7 @@ Understanding the different uses of list and dictionary comprehensions.
 ## Generators
 
 Understanding the functions and uses of Python Generators.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Generators/Yield%20Statement.py">Yield Statement.py</a>            | Understanding the uses of Yield Statements.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Generators/Generators.py">Generators.py</a>                 | Exploring generators and their functions.
@@ -413,6 +436,7 @@ Understanding the functions and uses of Python Generators.
 ## Databases using SQLite3
 
 Using Python's SQLite3 module to create, insert and manipulate data in a database.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Creating%20a%20Database.py">Creating a Database.py</a>        | Creating a Database using SQLite3.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Databases%20using%20SQLite3/Creating%20Attributes.py">Creating Attributes.py</a>        | Creating columns for the table.
@@ -451,7 +475,9 @@ Using Python's SQLite3 module to create, insert and manipulate data in a databas
 ---
 
 ## Descriptors
+
 Using python's descriptors to create managed attributes.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Descriptors/Get%2C%20Set%20and%20Del.py">Get, Set and Del.py</a>           | Understanding the get,set and del descriptors.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Descriptors/Calling%20a%20descriptors.py">Calling a descriptors.py</a>      | Different methods of a calling a descriptor.
@@ -460,9 +486,13 @@ Using python's descriptors to create managed attributes.
 ---
 
 ## Meta Programming
+
 ### Decorators
+
 #### Function Decorators
+
 Understanding and utilising function decorators
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Fn%20Inside%20a%20Fn.py">Fn Inside a Fn.py</a>             | Creating a nested function.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Passing%20Fn%20as%20Arg.py">Passing Fn as Arg.py</a>          | Passing a function as an argument to another function.
@@ -470,13 +500,19 @@ Understanding and utilising function decorators
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Encapsulating%20nested%20fn.py">Encapsulating nested fn.py</a>    | Function to call a nested function to provide data.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Function%20Decorators/Adding%20new%20attributes.py">Adding new attributes.py</a>      | Adding new attributes using decorators to an existing function.
 </pre>
+
 #### Class Decorators
+
 Using Class decorators
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Decorators/Class%20Decorators/Class%20Decorators.py">Class Decorators.py</a>           | Understanding class decorators in Python.
 </pre>
+
 ### Metaclasses
+
 Creating and understanding metaclasses in OOPS
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Meta%20Classes/Meta%20Classes.py">Meta Classes.py</a>               | Understanding and using meta classes.
 </pre>
@@ -484,7 +520,9 @@ Creating and understanding metaclasses in OOPS
 ---
 
 ## Machine Learning
+
 Covering the basics of machine learning using Python
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/LinearRegression.ipynb">LinearRegression.ipynb</a>        | Linear Regression.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/NaiveBayes.ipynb">NaiveBayes.ipynb</a>              | Naive Bayes classifier.
@@ -494,18 +532,19 @@ Covering the basics of machine learning using Python
 ---
 
 ## Miscellaneous
+
 A random collection of program with various functionalities.
+
 <pre>
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>              | A simple program to help you append data to a list.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>          | Renaming multiple files at once.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/XOR%20calculator.py">XOR calculator.py</a>             | Calculate maximal XOR value between two numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hashtags.py">Hashtags.py</a>                   | Adds a hashtag to each word.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Case%20Swapper.py">Case Swapper.py</a>               | Creates a sequence of altering upper and lower cased string.
 • <a href="https://github.com/SVijayB/PyHub/tree/master/Miscellaneous/ReadMe%20List.py">ReadMe List.py</a>                | A README list creator.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Check for happy numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check for even or odd numbers.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check for prime numbers.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/FizzBuzz.py">FizzBuzz.py</a>              | Prints FizzBuzz, Fizz and Buzz to conditions.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/FizzBuzz.py">FizzBuzz.py</a>                   | Prints FizzBuzz, Fizz and Buzz to conditions.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">Keypad_combinations.py</a>        | Displays different possible keypad combinations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">Print_min_of_array.py</a>         | Displays the minimum value of array.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
@@ -521,7 +560,7 @@ A random collection of program with various functionalities.
 
 ---
 
-## Contributing 
+## Contributing
 
 To contribute to the programs, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/PyHub/blob/master/.github/CONTRIBUTING.md) before sending us Pull requests.
 
