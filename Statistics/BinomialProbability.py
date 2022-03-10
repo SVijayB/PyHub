@@ -13,7 +13,7 @@ def comb(n, x):
 
 
 def bino(x, n, p):
-    return comb(n, r) * p ** x * (p - 1) ** (n - 1)
+    return comb(n, r) * p**x * (p - 1) ** (n - 1)
 
 
 l, r = list(map(float, input().split(" ")))

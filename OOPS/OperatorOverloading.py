@@ -15,7 +15,7 @@ class circle:
         return self.radius
 
     def area(self):
-        return math.pi * self.radius ** 2
+        return math.pi * self.radius**2
 
     def __add__(self, another):
         return circle(self.radius + another.radius)

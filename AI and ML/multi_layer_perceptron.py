@@ -1,24 +1,28 @@
 import numpy as np
 
+
 def sigmoid(x):
     return 1.0 / (1.0 + np.exp(-x))
+
 
 def sigmoid_prime(x):
     return sigmoid(x) * (1.0 - sigmoid(x))
 
+
 def tanh(x):
     return np.tanh(x)
 
+
 def tanh_prime(x):
-    return 1.0 - x ** 2
+    return 1.0 - x**2
+
 
 class NeuralNetwork:
-
-    def __init__(self, layers, activation='tanh'):
-        if activation == 'sigmoid':
+    def __init__(self, layers, activation="tanh"):
+        if activation == "sigmoid":
             self.activation = sigmoid
             self.activation_prime = sigmoid_prime
-        elif activation == 'tanh':
+        elif activation == "tanh":
             self.activation = tanh
             self.activation_prime = tanh_prime
 
@@ -42,7 +46,7 @@ class NeuralNetwork:
 
         for k in range(epochs):
             if k % 10000 == 0:
-                print('epochs:', k)
+                print("epochs:", k)
 
             i = np.random.randint(X.shape[0])
             a = [X[i]]
@@ -58,7 +62,9 @@ class NeuralNetwork:
             # we need to begin at the second to last layer
             # (a layer before the output layer)
             for l in range(len(a) - 2, 0, -1):
-                deltas.append(deltas[-1].dot(self.weights[l].T) * self.activation_prime(a[l]))
+                deltas.append(
+                    deltas[-1].dot(self.weights[l].T) * self.activation_prime(a[l])
+                )
 
             # reverse
             # [layer3(output)->layer2(hidden)]  => [layer2(hidden)->layer3(output)]
@@ -73,21 +79,18 @@ class NeuralNetwork:
                 delta = np.atleast_2d(deltas[i])
                 self.weights[i] += learning_rate * layer.T.dot(delta)
 
-    def predict(self , x):
+    def predict(self, x):
         a = np.concatenate((np.ones(1).T, np.array(x)), axis=0)
         for l in range(0, len(self.weights)):
             a = self.activation(np.dot(a, self.weights[l]))
         return a
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
-    nn = NeuralNetwork([2, 2, 1]) # Number of layers
+    nn = NeuralNetwork([2, 2, 1])  # Number of layers
 
-    X = np.array([[0, 0],
-                   [0, 1],
-                   [1, 0],
-                   [1, 1]])  # Inputs can be modified
+    X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])  # Inputs can be modified
 
     y = np.array([0, 1, 1, 0])  # Outputs can be modified too!
 
@@ -95,4 +98,3 @@ if __name__ == '__main__':
     print("Output :-\n")
     for e in X:
         print(e, nn.predict(e))
-

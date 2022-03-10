@@ -21,11 +21,11 @@ print("Without using comprehensions : ")
 dict2 = {}
 for i in range(10):
     if i % 2 == 0:
-        dict2[i] = i ** 2
+        dict2[i] = i**2
 print(dict2)
 
 print("Using comprehensions : ")
-new_dict = {i: i ** 2 for i in range(10) if i % 2 == 0}
+new_dict = {i: i**2 for i in range(10) if i % 2 == 0}
 print(new_dict)
 
 print("\nDictionary Comprehensions as lambda functions : ")
