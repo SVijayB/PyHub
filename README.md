@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://github.com/SVijayB/PyHub"><img src="assets/Python Logo.png" alt="Logo" border="0"></a>
-    <br>A Repository that encompasses all my works on Python
+    <br>A-Z of Python Essentials in one place!
 </p>
 
 <div align="center">
