@@ -5,6 +5,16 @@
     <br>A Repository that encompasses all my works on Python
 </p>
 
+<div align="center">
+
+![Issues](https://img.shields.io/github/issues/SVijayB/PyHub?color=brightgreen)
+![Pull requests](https://img.shields.io/github/issues-pr/SVijayB/PyHub?color=brigthgreen)
+![forks](https://img.shields.io/github/forks/SVijayB/PyHub)
+![stars](https://img.shields.io/github/stars/SVijayB/PyHub)
+![license](https://img.shields.io/github/license/SVijayB/PyHub?color=orange)
+
+</div>
+
 ---
 
 <details>	
@@ -519,18 +529,6 @@ Creating and understanding metaclasses in OOPS
 
 ---
 
-## Machine Learning
-
-Covering the basics of machine learning using Python
-
-<pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/LinearRegression.ipynb">LinearRegression.ipynb</a>        | Linear Regression.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/NaiveBayes.ipynb">NaiveBayes.ipynb</a>              | Naive Bayes classifier.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Machine%20Learning/SupportVectorMachine.ipynb">SupportVectorMachine.ipynb</a>    | Support Vector Machine.
-</pre>
-
----
-
 ## Miscellaneous
 
 A random collection of program with various functionalities.
@@ -564,7 +562,9 @@ A random collection of program with various functionalities.
 
 To contribute to the programs, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/PyHub/blob/master/.github/CONTRIBUTING.md) before sending us Pull requests.
 
-Also, thanks for contributing to Open-source!
+### Special thanks to all the contributors! ✨
+
+[![Contributors](https://contrib.rocks/image?repo=SVijayB/PyHub)](https://github.com/SVijayB/PyHub/graphs/contributors)
 
 ## License
 
