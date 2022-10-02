@@ -156,6 +156,7 @@ Collection of all different sorting algorithms.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/RecursiveBubbleSort.py">RecursiveBubbleSort.py</a>        | Bubble sorting using recursion.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/SelectionSort.py">SelectionSort.py</a>              | Selection Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/ShellSort.py">ShellSort.py</a>                  | Shell Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/TimSort.py">TimSort.py</a>                  | Tim Sort.
 </pre>
 
 ---
