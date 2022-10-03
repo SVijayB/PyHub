@@ -495,6 +495,15 @@ Using python's descriptors to create managed attributes.
 
 ---
 
+##  Software Design Pattern
+
+Using python's to implements examples of differents software design patterns
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Software%20Patterns/singleton.py">Singleton.py</a>           | Implementation and some tests with example of use of Singleton Class Instance.
+</pre>
+
+---
 ## Meta Programming
 
 ### Decorators
