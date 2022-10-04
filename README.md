@@ -48,6 +48,7 @@
     -   [Pandas](#pandas)
     -   [PyTorch](#pytorch)
 -   [Statistics](#statistics)
+-   [Algorithms](#algorithms)
 -   [Comprehensions](#comprehensions)
 -   [Generators](#generators)
 -   [Databases using SQLite3](#databases-using-sqlite3)
@@ -539,6 +540,16 @@ Creating and understanding metaclasses in OOPS
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Meta%20Programming/Meta%20Classes/Meta%20Classes.py">Meta Classes.py</a>               | Understanding and using meta classes.
 </pre>
 
+---
+
+## Algorithms
+
+Using Python for different algorithms.
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Algorithms/Kadane's%20Algorithm.py">Kadane's Algorithm.py</a>         | Implementation of Kadane's Algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Algorithms/Prim's%20Algorithm.py">Prim's Algorithm.py</a>           | Implementation of Prim's Algorithm in python
+</pre>
 ---
 
 ## Miscellaneous
