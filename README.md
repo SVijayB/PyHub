@@ -60,7 +60,7 @@
         -   [Class Decorators](#class-decorators)
         -   [Function Decorators](#function-decorators)
     -   [Metaclasses](#metaclasses)
--   [Machine Learning](#machine-learning)
+-   [AI and ML](#ai-and-ml)
 -   [Miscellaneous](#miscellaneous)
 -   [Contributing](#contributing)
 -   [License](#license)
@@ -552,6 +552,20 @@ Using Python for different algorithms.
 </pre>
 ---
 
+## AI and ML
+
+<pre>
+
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/LinearRegression.ipynb">LinearRegression.ipynb</a>           | Linear Regression implementation in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/NaiveBayes.ipynb">NaiveBayes.ipynb</a>		   | Naive Bayes classificaion algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/SupportVectorMachine.ipynb">SupportVectorMachine.ipynb</a>	   | Support Vector Machine algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/8Queen.py">8Queen.py</a>      		   | Lorem ipsum dolor sit amet
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/Water-jug.py">Water-jug.py</a>        		   | Lorem ipsum dolor sit amet
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/multi_layer_perceptron.py">Multi_Layer_Perceptron.py</a>	   | Lorem ipsum dolor sit amet
+
+</pre>
+
+---
 ## Miscellaneous
 
 A random collection of program with various functionalities.
