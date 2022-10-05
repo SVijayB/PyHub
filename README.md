@@ -27,6 +27,7 @@
     -   [Inheritance](#inheritance)
     -   [Modules](#modules)
     -   [Methods](#methods)
+-   [Sorting Algorithms](#sorting-algorithms)
 -   [Graphics](#graphics)
 -   [Arcade Module](#arcade-module)
 -   [Random Module](#random-module)
@@ -39,7 +40,7 @@
 -   [Thread Programming](#thread-programming)
 -   [Socket Programming](#socket-programming)
 -   [Magic Methods](#magic-methods)
--   [Coroutines](#Coroutines)
+-   [Coroutines](#coroutines)
 -   [Regular Expressions](#regular-expressions)
 -   [Numerical Computation](#numerical-computation)
     -   [NumPy](#numpy)
@@ -47,18 +48,20 @@
     -   [Pandas](#pandas)
     -   [PyTorch](#pytorch)
 -   [Statistics](#statistics)
+-   [Algorithms](#algorithms)
 -   [Comprehensions](#comprehensions)
 -   [Generators](#generators)
 -   [Databases using SQLite3](#databases-using-sqlite3)
 -   [Graphs](#graphs)
 -   [Descriptors](#descriptors)
+-   [Software Design Pattern](#software-design-pattern)
 -   [Meta Programming](#meta-programming)
     -   [Decorators](#decorators)
         -   [Class Decorators](#class-decorators)
         -   [Function Decorators](#function-decorators)
     -   [Metaclasses](#metaclasses)
--   [Machine Learning](#machine-learning)
--   [Miscellaneous](#Miscellaneous)
+-   [AI and ML](#ai-and-ml)
+-   [Miscellaneous](#miscellaneous)
 -   [Contributing](#contributing)
 -   [License](#license)
 
@@ -539,6 +542,30 @@ Creating and understanding metaclasses in OOPS
 
 ---
 
+## Algorithms
+
+Using Python for different algorithms.
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Algorithms/Kadane's%20Algorithm.py">Kadane's Algorithm.py</a>         | Implementation of Kadane's Algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Algorithms/Prim's%20Algorithm.py">Prim's Algorithm.py</a>           | Implementation of Prim's Algorithm in python
+</pre>
+---
+
+## AI and ML
+
+<pre>
+
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/LinearRegression.ipynb">LinearRegression.ipynb</a>           | Linear Regression implementation in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/NaiveBayes.ipynb">NaiveBayes.ipynb</a>		   | Naive Bayes classificaion algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/SupportVectorMachine.ipynb">SupportVectorMachine.ipynb</a>	   | Support Vector Machine algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/8Queen.py">8Queen.py</a>      		   | Lorem ipsum dolor sit amet
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/Water-jug.py">Water-jug.py</a>        		   | Lorem ipsum dolor sit amet
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/multi_layer_perceptron.py">Multi_Layer_Perceptron.py</a>	   | Lorem ipsum dolor sit amet
+
+</pre>
+
+---
 ## Miscellaneous
 
 A random collection of program with various functionalities.
