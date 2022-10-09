@@ -554,18 +554,36 @@ Using Python for different algorithms.
 
 ## AI and ML
 
+Implementing AI and ML algorithms in Python and exploring various problems!
+
 <pre>
 
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/LinearRegression.ipynb">LinearRegression.ipynb</a>           | Linear Regression implementation in python
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/NaiveBayes.ipynb">NaiveBayes.ipynb</a>		   | Naive Bayes classificaion algorithm in python
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/SupportVectorMachine.ipynb">SupportVectorMachine.ipynb</a>	   | Support Vector Machine algorithm in python
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/8Queen.py">8Queen.py</a>      		   | Lorem ipsum dolor sit amet
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/Water-jug.py">Water-jug.py</a>        		   | Lorem ipsum dolor sit amet
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/multi_layer_perceptron.py">Multi_Layer_Perceptron.py</a>	   | Lorem ipsum dolor sit amet
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/LinearRegression.ipynb">LinearRegr.ipynb</a>              | Linear Regression implementation in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/NaiveBayes.ipynb">NaiveBayes.ipynb</a>		| Naive Bayes classificaion algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/SupportVectorMachine.ipynb">SVM.ipynb</a>	                | Support Vector Machine algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/8Queen.py">8Queen.py</a>      		| Solving 8 Queet problem.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/Water-jug.py">Water-jug.py</a>        		| Solution for Water jug problem.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/multi_layer_perceptron.py">Multi_Layer_Perceptron.py</a>	| Implementing Multi Layer Perceptron
 
 </pre>
 
 ---
+
+## Cryptography
+
+Implementing several different ciphers and looking into different algorithms for encryption and decryption.
+
+<pre>
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Cryptography/Caesar_cipher.py">Caesar_cipher.py</a>             | Implementation of Caesar cipher.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Cryptography/Hill_Cipher.py">Hill_Cipher.py</a>               | Implementation of Hill Cipher.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Cryptography/Rail_Fence_Cipher.py">Rail_Fence_Cipher.py</a>         | Implementation of Rail fence cipher.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Cryptography/RSA_Algo.py">RSA_Algo.py</a>                  | Looking into the RSA algorithm.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Cryptography/StringEncrypt">StringEncrypt.py</a>             | Encrypt and Decrypt strings using fernet and RSA modules.
+</pre>
+
+---
+
+
 ## Miscellaneous
 
 A random collection of program with various functionalities.
