@@ -159,7 +159,7 @@ Collection of all different sorting algorithms.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/RecursiveBubbleSort.py">RecursiveBubbleSort.py</a>        | Bubble sorting using recursion.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/SelectionSort.py">SelectionSort.py</a>              | Selection Sort.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/ShellSort.py">ShellSort.py</a>                  | Shell Sort.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/TimSort.py">TimSort.py</a>                  | Tim Sort.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Sorting%20Algorithms/TimSort.py">TimSort.py</a>                    | Tim Sort.
 </pre>
 
 ---
@@ -504,7 +504,7 @@ Using python's descriptors to create managed attributes.
 Using python's to implements examples of differents software design patterns
 
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Software%20Patterns/singleton.py">Singleton.py</a>           | Implementation and some tests with example of use of Singleton Class Instance.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Software%20Patterns/singleton.py">Singleton.py</a>                  | Implementation and some tests with example of use of Singleton Class Instance.
 </pre>
 
 ---
@@ -556,12 +556,12 @@ Using Python for different algorithms.
 
 <pre>
 
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/LinearRegression.ipynb">LinearRegression.ipynb</a>           | Linear Regression implementation in python
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/NaiveBayes.ipynb">NaiveBayes.ipynb</a>		   | Naive Bayes classificaion algorithm in python
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/SupportVectorMachine.ipynb">SupportVectorMachine.ipynb</a>	   | Support Vector Machine algorithm in python
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/8Queen.py">8Queen.py</a>      		   | Lorem ipsum dolor sit amet
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/Water-jug.py">Water-jug.py</a>        		   | Lorem ipsum dolor sit amet
-• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/multi_layer_perceptron.py">Multi_Layer_Perceptron.py</a>	   | Lorem ipsum dolor sit amet
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/LinearRegression.ipynb">LinearRegr.ipynb</a>              | Linear Regression implementation in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/NaiveBayes.ipynb">NaiveBayes.ipynb</a>		| Naive Bayes classificaion algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/SupportVectorMachine.ipynb">SVM.ipynb</a>	                | Support Vector Machine algorithm in python
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI%20and%20ML/8Queen.py">8Queen.py</a>      		| Solving 8 Queet problem.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/Water-jug.py">Water-jug.py</a>        		| Solution for Water jug problem.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/AI and ML/multi_layer_perceptron.py">Multi_Layer_Perceptron.py</a>	| Implementing Multi Layer Perceptron
 
 </pre>
 
