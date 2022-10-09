@@ -591,7 +591,7 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Relations.py">Relations.py</a>                  | Find the reflexive, symmetric and transitive relations.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/YouTube%20downloader.py">YouTube Downloader.py</a>         | Download youtube videos, playlists and audio.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/URL_shortener.py">URL_shortener.py</a>              | Shortens your URLs.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/internetspeedtest.py">Internet Speed Test.py</a>              | Checks your internet speed using some functions.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/internetspeedtest.py">Internet Speed Test.py</a>        | Checks your internet speed using some functions.
 </pre>
 
 ---
