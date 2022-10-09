@@ -589,27 +589,53 @@ Implementing several different ciphers and looking into different algorithms for
 A random collection of program with various functionalities.
 
 <pre>
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>              | A simple program to help you append data to a list.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>          | Renaming multiple files at once.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hashtags.py">Hashtags.py</a>                   | Adds a hashtag to each word.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Case%20Swapper.py">Case Swapper.py</a>               | Creates a sequence of altering upper and lower cased string.
-• <a href="https://github.com/SVijayB/PyHub/tree/master/Miscellaneous/ReadMe%20List.py">ReadMe List.py</a>                | A README list creator.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Check for happy numbers.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check for even or odd numbers.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check for prime numbers.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/FizzBuzz.py">FizzBuzz.py</a>                   | Prints FizzBuzz, Fizz and Buzz to conditions.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">Keypad_combinations.py</a>        | Displays different possible keypad combinations.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">Print_min_of_array.py</a>         | Displays the minimum value of array.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman word guessing game!
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Image_Compressor.py">Image_Compressor.py</a>           | Image Compression using Machine Learning.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Huffman_Coding.py">Huffman_Coding.py</a>             | Huffman coding implementation.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | A simple game similar to rock paper scissors.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/tictactoe.py">Tictactoe.py</a>                  | Building tic tac toe using Python.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/VowelDict.py">VowelDict.py</a>                  | Count vowels in words and append them to a dictionary.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Relations.py">Relations.py</a>                  | Find the reflexive, symmetric and transitive relations.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/YouTube%20downloader.py">YouTube Downloader.py</a>         | Download youtube videos, playlists and audio.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/URL_shortener.py">URL_shortener.py</a>              | Shortens your URLs.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/internetspeedtest.py">Internet Speed Test.py</a>        | Checks your internet speed using some functions.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Armstrong.py">Armstrong.py</a>                  | Check if the number is an Armstrong number or not.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Batch%20file%20rename.py">Batch file rename.py</a>          | Rename several files at once.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/BulkGit.py">BulkGit.py</a>                    | Commit and push all changes of all repositories in a directory.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Case%20Swapper.py">Case Swapper.py</a>               | creates an alternating upper and lower case pattern of the string.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Check_even_odd.py">Check_even_odd.py</a>             | Check if number is even or odd.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Clipboard.py">Clipboard.py</a>                  | Copy message to clipboard.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Colours.py">Colours.py</a>                    | Add colours to your CLI script.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Creating%20Presentations.py">Creating Presentations.py</a>     | Creating powerpoint presentation using Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Date%20and%20time.py">Date and time.py</a>              | Datetime manipulation using various modules.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/DiscordDmDelete.py">DiscordDmDelete.py</a>            | Automate deleting DM messages on Discord..
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Discord_Automation.py">Discord_Automation.py</a>         | Automate everything from creating a server to sending personalized messages.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Excel%20manipulation.py">Excel manipulation.py</a>         | Manipulate and use Excel files using Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Face-recognition.py">Face-recognition.py</a>           | Script that performs facial recognition in Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/FizzBuzz.py">FizzBuzz.py</a>                   | Simple FizzBuzz problem for Python Beginners.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/GuessTheNo.py">GuessTheNo.py</a>                 | Simple game about guessing the number xD.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hangman.py">Hangman.py</a>                    | Hangman game!.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Happy%20Numbers.py">Happy Numbers.py</a>              | Implemention of happy numbers in Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hasher.py">Hasher.py</a>                     | Hasing data using the hasher module.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Hashtags.py">Hashtags.py</a>                   | Converts any sentence into a Hashtag.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Huffman_Coding.py">Huffman_Coding.py</a>             | Implementation of Huff_man coding.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Image_Compressor.py">Image_Compressor.py</a>           | Compresses your images.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/List%20appender.py">List appender.py</a>              | Constantly append elements to your list.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/MatArmstrong.py">MatArmstrong.py</a>               | Implementation of armstrong numbers..
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Matrix_multiplication.py">Matrix_multiplication.py</a>      | Perform matrix multiplication.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Middle_in_string.py">Middle_in_string.py</a>           | Find the middle letter in a string.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/NeonNumber.py">NeonNumber.py</a>                 | Implementation of neon numbers.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Num_Counting.py">Num_Counting.py</a>               | Automated script to cheat the counting bot on discord xD.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/PDFMiner.py">PDFMiner.py</a>                   | Mine data from PDFs.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Prime_Checker.py">Prime_Checker.py</a>              | Check if the number provided is prime or not.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/ReadMe%20List.py">ReadMe List.py</a>                | The script used to generate this README.md file.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Relations.py">Relations.py</a>                  | Obtain reflexive, symmetric and transitive relations from a given set of numbers..
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/RequestSpammer.py">RequestSpammer.py</a>             | Spam rogue requests to a webpage to test how well it can handle multiple requests.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Secure%20coding.py">Secure coding.py</a>              | Performing various security standards on one script in Python.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Simple_alarm.py">Simple_alarm.py</a>               | A simple alarm!.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Simulate%20devices.py">Simulate devices.py</a>           | Simulate your keyboard, mouse and other devices using Python!.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/SnakeWaterGun.py">SnakeWaterGun.py</a>              | Implementation of the snake water and gun game..
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Theme_Picker.py">Theme_Picker.py</a>               | A script written to automate and randomize picking of themes for hackathon.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/URL_shortener.py">URL_shortener.py</a>              | Shorten your URLs.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Urllib.py">Urllib.py</a>                     | Hit up API endpoints using this script.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/Validator.py">Validator.py</a>                  | Validating data using the validator module.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/VowelDict.py">VowelDict.py</a>                  | Create a dictionary with keys as string and value as the number of vowels in that string.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/YouTube%20downloader.py">YouTube downloader.py</a>         | Download Youtube videos, playlists and music.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/html2markdown.py">html2markdown.py</a>              | Convert HTML files into markdown format.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/internetspeedtest.py">internetspeedtest.py</a>          | Check your internet speed using this script.
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Finds the keypad combinations for letters (Useful if you have an old phone xD).
+• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Print the minimum of an array.
+
 </pre>
 
 ---
