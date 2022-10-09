@@ -617,7 +617,6 @@ A random collection of program with various functionalities.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/internetspeedtest.py">internetspeedtest.py</a>          | Check your internet speed using this script.
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/keypad_combinations.py">keypad_combinations.py</a>        | Finds the keypad combinations for letters (Useful if you have an old phone xD).
 • <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Print the minimum of an array.
-• <a href="https://github.com/SVijayB/PyHub/blob/master/Miscellaneous/print_min_of_array.py">print_min_of_array.py</a>         | Print the minimum of an array.
 
 </pre>
 
